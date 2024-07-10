@@ -1,0 +1,164 @@
+24-07-10.17:09:44.436 [main            ] INFO  DynamicThreadPoolTestApplication - Starting DynamicThreadPoolTestApplication using Java 1.8.0_381 on DESKTOP-OVIKG68 with PID 14172 (E:\code\java\dynamic-thread-pool\dynamic-thread-pool-test\target\classes started by Administrator in E:\code\java\dynamic-thread-pool)
+24-07-10.17:09:44.442 [main            ] INFO  DynamicThreadPoolTestApplication - The following 1 profile is active: "dev"
+24-07-10.17:09:47.232 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-07-10.17:09:47.238 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-07-10.17:09:47.333 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+24-07-10.17:09:48.522 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8080 (http)
+24-07-10.17:09:48.539 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8080"]
+24-07-10.17:09:48.541 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-07-10.17:09:48.541 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+24-07-10.17:09:48.885 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-07-10.17:09:48.886 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4266 ms
+24-07-10.17:09:49.617 [main            ] INFO  DynamicThreadPoolAutoConfig - 线程池信息：["threadPoolExecutor01","threadPoolExecutor02"]
+24-07-10.17:09:50.606 [main            ] INFO  Version                - Redisson 3.26.0
+24-07-10.17:09:51.840 [redisson-netty-1-5] INFO  ConnectionsHolder      - 1 connections initialized for localhost/127.0.0.1:6379
+24-07-10.17:09:51.998 [redisson-netty-1-20] INFO  ConnectionsHolder      - 24 connections initialized for localhost/127.0.0.1:6379
+24-07-10.17:09:53.096 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-07-10.17:09:53.169 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8080"]
+24-07-10.17:09:53.196 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8080 (http) with context path ''
+24-07-10.17:09:53.222 [main            ] INFO  DynamicThreadPoolTestApplication - Started DynamicThreadPoolTestApplication in 10.323 seconds (JVM running for 14.44)
+24-07-10.17:09:54.488 [RMI TCP Connection(3)-172.25.16.1] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+24-07-10.17:09:54.489 [RMI TCP Connection(3)-172.25.16.1] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+24-07-10.17:09:54.491 [RMI TCP Connection(3)-172.25.16.1] INFO  DispatcherServlet      - Completed initialization in 2 ms
+24-07-10.17:10:04.404 [main            ] INFO  DynamicThreadPoolTestApplication - Starting DynamicThreadPoolTestApplication using Java 1.8.0_381 on DESKTOP-OVIKG68 with PID 5524 (E:\code\java\dynamic-thread-pool\dynamic-thread-pool-test\target\classes started by Administrator in E:\code\java\dynamic-thread-pool)
+24-07-10.17:10:04.413 [main            ] INFO  DynamicThreadPoolTestApplication - The following 1 profile is active: "dev"
+24-07-10.17:10:06.530 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-07-10.17:10:06.533 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-07-10.17:10:06.571 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+24-07-10.17:10:07.618 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8080 (http)
+24-07-10.17:10:07.637 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8080"]
+24-07-10.17:10:07.639 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-07-10.17:10:07.639 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+24-07-10.17:10:08.041 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-07-10.17:10:08.041 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3489 ms
+24-07-10.17:10:54.443 [main            ] INFO  DynamicThreadPoolAutoConfig - 线程池信息：["threadPoolExecutor01","threadPoolExecutor02"]
+24-07-10.17:11:15.651 [main            ] INFO  Version                - Redisson 3.26.0
+24-07-10.17:11:16.733 [redisson-netty-1-6] INFO  ConnectionsHolder      - 1 connections initialized for localhost/127.0.0.1:6379
+24-07-10.17:11:16.870 [redisson-netty-1-20] INFO  ConnectionsHolder      - 24 connections initialized for localhost/127.0.0.1:6379
+24-07-10.17:11:17.807 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-07-10.17:11:17.920 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8080"]
+24-07-10.17:11:17.927 [main            ] WARN  AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+24-07-10.17:11:18.016 [redisson-netty-1-31] ERROR ErrorsLoggingHandler   - Exception occured. Channel: [id: 0x564edc2a, L:/127.0.0.1:59120 - R:localhost/127.0.0.1:6379]
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+24-07-10.17:11:18.116 [main            ] INFO  Http11NioProtocol      - Pausing ProtocolHandler ["http-nio-8080"]
+24-07-10.17:11:18.116 [main            ] INFO  StandardService        - Stopping service [Tomcat]
+24-07-10.17:11:18.133 [main            ] INFO  Http11NioProtocol      - Stopping ProtocolHandler ["http-nio-8080"]
+24-07-10.17:11:18.135 [main            ] INFO  Http11NioProtocol      - Destroying ProtocolHandler ["http-nio-8080"]
+24-07-10.17:11:18.161 [main            ] INFO  ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+24-07-10.17:11:18.246 [main            ] ERROR LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+24-07-10.17:13:27.377 [main            ] INFO  DynamicThreadPoolTestApplication - Starting DynamicThreadPoolTestApplication using Java 1.8.0_381 on DESKTOP-OVIKG68 with PID 6112 (E:\code\java\dynamic-thread-pool\dynamic-thread-pool-test\target\classes started by Administrator in E:\code\java\dynamic-thread-pool)
+24-07-10.17:13:27.382 [main            ] INFO  DynamicThreadPoolTestApplication - The following 1 profile is active: "dev"
+24-07-10.17:13:29.055 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-07-10.17:13:29.058 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-07-10.17:13:29.088 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+24-07-10.17:13:29.751 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8080 (http)
+24-07-10.17:13:29.766 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8080"]
+24-07-10.17:13:29.767 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-07-10.17:13:29.768 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+24-07-10.17:13:29.992 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-07-10.17:13:29.993 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2519 ms
+24-07-10.17:13:30.844 [main            ] INFO  DynamicThreadPoolAutoConfig - 线程池信息：["threadPoolExecutor01","threadPoolExecutor02"]
+24-07-10.17:13:30.952 [main            ] INFO  Version                - Redisson 3.26.0
+24-07-10.17:13:31.715 [redisson-netty-1-6] INFO  ConnectionsHolder      - 1 connections initialized for localhost/127.0.0.1:6379
+24-07-10.17:13:31.841 [redisson-netty-1-20] INFO  ConnectionsHolder      - 24 connections initialized for localhost/127.0.0.1:6379
+24-07-10.17:13:32.476 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-07-10.17:13:32.520 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8080"]
+24-07-10.17:13:32.533 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8080 (http) with context path ''
+24-07-10.17:13:32.552 [main            ] INFO  DynamicThreadPoolTestApplication - Started DynamicThreadPoolTestApplication in 6.24 seconds (JVM running for 7.919)
+24-07-10.17:13:33.065 [RMI TCP Connection(1)-172.25.16.1] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+24-07-10.17:13:33.065 [RMI TCP Connection(1)-172.25.16.1] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+24-07-10.17:13:33.069 [RMI TCP Connection(1)-172.25.16.1] INFO  DispatcherServlet      - Completed initialization in 3 ms
+24-07-10.17:14:11.246 [main            ] INFO  DynamicThreadPoolTestApplication - Starting DynamicThreadPoolTestApplication using Java 1.8.0_381 on DESKTOP-OVIKG68 with PID 2460 (E:\code\java\dynamic-thread-pool\dynamic-thread-pool-test\target\classes started by Administrator in E:\code\java\dynamic-thread-pool)
+24-07-10.17:14:11.254 [main            ] INFO  DynamicThreadPoolTestApplication - The following 1 profile is active: "dev"
+24-07-10.17:14:13.464 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-07-10.17:14:13.469 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-07-10.17:14:13.512 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+24-07-10.17:14:14.350 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8080 (http)
+24-07-10.17:14:14.379 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8080"]
+24-07-10.17:14:14.385 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-07-10.17:14:14.386 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+24-07-10.17:14:14.656 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-07-10.17:14:14.656 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3251 ms
+24-07-10.17:14:26.987 [main            ] INFO  DynamicThreadPoolAutoConfig - 线程池信息：["threadPoolExecutor01","threadPoolExecutor02"]
+24-07-10.17:14:27.156 [main            ] INFO  Version                - Redisson 3.26.0
+24-07-10.17:14:28.064 [redisson-netty-1-6] INFO  ConnectionsHolder      - 1 connections initialized for localhost/127.0.0.1:6379
+24-07-10.17:14:28.209 [redisson-netty-1-20] INFO  ConnectionsHolder      - 24 connections initialized for localhost/127.0.0.1:6379
+24-07-10.17:14:29.329 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-07-10.17:14:29.382 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8080"]
+24-07-10.17:14:29.402 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8080 (http) with context path ''
+24-07-10.17:14:29.432 [main            ] INFO  DynamicThreadPoolTestApplication - Started DynamicThreadPoolTestApplication in 19.699 seconds (JVM running for 21.998)
+24-07-10.17:14:29.921 [RMI TCP Connection(1)-172.25.16.1] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+24-07-10.17:14:29.922 [RMI TCP Connection(1)-172.25.16.1] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+24-07-10.17:14:29.926 [RMI TCP Connection(1)-172.25.16.1] INFO  DispatcherServlet      - Completed initialization in 4 ms
+24-07-10.17:16:29.739 [main            ] INFO  DynamicThreadPoolTestApplication - Starting DynamicThreadPoolTestApplication using Java 1.8.0_381 on DESKTOP-OVIKG68 with PID 7824 (E:\code\java\dynamic-thread-pool\dynamic-thread-pool-test\target\classes started by Administrator in E:\code\java\dynamic-thread-pool)
+24-07-10.17:16:29.747 [main            ] INFO  DynamicThreadPoolTestApplication - The following 1 profile is active: "dev"
+24-07-10.17:16:32.429 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-07-10.17:16:32.436 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-07-10.17:16:32.491 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 19 ms. Found 0 Redis repository interfaces.
+24-07-10.17:16:33.588 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8080 (http)
+24-07-10.17:16:33.605 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8080"]
+24-07-10.17:16:33.606 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-07-10.17:16:33.607 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+24-07-10.17:16:33.915 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-07-10.17:16:33.916 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4040 ms
+24-07-10.17:16:39.568 [main            ] INFO  DynamicThreadPoolAutoConfig - 线程池信息：["threadPoolExecutor01","threadPoolExecutor02"]
+24-07-10.17:16:40.607 [main            ] INFO  Version                - Redisson 3.26.0
+24-07-10.17:16:42.133 [redisson-netty-1-5] INFO  ConnectionsHolder      - 1 connections initialized for localhost/127.0.0.1:6379
+24-07-10.17:16:42.299 [redisson-netty-1-20] INFO  ConnectionsHolder      - 24 connections initialized for localhost/127.0.0.1:6379
+24-07-10.17:16:43.335 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-07-10.17:16:43.396 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8080"]
+24-07-10.17:16:43.416 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8080 (http) with context path ''
+24-07-10.17:16:43.449 [main            ] INFO  DynamicThreadPoolTestApplication - Started DynamicThreadPoolTestApplication in 15.782 seconds (JVM running for 20.24)
+24-07-10.17:16:44.045 [RMI TCP Connection(4)-172.25.16.1] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+24-07-10.17:16:44.046 [RMI TCP Connection(4)-172.25.16.1] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+24-07-10.17:16:44.051 [RMI TCP Connection(4)-172.25.16.1] INFO  DispatcherServlet      - Completed initialization in 5 ms
+24-07-10.17:18:43.577 [main            ] INFO  DynamicThreadPoolTestApplication - Starting DynamicThreadPoolTestApplication using Java 1.8.0_381 on DESKTOP-OVIKG68 with PID 16020 (E:\code\java\dynamic-thread-pool\dynamic-thread-pool-test\target\classes started by Administrator in E:\code\java\dynamic-thread-pool)
+24-07-10.17:18:43.585 [main            ] INFO  DynamicThreadPoolTestApplication - The following 1 profile is active: "dev"
+24-07-10.17:18:46.117 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-07-10.17:18:46.123 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-07-10.17:18:46.185 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 19 ms. Found 0 Redis repository interfaces.
+24-07-10.17:18:47.636 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8080 (http)
+24-07-10.17:18:47.658 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8080"]
+24-07-10.17:18:47.659 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-07-10.17:18:47.660 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+24-07-10.17:18:48.073 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-07-10.17:18:48.073 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4357 ms
+24-07-10.17:19:13.707 [main            ] INFO  DynamicThreadPoolAutoConfig - 线程池信息：["threadPoolExecutor01","threadPoolExecutor02"]
+24-07-10.17:19:13.848 [main            ] INFO  Version                - Redisson 3.26.0
+24-07-10.17:19:14.954 [redisson-netty-1-5] INFO  ConnectionsHolder      - 1 connections initialized for localhost/127.0.0.1:6379
+24-07-10.17:19:15.118 [redisson-netty-1-20] INFO  ConnectionsHolder      - 24 connections initialized for localhost/127.0.0.1:6379
+24-07-10.17:19:16.842 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-07-10.17:19:16.937 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8080 (http) with context path ''
+24-07-10.17:19:16.965 [main            ] INFO  DynamicThreadPoolTestApplication - Started DynamicThreadPoolTestApplication in 35.044 seconds (JVM running for 38.803)
