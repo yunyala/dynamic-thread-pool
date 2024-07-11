@@ -1,24 +1,5 @@
-24-07-10.17:11:17.927 [main            ] WARN  AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
-24-07-10.17:11:18.016 [redisson-netty-1-31] ERROR ErrorsLoggingHandler   - Exception occured. Channel: [id: 0x564edc2a, L:/127.0.0.1:59120 - R:localhost/127.0.0.1:6379]
-java.io.IOException: 远程主机强迫关闭了一个现有的连接。
-	at sun.nio.ch.SocketDispatcher.read0(Native Method)
-	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
-	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
-	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
-	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
-	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:750)
-24-07-10.17:11:18.246 [main            ] ERROR LoggingFailureAnalysisReporter - 
+24-07-11.18:10:19.752 [main            ] WARN  AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'redissonClient' defined in class path resource [com/yunya/middleware/dynamic/thread/pool/sdk/config/DynamicThreadPoolAutoConfig.class]: Unsatisfied dependency expressed through method 'redissonClient' parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.yunya.middleware.dynamic.thread.pool.sdk.config.RedissonProperties' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+24-07-11.18:10:19.844 [main            ] ERROR LoggingFailureAnalysisReporter - 
 
 ***************************
 APPLICATION FAILED TO START
@@ -26,9 +7,59 @@ APPLICATION FAILED TO START
 
 Description:
 
-Web server failed to start. Port 8080 was already in use.
+Parameter 0 of method redissonClient in com.yunya.middleware.dynamic.thread.pool.sdk.config.DynamicThreadPoolAutoConfig required a bean of type 'com.yunya.middleware.dynamic.thread.pool.sdk.config.RedissonProperties' that could not be found.
+
 
 Action:
 
-Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+Consider defining a bean of type 'com.yunya.middleware.dynamic.thread.pool.sdk.config.RedissonProperties' in your configuration.
 
+24-07-11.18:12:28.977 [main            ] ERROR SpringApplication      - Application run failed
+java.lang.IllegalStateException: No ConfigurationProperties annotation found on  'com.yunya.middleware.dynamic.thread.pool.sdk.config.RedissonProperties'.
+	at org.springframework.util.Assert.state(Assert.java:97)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBeanRegistrar.registerBeanDefinition(ConfigurationPropertiesBeanRegistrar.java:87)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBeanRegistrar.register(ConfigurationPropertiesBeanRegistrar.java:61)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBeanRegistrar.register(ConfigurationPropertiesBeanRegistrar.java:55)
+	at java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.context.properties.EnableConfigurationPropertiesRegistrar.registerBeanDefinitions(EnableConfigurationPropertiesRegistrar.java:49)
+	at org.springframework.context.annotation.ImportBeanDefinitionRegistrar.registerBeanDefinitions(ImportBeanDefinitionRegistrar.java:86)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.lambda$loadBeanDefinitionsFromRegistrars$1(ConfigurationClassBeanDefinitionReader.java:396)
+	at java.util.LinkedHashMap.forEach(LinkedHashMap.java:684)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsFromRegistrars(ConfigurationClassBeanDefinitionReader.java:395)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:157)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:129)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:343)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:247)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:311)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:112)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:748)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:564)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.yunya.DynamicThreadPoolTestApplication.main(DynamicThreadPoolTestApplication.java:14)
+24-07-11.18:24:09.202 [main            ] WARN  AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.parsing.BeanDefinitionParsingException: Configuration problem: @Bean method 'redisRegistry' must not be private or final; change the method's modifiers to continue
+Offending resource: class path resource [com/yunya/middleware/dynamic/thread/pool/sdk/config/DynamicThreadPoolAutoConfig.class]
+24-07-11.18:24:09.305 [main            ] ERROR SpringApplication      - Application run failed
+org.springframework.beans.factory.parsing.BeanDefinitionParsingException: Configuration problem: @Bean method 'redisRegistry' must not be private or final; change the method's modifiers to continue
+Offending resource: class path resource [com/yunya/middleware/dynamic/thread/pool/sdk/config/DynamicThreadPoolAutoConfig.class]
+	at org.springframework.beans.factory.parsing.FailFastProblemReporter.error(FailFastProblemReporter.java:72)
+	at org.springframework.context.annotation.BeanMethod.validate(BeanMethod.java:52)
+	at org.springframework.context.annotation.ConfigurationClass.validate(ConfigurationClass.java:220)
+	at org.springframework.context.annotation.ConfigurationClassParser.validate(ConfigurationClassParser.java:215)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:332)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:247)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:311)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:112)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:748)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:564)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.yunya.DynamicThreadPoolTestApplication.main(DynamicThreadPoolTestApplication.java:14)
