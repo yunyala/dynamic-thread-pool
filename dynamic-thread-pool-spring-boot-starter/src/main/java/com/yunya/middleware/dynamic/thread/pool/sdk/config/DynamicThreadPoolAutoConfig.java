@@ -2,11 +2,16 @@ package com.yunya.middleware.dynamic.thread.pool.sdk.config;
 
 import com.alibaba.fastjson.JSON;
 import com.yunya.middleware.dynamic.thread.pool.sdk.domain.DynamicThreadPoolService;
+import com.yunya.middleware.dynamic.thread.pool.sdk.domain.IDynamicThreadPoolService;
+import com.yunya.middleware.dynamic.thread.pool.sdk.domain.model.entity.ThreadPoolConfigEntity;
+import com.yunya.middleware.dynamic.thread.pool.sdk.domain.model.valobj.RegistryEnumVO;
 import com.yunya.middleware.dynamic.thread.pool.sdk.registry.IRegistry;
 import com.yunya.middleware.dynamic.thread.pool.sdk.registry.redis.RedisRegistry;
 import com.yunya.middleware.dynamic.thread.pool.sdk.trigger.job.ThreadPoolDataReportJob;
+import com.yunya.middleware.dynamic.thread.pool.sdk.trigger.listener.ThreadPoolConfigAdjustListener;
 import org.apache.commons.lang.StringUtils;
 import org.redisson.Redisson;
+import org.redisson.api.RTopic;
 import org.redisson.api.RedissonClient;
 import org.redisson.codec.JsonJacksonCodec;
 import org.redisson.config.Config;
@@ -32,6 +37,8 @@ import java.util.concurrent.ThreadPoolExecutor;
 public class DynamicThreadPoolAutoConfig {
 
     private final Logger logger = LoggerFactory.getLogger(DynamicThreadPoolAutoConfig.class);
+
+    private String applicationName;
 
     @Bean("redissonClient")
     public RedissonClient redissonClient(RedissonProperties properties) {
@@ -65,7 +72,7 @@ public class DynamicThreadPoolAutoConfig {
 
     @Bean("dynamicThreadPoolService")
     public DynamicThreadPoolService dynamicThreadPoolService(ApplicationContext applicationContext, Map<String, ThreadPoolExecutor> threadPoolExecutorMap) {
-        String applicationName = applicationContext.getEnvironment().getProperty("spring.application.name");
+        applicationName = applicationContext.getEnvironment().getProperty("spring.application.name");
 
         if (StringUtils.isBlank(applicationName)) {
             applicationName = "缺省的";
@@ -92,5 +99,16 @@ public class DynamicThreadPoolAutoConfig {
         return new ThreadPoolDataReportJob(registry, dynamicThreadPoolService);
     }
 
+    @Bean
+    public ThreadPoolConfigAdjustListener threadPoolConfigAdjustListener(IDynamicThreadPoolService dynamicThreadPoolService, IRegistry registry) {
+        return new ThreadPoolConfigAdjustListener(dynamicThreadPoolService, registry);
+    }
+
+    @Bean(name = "dynamicThreadPoolAdjustRedisTopic")
+    public RTopic threadPoolConfigAdjustListener(RedissonClient redissonClient, ThreadPoolConfigAdjustListener threadPoolConfigAdjustListener) {
+        RTopic topic = redissonClient.getTopic(RegistryEnumVO.DYNAMIC_THREAD_POOL_REDIS_TOPIC.getKey() + "_" + applicationName);
+        topic.addListener(ThreadPoolConfigEntity.class, threadPoolConfigAdjustListener);
+        return topic;
+    }
 
 }

@@ -1,10 +1,15 @@
 package com.yunya.test;
 
+import com.yunya.middleware.dynamic.thread.pool.sdk.domain.model.entity.ThreadPoolConfigEntity;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Test;
 import org.junit.runner.RunWith;
+import org.redisson.api.RTopic;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
+
+import javax.annotation.Resource;
+import java.util.concurrent.CountDownLatch;
 
 @Slf4j
 // @RunWith(SpringRunner.class) 是 JUnit4 中用于指定运行器（Runner）的注解，
@@ -14,6 +19,17 @@ import org.springframework.test.context.junit4.SpringRunner;
 @SpringBootTest
 class ApiTest {
 
+    @Resource
+    private RTopic dynamicThreadPoolAdjustRedisTopic;
 
+    @Test
+    public void test() throws InterruptedException {
+        log.info("动态线程池 调整线程池配置参数 测试方法");
+        ThreadPoolConfigEntity threadPoolConfigEntity = new ThreadPoolConfigEntity("dynamic-thread-pool-test-app", "threadPoolExecutor01");
+        threadPoolConfigEntity.setCorePoolSize(100);
+        threadPoolConfigEntity.setMaximumPoolSize(100);
+        dynamicThreadPoolAdjustRedisTopic.publish(threadPoolConfigEntity);
+        new CountDownLatch(1).await();
+    }
 
 }
