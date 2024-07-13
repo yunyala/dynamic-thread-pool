@@ -1,164 +1,81 @@
-24-07-11.18:10:03.660 [main            ] INFO  DynamicThreadPoolTestApplication - Starting DynamicThreadPoolTestApplication using Java 1.8.0_381 on DESKTOP-OVIKG68 with PID 9200 (E:\code\java\dynamic-thread-pool\dynamic-thread-pool-test\target\classes started by Administrator in E:\code\java\dynamic-thread-pool)
-24-07-11.18:10:03.673 [main            ] INFO  DynamicThreadPoolTestApplication - The following 1 profile is active: "dev"
-24-07-11.18:10:08.287 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-24-07-11.18:10:08.295 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-24-07-11.18:10:08.408 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 26 ms. Found 0 Redis repository interfaces.
-24-07-11.18:10:10.441 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8080 (http)
-24-07-11.18:10:10.485 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8080"]
-24-07-11.18:10:10.486 [main            ] INFO  StandardService        - Starting service [Tomcat]
-24-07-11.18:10:10.486 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
-24-07-11.18:10:10.641 [main            ] INFO  DynamicThreadPoolTestApplication - Starting DynamicThreadPoolTestApplication using Java 1.8.0_381 on DESKTOP-OVIKG68 with PID 14096 (E:\code\java\dynamic-thread-pool\dynamic-thread-pool-test\target\classes started by Administrator in E:\code\java\dynamic-thread-pool)
-24-07-11.18:10:10.650 [main            ] INFO  DynamicThreadPoolTestApplication - The following 1 profile is active: "dev"
-24-07-11.18:10:11.390 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
-24-07-11.18:10:11.391 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 7543 ms
-24-07-11.18:10:13.061 [main            ] WARN  AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'redissonClient' defined in class path resource [com/yunya/middleware/dynamic/thread/pool/sdk/config/DynamicThreadPoolAutoConfig.class]: Unsatisfied dependency expressed through method 'redissonClient' parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.yunya.middleware.dynamic.thread.pool.sdk.config.RedissonProperties' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
-24-07-11.18:10:13.069 [main            ] INFO  StandardService        - Stopping service [Tomcat]
-24-07-11.18:10:13.153 [main            ] INFO  ConditionEvaluationReportLoggingListener - 
-
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-24-07-11.18:10:13.248 [main            ] ERROR LoggingFailureAnalysisReporter - 
-
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-Parameter 0 of method redissonClient in com.yunya.middleware.dynamic.thread.pool.sdk.config.DynamicThreadPoolAutoConfig required a bean of type 'com.yunya.middleware.dynamic.thread.pool.sdk.config.RedissonProperties' that could not be found.
-
-
-Action:
-
-Consider defining a bean of type 'com.yunya.middleware.dynamic.thread.pool.sdk.config.RedissonProperties' in your configuration.
-
-24-07-11.18:10:13.344 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-24-07-11.18:10:13.351 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-24-07-11.18:10:13.412 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 23 ms. Found 0 Redis repository interfaces.
-24-07-11.18:10:17.497 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8080 (http)
-24-07-11.18:10:17.602 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8080"]
-24-07-11.18:10:17.604 [main            ] INFO  StandardService        - Starting service [Tomcat]
-24-07-11.18:10:17.605 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
-24-07-11.18:10:18.471 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
-24-07-11.18:10:18.472 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 7659 ms
-24-07-11.18:10:19.752 [main            ] WARN  AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'redissonClient' defined in class path resource [com/yunya/middleware/dynamic/thread/pool/sdk/config/DynamicThreadPoolAutoConfig.class]: Unsatisfied dependency expressed through method 'redissonClient' parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.yunya.middleware.dynamic.thread.pool.sdk.config.RedissonProperties' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
-24-07-11.18:10:19.760 [main            ] INFO  StandardService        - Stopping service [Tomcat]
-24-07-11.18:10:19.800 [main            ] INFO  ConditionEvaluationReportLoggingListener - 
-
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-24-07-11.18:10:19.844 [main            ] ERROR LoggingFailureAnalysisReporter - 
-
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-Parameter 0 of method redissonClient in com.yunya.middleware.dynamic.thread.pool.sdk.config.DynamicThreadPoolAutoConfig required a bean of type 'com.yunya.middleware.dynamic.thread.pool.sdk.config.RedissonProperties' that could not be found.
-
-
-Action:
-
-Consider defining a bean of type 'com.yunya.middleware.dynamic.thread.pool.sdk.config.RedissonProperties' in your configuration.
-
-24-07-11.18:12:27.012 [main            ] INFO  DynamicThreadPoolTestApplication - Starting DynamicThreadPoolTestApplication using Java 1.8.0_381 on DESKTOP-OVIKG68 with PID 7868 (E:\code\java\dynamic-thread-pool\dynamic-thread-pool-test\target\classes started by Administrator in E:\code\java\dynamic-thread-pool)
-24-07-11.18:12:27.019 [main            ] INFO  DynamicThreadPoolTestApplication - The following 1 profile is active: "dev"
-24-07-11.18:12:28.977 [main            ] ERROR SpringApplication      - Application run failed
-java.lang.IllegalStateException: No ConfigurationProperties annotation found on  'com.yunya.middleware.dynamic.thread.pool.sdk.config.RedissonProperties'.
-	at org.springframework.util.Assert.state(Assert.java:97)
-	at org.springframework.boot.context.properties.ConfigurationPropertiesBeanRegistrar.registerBeanDefinition(ConfigurationPropertiesBeanRegistrar.java:87)
-	at org.springframework.boot.context.properties.ConfigurationPropertiesBeanRegistrar.register(ConfigurationPropertiesBeanRegistrar.java:61)
-	at org.springframework.boot.context.properties.ConfigurationPropertiesBeanRegistrar.register(ConfigurationPropertiesBeanRegistrar.java:55)
-	at java.lang.Iterable.forEach(Iterable.java:75)
-	at org.springframework.boot.context.properties.EnableConfigurationPropertiesRegistrar.registerBeanDefinitions(EnableConfigurationPropertiesRegistrar.java:49)
-	at org.springframework.context.annotation.ImportBeanDefinitionRegistrar.registerBeanDefinitions(ImportBeanDefinitionRegistrar.java:86)
-	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.lambda$loadBeanDefinitionsFromRegistrars$1(ConfigurationClassBeanDefinitionReader.java:396)
-	at java.util.LinkedHashMap.forEach(LinkedHashMap.java:684)
-	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsFromRegistrars(ConfigurationClassBeanDefinitionReader.java:395)
-	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:157)
-	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:129)
-	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:343)
-	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:247)
-	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:311)
-	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:112)
-	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:748)
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:564)
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
-	at com.yunya.DynamicThreadPoolTestApplication.main(DynamicThreadPoolTestApplication.java:14)
-24-07-11.18:20:31.171 [main            ] INFO  DynamicThreadPoolTestApplication - Starting DynamicThreadPoolTestApplication using Java 1.8.0_381 on DESKTOP-OVIKG68 with PID 5564 (E:\code\java\dynamic-thread-pool\dynamic-thread-pool-test\target\classes started by Administrator in E:\code\java\dynamic-thread-pool)
-24-07-11.18:20:31.187 [main            ] INFO  DynamicThreadPoolTestApplication - The following 1 profile is active: "dev"
-24-07-11.18:20:33.667 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-24-07-11.18:20:33.674 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-24-07-11.18:20:33.740 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 24 ms. Found 0 Redis repository interfaces.
-24-07-11.18:20:34.962 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8080 (http)
-24-07-11.18:20:34.983 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8080"]
-24-07-11.18:20:34.984 [main            ] INFO  StandardService        - Starting service [Tomcat]
-24-07-11.18:20:34.985 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
-24-07-11.18:20:35.304 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
-24-07-11.18:20:35.305 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3909 ms
-24-07-11.18:20:37.074 [main            ] INFO  Version                - Redisson 3.26.0
-24-07-11.18:20:37.964 [redisson-netty-1-5] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
-24-07-11.18:20:38.099 [redisson-netty-1-19] INFO  ConnectionsHolder      - 24 connections initialized for 127.0.0.1/127.0.0.1:6379
-24-07-11.18:20:38.373 [main            ] INFO  DynamicThreadPoolAutoConfig - 动态线程池，注册器（redis）链接初始化完成。null 64 true
-24-07-11.18:20:52.655 [main            ] INFO  DynamicThreadPoolAutoConfig - 线程池信息：["threadPoolExecutor01","threadPoolExecutor02"]
-24-07-11.18:20:53.576 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
-24-07-11.18:20:53.658 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8080"]
-24-07-11.18:20:53.708 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8080 (http) with context path ''
-24-07-11.18:20:53.743 [main            ] INFO  DynamicThreadPoolTestApplication - Started DynamicThreadPoolTestApplication in 25.013 seconds (JVM running for 28.382)
-24-07-11.18:20:54.266 [RMI TCP Connection(1)-10.40.19.209] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
-24-07-11.18:20:54.266 [RMI TCP Connection(1)-10.40.19.209] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
-24-07-11.18:20:54.270 [RMI TCP Connection(1)-10.40.19.209] INFO  DispatcherServlet      - Completed initialization in 3 ms
-24-07-11.18:21:14.902 [main            ] INFO  DynamicThreadPoolTestApplication - Starting DynamicThreadPoolTestApplication using Java 1.8.0_381 on DESKTOP-OVIKG68 with PID 14164 (E:\code\java\dynamic-thread-pool\dynamic-thread-pool-test\target\classes started by Administrator in E:\code\java\dynamic-thread-pool)
-24-07-11.18:21:14.909 [main            ] INFO  DynamicThreadPoolTestApplication - The following 1 profile is active: "dev"
-24-07-11.18:21:17.298 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-24-07-11.18:21:17.304 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-24-07-11.18:21:17.354 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
-24-07-11.18:21:18.361 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8080 (http)
-24-07-11.18:21:18.378 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8080"]
-24-07-11.18:21:18.379 [main            ] INFO  StandardService        - Starting service [Tomcat]
-24-07-11.18:21:18.379 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
-24-07-11.18:21:18.730 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
-24-07-11.18:21:18.731 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3656 ms
-24-07-11.18:21:20.092 [main            ] INFO  Version                - Redisson 3.26.0
-24-07-11.18:21:20.894 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
-24-07-11.18:21:21.058 [redisson-netty-1-19] INFO  ConnectionsHolder      - 24 connections initialized for 127.0.0.1/127.0.0.1:6379
-24-07-11.18:21:21.221 [main            ] INFO  DynamicThreadPoolAutoConfig - 动态线程池，注册器（redis）链接初始化完成。127.0.0.1 64 true
-24-07-11.18:21:21.383 [main            ] INFO  DynamicThreadPoolAutoConfig - 线程池信息：["threadPoolExecutor01","threadPoolExecutor02"]
-24-07-11.18:21:22.123 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
-24-07-11.18:21:22.180 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8080"]
-24-07-11.18:21:22.201 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8080 (http) with context path ''
-24-07-11.18:21:22.224 [main            ] INFO  DynamicThreadPoolTestApplication - Started DynamicThreadPoolTestApplication in 8.735 seconds (JVM running for 10.88)
-24-07-11.18:21:23.302 [RMI TCP Connection(3)-10.40.19.209] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
-24-07-11.18:21:23.302 [RMI TCP Connection(3)-10.40.19.209] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
-24-07-11.18:21:23.306 [RMI TCP Connection(3)-10.40.19.209] INFO  DispatcherServlet      - Completed initialization in 3 ms
-24-07-11.18:24:07.692 [main            ] INFO  DynamicThreadPoolTestApplication - Starting DynamicThreadPoolTestApplication using Java 1.8.0_381 on DESKTOP-OVIKG68 with PID 8304 (E:\code\java\dynamic-thread-pool\dynamic-thread-pool-test\target\classes started by Administrator in E:\code\java\dynamic-thread-pool)
-24-07-11.18:24:07.698 [main            ] INFO  DynamicThreadPoolTestApplication - The following 1 profile is active: "dev"
-24-07-11.18:24:09.202 [main            ] WARN  AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.parsing.BeanDefinitionParsingException: Configuration problem: @Bean method 'redisRegistry' must not be private or final; change the method's modifiers to continue
-Offending resource: class path resource [com/yunya/middleware/dynamic/thread/pool/sdk/config/DynamicThreadPoolAutoConfig.class]
-24-07-11.18:24:09.228 [main            ] INFO  ConditionEvaluationReportLoggingListener - 
-
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-24-07-11.18:24:09.305 [main            ] ERROR SpringApplication      - Application run failed
-org.springframework.beans.factory.parsing.BeanDefinitionParsingException: Configuration problem: @Bean method 'redisRegistry' must not be private or final; change the method's modifiers to continue
-Offending resource: class path resource [com/yunya/middleware/dynamic/thread/pool/sdk/config/DynamicThreadPoolAutoConfig.class]
-	at org.springframework.beans.factory.parsing.FailFastProblemReporter.error(FailFastProblemReporter.java:72)
-	at org.springframework.context.annotation.BeanMethod.validate(BeanMethod.java:52)
-	at org.springframework.context.annotation.ConfigurationClass.validate(ConfigurationClass.java:220)
-	at org.springframework.context.annotation.ConfigurationClassParser.validate(ConfigurationClassParser.java:215)
-	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:332)
-	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:247)
-	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:311)
-	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:112)
-	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:748)
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:564)
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
-	at com.yunya.DynamicThreadPoolTestApplication.main(DynamicThreadPoolTestApplication.java:14)
+24-07-13.15:42:01.158 [main            ] INFO  DynamicThreadPoolTestApplication - Starting DynamicThreadPoolTestApplication using Java 1.8.0_381 on DESKTOP-OVIKG68 with PID 3148 (E:\code\java\dynamic-thread-pool\dynamic-thread-pool-test\target\classes started by Administrator in E:\code\java\dynamic-thread-pool)
+24-07-13.15:42:01.179 [main            ] INFO  DynamicThreadPoolTestApplication - The following 1 profile is active: "dev"
+24-07-13.15:42:05.495 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-07-13.15:42:05.501 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-07-13.15:42:05.583 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18 ms. Found 0 Redis repository interfaces.
+24-07-13.15:42:07.574 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8080 (http)
+24-07-13.15:42:07.612 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8080"]
+24-07-13.15:42:07.613 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-07-13.15:42:07.613 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+24-07-13.15:42:09.895 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-07-13.15:42:09.896 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 8395 ms
+24-07-13.15:42:12.090 [main            ] INFO  Version                - Redisson 3.26.0
+24-07-13.15:42:13.344 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-13.15:42:13.638 [redisson-netty-1-19] INFO  ConnectionsHolder      - 24 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-13.15:42:13.873 [main            ] INFO  DynamicThreadPoolAutoConfig - 动态线程池，注册器（redis）链接初始化完成。127.0.0.1 64 true
+24-07-13.15:42:14.581 [main            ] INFO  DynamicThreadPoolAutoConfig - 线程池信息：["threadPoolExecutor01","threadPoolExecutor02"]
+24-07-13.15:42:16.019 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-07-13.15:42:16.125 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8080"]
+24-07-13.15:42:16.171 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8080 (http) with context path ''
+24-07-13.15:42:16.217 [main            ] INFO  DynamicThreadPoolTestApplication - Started DynamicThreadPoolTestApplication in 17.386 seconds (JVM running for 32.702)
+24-07-13.15:42:16.991 [RMI TCP Connection(1)-10.175.13.11] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+24-07-13.15:42:16.991 [RMI TCP Connection(1)-10.175.13.11] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+24-07-13.15:42:16.996 [RMI TCP Connection(1)-10.175.13.11] INFO  DispatcherServlet      - Completed initialization in 5 ms
+24-07-13.15:57:19.391 [main            ] INFO  DynamicThreadPoolTestApplication - Starting DynamicThreadPoolTestApplication using Java 1.8.0_381 on DESKTOP-OVIKG68 with PID 9480 (E:\code\java\dynamic-thread-pool\dynamic-thread-pool-test\target\classes started by Administrator in E:\code\java\dynamic-thread-pool)
+24-07-13.15:57:19.397 [main            ] INFO  DynamicThreadPoolTestApplication - The following 1 profile is active: "dev"
+24-07-13.15:57:21.421 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-07-13.15:57:21.424 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-07-13.15:57:21.466 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+24-07-13.15:57:22.406 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8080 (http)
+24-07-13.15:57:22.425 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8080"]
+24-07-13.15:57:22.426 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-07-13.15:57:22.426 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+24-07-13.15:57:22.713 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-07-13.15:57:22.713 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3185 ms
+24-07-13.15:57:23.882 [main            ] INFO  Version                - Redisson 3.26.0
+24-07-13.15:57:24.565 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-13.15:57:24.694 [redisson-netty-1-19] INFO  ConnectionsHolder      - 24 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-13.15:57:24.820 [main            ] INFO  DynamicThreadPoolAutoConfig - 动态线程池，注册器（redis）链接初始化完成。127.0.0.1 64 true
+24-07-13.15:57:24.968 [main            ] INFO  DynamicThreadPoolAutoConfig - 线程池信息：["threadPoolExecutor01","threadPoolExecutor02"]
+24-07-13.15:57:25.791 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-07-13.15:57:25.855 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8080"]
+24-07-13.15:57:25.880 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8080 (http) with context path ''
+24-07-13.15:57:25.909 [main            ] INFO  DynamicThreadPoolTestApplication - Started DynamicThreadPoolTestApplication in 8.019 seconds (JVM running for 10.379)
+24-07-13.15:57:26.460 [RMI TCP Connection(1)-10.175.13.11] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+24-07-13.15:57:26.460 [RMI TCP Connection(1)-10.175.13.11] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+24-07-13.15:57:26.464 [RMI TCP Connection(1)-10.175.13.11] INFO  DispatcherServlet      - Completed initialization in 4 ms
+24-07-13.15:59:35.664 [main            ] INFO  DynamicThreadPoolTestApplication - Starting DynamicThreadPoolTestApplication using Java 1.8.0_381 on DESKTOP-OVIKG68 with PID 13700 (E:\code\java\dynamic-thread-pool\dynamic-thread-pool-test\target\classes started by Administrator in E:\code\java\dynamic-thread-pool)
+24-07-13.15:59:35.671 [main            ] INFO  DynamicThreadPoolTestApplication - The following 1 profile is active: "dev"
+24-07-13.15:59:37.620 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-07-13.15:59:37.624 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-07-13.15:59:37.665 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16 ms. Found 0 Redis repository interfaces.
+24-07-13.15:59:38.542 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8080 (http)
+24-07-13.15:59:38.557 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8080"]
+24-07-13.15:59:38.558 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-07-13.15:59:38.559 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+24-07-13.15:59:38.804 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-07-13.15:59:38.804 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3013 ms
+24-07-13.15:59:40.045 [main            ] INFO  Version                - Redisson 3.26.0
+24-07-13.15:59:40.677 [redisson-netty-1-5] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-13.15:59:40.795 [redisson-netty-1-19] INFO  ConnectionsHolder      - 24 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-13.15:59:40.926 [main            ] INFO  DynamicThreadPoolAutoConfig - 动态线程池，注册器（redis）链接初始化完成。127.0.0.1 64 true
+24-07-13.15:59:41.082 [main            ] INFO  DynamicThreadPoolAutoConfig - 线程池信息：["threadPoolExecutor01","threadPoolExecutor02"]
+24-07-13.15:59:41.754 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-07-13.15:59:41.806 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8080"]
+24-07-13.15:59:41.823 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8080 (http) with context path ''
+24-07-13.15:59:41.854 [main            ] INFO  DynamicThreadPoolTestApplication - Started DynamicThreadPoolTestApplication in 7.502 seconds (JVM running for 9.914)
+24-07-13.15:59:42.231 [RMI TCP Connection(1)-10.175.13.11] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+24-07-13.15:59:42.231 [RMI TCP Connection(1)-10.175.13.11] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+24-07-13.15:59:42.234 [RMI TCP Connection(1)-10.175.13.11] INFO  DispatcherServlet      - Completed initialization in 2 ms
+24-07-13.16:00:34.228 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池信息：[com.yunya.middleware.dynamic.thread.pool.sdk.domain.model.entity.ThreadPoolConfigEntity@163853ff, com.yunya.middleware.dynamic.thread.pool.sdk.domain.model.entity.ThreadPoolConfigEntity@547f238d]
+24-07-13.16:00:39.305 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池信息：[{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor01"},{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}]
+24-07-13.16:01:31.292 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor01"}
+24-07-13.16:01:33.542 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}
+24-07-13.16:03:40.342 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池信息：[com.yunya.middleware.dynamic.thread.pool.sdk.domain.model.entity.ThreadPoolConfigEntity@2297c41f, com.yunya.middleware.dynamic.thread.pool.sdk.domain.model.entity.ThreadPoolConfigEntity@7fb471c0]
+24-07-13.16:03:40.345 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池信息：[{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor01"},{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}]
+24-07-13.16:03:40.350 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor01"}
+24-07-13.16:03:40.355 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}
+24-07-13.16:04:18.800 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池信息：[com.yunya.middleware.dynamic.thread.pool.sdk.domain.model.entity.ThreadPoolConfigEntity@23af6c3, com.yunya.middleware.dynamic.thread.pool.sdk.domain.model.entity.ThreadPoolConfigEntity@1e117da7]
+24-07-13.16:04:18.802 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池信息：[{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor01"},{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}]
+24-07-13.16:04:18.827 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor01"}
+24-07-13.16:04:18.834 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}
