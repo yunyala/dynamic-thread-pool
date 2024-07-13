@@ -41,6 +41,6 @@ public class ThreadPoolConfigAdjustListener implements MessageListener<ThreadPoo
         ThreadPoolConfigEntity threadPoolConfigEntityCurrent = dynamicThreadPoolService.queryThreadPoolConfigByName(threadPoolConfigEntity.getThreadPoolName());
         registry.reportThreadPool(threadPoolConfigEntityCurrent);
 
-        logger.info("动态线程池，上报线程池配置：{}", JSON.toJSONString(threadPoolConfigEntity));
+        logger.info("动态线程池，调整线程池配置。上报线程池配置：{}", JSON.toJSONString(threadPoolConfigEntity));
     }
 }

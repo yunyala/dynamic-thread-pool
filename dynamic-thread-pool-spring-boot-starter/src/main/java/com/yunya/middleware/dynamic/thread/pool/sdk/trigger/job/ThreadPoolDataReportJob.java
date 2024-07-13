@@ -36,7 +36,7 @@ public class ThreadPoolDataReportJob {
         // 获取当前被监控的微服务的线程池列表
         List<ThreadPoolConfigEntity> threadPoolConfigEntityList = dynamicThreadPoolService.queryThreadPoolList();
         registry.reportThreadPoolList(threadPoolConfigEntityList);
-        logger.info("动态线程池，上报线程池信息：{}", JSON.toJSONString(threadPoolConfigEntityList));
+        logger.info("动态线程池，上报线程池列表信息：{}", JSON.toJSONString(threadPoolConfigEntityList));
 
         // 循环上传单个线程池到注册中心
         for (ThreadPoolConfigEntity threadPoolConfigEntity : threadPoolConfigEntityList) {

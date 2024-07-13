@@ -71,7 +71,7 @@ public class DynamicThreadPoolAutoConfig {
     }
 
     @Bean("dynamicThreadPoolService")
-    public DynamicThreadPoolService dynamicThreadPoolService(ApplicationContext applicationContext, Map<String, ThreadPoolExecutor> threadPoolExecutorMap) {
+    public DynamicThreadPoolService dynamicThreadPoolService(ApplicationContext applicationContext, Map<String, ThreadPoolExecutor> threadPoolExecutorMap, RedissonClient redissonClient) {
         applicationName = applicationContext.getEnvironment().getProperty("spring.application.name");
 
         if (StringUtils.isBlank(applicationName)) {
@@ -81,14 +81,26 @@ public class DynamicThreadPoolAutoConfig {
 
         logger.info("线程池信息：{}", JSON.toJSONString(threadPoolExecutorMap.keySet()));
 
+        // 旧版本，直接从配置文件中获取线程池配置，这种方案会导致每次重启项目都会丢失之前调优设置好的线程池配置参数。
+//        Set<String> threadPoolKeySet = threadPoolExecutorMap.keySet();
+//        for (String threadPoolKey : threadPoolKeySet) {
+//            ThreadPoolExecutor threadPoolExecutor = threadPoolExecutorMap.get(threadPoolKey);
+//            int corePoolSize = threadPoolExecutor.getCorePoolSize();
+//            int maximumPoolSize = threadPoolExecutor.getMaximumPoolSize();
+//            BlockingQueue<Runnable> queue = threadPoolExecutor.getQueue();
+//            String simpleName = queue.getClass().getSimpleName();
+//            System.out.println("线程池名称：" + threadPoolKey + "，核心线程数：" + corePoolSize + "，最大线程数：" + maximumPoolSize + "，队列类型：" + simpleName);
+//        }
+
+        // 获取缓存数据，设置本地线程池配置
         Set<String> threadPoolKeySet = threadPoolExecutorMap.keySet();
         for (String threadPoolKey : threadPoolKeySet) {
+            ThreadPoolConfigEntity threadPoolConfigEntity = redissonClient.<ThreadPoolConfigEntity>getBucket(RegistryEnumVO.THREAD_POOL_CONFIG_PARAMETER_LIST_KEY.getKey() + "_" + applicationName + "_" + threadPoolKey).get();
+            if (threadPoolConfigEntity == null) continue;
+            // 如果不为空，则使用缓存数据更新本地线程池配置。
             ThreadPoolExecutor threadPoolExecutor = threadPoolExecutorMap.get(threadPoolKey);
-            int corePoolSize = threadPoolExecutor.getCorePoolSize();
-            int maximumPoolSize = threadPoolExecutor.getMaximumPoolSize();
-            BlockingQueue<Runnable> queue = threadPoolExecutor.getQueue();
-            String simpleName = queue.getClass().getSimpleName();
-            System.out.println("线程池名称：" + threadPoolKey + "，核心线程数：" + corePoolSize + "，最大线程数：" + maximumPoolSize + "，队列类型：" + simpleName);
+            threadPoolExecutor.setCorePoolSize(threadPoolConfigEntity.getCorePoolSize());
+            threadPoolExecutor.setMaximumPoolSize(threadPoolConfigEntity.getMaximumPoolSize());
         }
 
         return new DynamicThreadPoolService(applicationName, threadPoolExecutorMap);
