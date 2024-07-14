@@ -64,7 +64,7 @@ public class DynamicThreadPoolService implements IDynamicThreadPoolService{
         threadPoolConfigEntity.setQueueSize(threadPoolExecutor.getQueue().size());
         threadPoolConfigEntity.setRemainingCapacity(threadPoolExecutor.getQueue().remainingCapacity());
 
-        logger.info("动态线程池，配置查询 应用名:{} 线程名:{} 池化配置:{}", applicationName, threadPoolName, JSON.toJSONString(threadPoolConfigEntity));
+//        logger.info("动态线程池，配置查询 应用名:{} 线程名:{} 池化配置:{}", applicationName, threadPoolName, JSON.toJSONString(threadPoolConfigEntity));
 
         return threadPoolConfigEntity;
     }

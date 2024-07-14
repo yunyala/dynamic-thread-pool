@@ -5,6 +5,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Test;
 import org.junit.runner.RunWith;
 import org.redisson.api.RTopic;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
@@ -29,6 +30,7 @@ class ApiTest {
         threadPoolConfigEntity.setCorePoolSize(100);
         threadPoolConfigEntity.setMaximumPoolSize(100);
         dynamicThreadPoolAdjustRedisTopic.publish(threadPoolConfigEntity);
+        // 监听消息是异步的，所以需要等待一下
         new CountDownLatch(1).await();
     }
 
