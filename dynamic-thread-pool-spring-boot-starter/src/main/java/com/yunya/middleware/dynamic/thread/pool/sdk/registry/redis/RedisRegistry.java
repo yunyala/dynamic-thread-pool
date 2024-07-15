@@ -27,6 +27,7 @@ public class RedisRegistry implements IRegistry {
     @Override
     public void reportThreadPoolList(List<ThreadPoolConfigEntity> threadPoolConfigEntityList) {
         RList<ThreadPoolConfigEntity> list = redissonClient.getList(RegistryEnumVO.THREAD_POOL_CONFIG_LIST_KEY.getKey());
+        list.delete();
         list.addAll(threadPoolConfigEntityList);
     }
 

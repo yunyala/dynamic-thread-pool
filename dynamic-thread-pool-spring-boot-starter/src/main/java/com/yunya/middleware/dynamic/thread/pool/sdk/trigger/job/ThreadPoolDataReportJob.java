@@ -2,6 +2,7 @@ package com.yunya.middleware.dynamic.thread.pool.sdk.trigger.job;
 
 import com.alibaba.fastjson.JSON;
 import com.yunya.middleware.dynamic.thread.pool.sdk.domain.DynamicThreadPoolService;
+import com.yunya.middleware.dynamic.thread.pool.sdk.domain.IDynamicThreadPoolService;
 import com.yunya.middleware.dynamic.thread.pool.sdk.domain.model.entity.ThreadPoolConfigEntity;
 import com.yunya.middleware.dynamic.thread.pool.sdk.registry.IRegistry;
 import org.redisson.api.RedissonClient;
@@ -20,9 +21,9 @@ public class ThreadPoolDataReportJob {
 
     private final IRegistry registry;
 
-    private final DynamicThreadPoolService dynamicThreadPoolService;
+    private final IDynamicThreadPoolService dynamicThreadPoolService;
 
-    public ThreadPoolDataReportJob(IRegistry registry, DynamicThreadPoolService dynamicThreadPoolService) {
+    public ThreadPoolDataReportJob(IRegistry registry, IDynamicThreadPoolService dynamicThreadPoolService) {
         this.registry = registry;
         this.dynamicThreadPoolService = dynamicThreadPoolService;
     }

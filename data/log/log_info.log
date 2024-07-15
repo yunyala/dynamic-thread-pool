@@ -1,81 +1,1141 @@
-24-07-13.15:42:01.158 [main            ] INFO  DynamicThreadPoolTestApplication - Starting DynamicThreadPoolTestApplication using Java 1.8.0_381 on DESKTOP-OVIKG68 with PID 3148 (E:\code\java\dynamic-thread-pool\dynamic-thread-pool-test\target\classes started by Administrator in E:\code\java\dynamic-thread-pool)
-24-07-13.15:42:01.179 [main            ] INFO  DynamicThreadPoolTestApplication - The following 1 profile is active: "dev"
-24-07-13.15:42:05.495 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-24-07-13.15:42:05.501 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-24-07-13.15:42:05.583 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18 ms. Found 0 Redis repository interfaces.
-24-07-13.15:42:07.574 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8080 (http)
-24-07-13.15:42:07.612 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8080"]
-24-07-13.15:42:07.613 [main            ] INFO  StandardService        - Starting service [Tomcat]
-24-07-13.15:42:07.613 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
-24-07-13.15:42:09.895 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
-24-07-13.15:42:09.896 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 8395 ms
-24-07-13.15:42:12.090 [main            ] INFO  Version                - Redisson 3.26.0
-24-07-13.15:42:13.344 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
-24-07-13.15:42:13.638 [redisson-netty-1-19] INFO  ConnectionsHolder      - 24 connections initialized for 127.0.0.1/127.0.0.1:6379
-24-07-13.15:42:13.873 [main            ] INFO  DynamicThreadPoolAutoConfig - 动态线程池，注册器（redis）链接初始化完成。127.0.0.1 64 true
-24-07-13.15:42:14.581 [main            ] INFO  DynamicThreadPoolAutoConfig - 线程池信息：["threadPoolExecutor01","threadPoolExecutor02"]
-24-07-13.15:42:16.019 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
-24-07-13.15:42:16.125 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8080"]
-24-07-13.15:42:16.171 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8080 (http) with context path ''
-24-07-13.15:42:16.217 [main            ] INFO  DynamicThreadPoolTestApplication - Started DynamicThreadPoolTestApplication in 17.386 seconds (JVM running for 32.702)
-24-07-13.15:42:16.991 [RMI TCP Connection(1)-10.175.13.11] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
-24-07-13.15:42:16.991 [RMI TCP Connection(1)-10.175.13.11] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
-24-07-13.15:42:16.996 [RMI TCP Connection(1)-10.175.13.11] INFO  DispatcherServlet      - Completed initialization in 5 ms
-24-07-13.15:57:19.391 [main            ] INFO  DynamicThreadPoolTestApplication - Starting DynamicThreadPoolTestApplication using Java 1.8.0_381 on DESKTOP-OVIKG68 with PID 9480 (E:\code\java\dynamic-thread-pool\dynamic-thread-pool-test\target\classes started by Administrator in E:\code\java\dynamic-thread-pool)
-24-07-13.15:57:19.397 [main            ] INFO  DynamicThreadPoolTestApplication - The following 1 profile is active: "dev"
-24-07-13.15:57:21.421 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-24-07-13.15:57:21.424 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-24-07-13.15:57:21.466 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
-24-07-13.15:57:22.406 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8080 (http)
-24-07-13.15:57:22.425 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8080"]
-24-07-13.15:57:22.426 [main            ] INFO  StandardService        - Starting service [Tomcat]
-24-07-13.15:57:22.426 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
-24-07-13.15:57:22.713 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
-24-07-13.15:57:22.713 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3185 ms
-24-07-13.15:57:23.882 [main            ] INFO  Version                - Redisson 3.26.0
-24-07-13.15:57:24.565 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
-24-07-13.15:57:24.694 [redisson-netty-1-19] INFO  ConnectionsHolder      - 24 connections initialized for 127.0.0.1/127.0.0.1:6379
-24-07-13.15:57:24.820 [main            ] INFO  DynamicThreadPoolAutoConfig - 动态线程池，注册器（redis）链接初始化完成。127.0.0.1 64 true
-24-07-13.15:57:24.968 [main            ] INFO  DynamicThreadPoolAutoConfig - 线程池信息：["threadPoolExecutor01","threadPoolExecutor02"]
-24-07-13.15:57:25.791 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
-24-07-13.15:57:25.855 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8080"]
-24-07-13.15:57:25.880 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8080 (http) with context path ''
-24-07-13.15:57:25.909 [main            ] INFO  DynamicThreadPoolTestApplication - Started DynamicThreadPoolTestApplication in 8.019 seconds (JVM running for 10.379)
-24-07-13.15:57:26.460 [RMI TCP Connection(1)-10.175.13.11] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
-24-07-13.15:57:26.460 [RMI TCP Connection(1)-10.175.13.11] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
-24-07-13.15:57:26.464 [RMI TCP Connection(1)-10.175.13.11] INFO  DispatcherServlet      - Completed initialization in 4 ms
-24-07-13.15:59:35.664 [main            ] INFO  DynamicThreadPoolTestApplication - Starting DynamicThreadPoolTestApplication using Java 1.8.0_381 on DESKTOP-OVIKG68 with PID 13700 (E:\code\java\dynamic-thread-pool\dynamic-thread-pool-test\target\classes started by Administrator in E:\code\java\dynamic-thread-pool)
-24-07-13.15:59:35.671 [main            ] INFO  DynamicThreadPoolTestApplication - The following 1 profile is active: "dev"
-24-07-13.15:59:37.620 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-24-07-13.15:59:37.624 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-24-07-13.15:59:37.665 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16 ms. Found 0 Redis repository interfaces.
-24-07-13.15:59:38.542 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8080 (http)
-24-07-13.15:59:38.557 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8080"]
-24-07-13.15:59:38.558 [main            ] INFO  StandardService        - Starting service [Tomcat]
-24-07-13.15:59:38.559 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
-24-07-13.15:59:38.804 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
-24-07-13.15:59:38.804 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3013 ms
-24-07-13.15:59:40.045 [main            ] INFO  Version                - Redisson 3.26.0
-24-07-13.15:59:40.677 [redisson-netty-1-5] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
-24-07-13.15:59:40.795 [redisson-netty-1-19] INFO  ConnectionsHolder      - 24 connections initialized for 127.0.0.1/127.0.0.1:6379
-24-07-13.15:59:40.926 [main            ] INFO  DynamicThreadPoolAutoConfig - 动态线程池，注册器（redis）链接初始化完成。127.0.0.1 64 true
-24-07-13.15:59:41.082 [main            ] INFO  DynamicThreadPoolAutoConfig - 线程池信息：["threadPoolExecutor01","threadPoolExecutor02"]
-24-07-13.15:59:41.754 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
-24-07-13.15:59:41.806 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8080"]
-24-07-13.15:59:41.823 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8080 (http) with context path ''
-24-07-13.15:59:41.854 [main            ] INFO  DynamicThreadPoolTestApplication - Started DynamicThreadPoolTestApplication in 7.502 seconds (JVM running for 9.914)
-24-07-13.15:59:42.231 [RMI TCP Connection(1)-10.175.13.11] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
-24-07-13.15:59:42.231 [RMI TCP Connection(1)-10.175.13.11] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
-24-07-13.15:59:42.234 [RMI TCP Connection(1)-10.175.13.11] INFO  DispatcherServlet      - Completed initialization in 2 ms
-24-07-13.16:00:34.228 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池信息：[com.yunya.middleware.dynamic.thread.pool.sdk.domain.model.entity.ThreadPoolConfigEntity@163853ff, com.yunya.middleware.dynamic.thread.pool.sdk.domain.model.entity.ThreadPoolConfigEntity@547f238d]
-24-07-13.16:00:39.305 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池信息：[{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor01"},{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}]
-24-07-13.16:01:31.292 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor01"}
-24-07-13.16:01:33.542 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}
-24-07-13.16:03:40.342 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池信息：[com.yunya.middleware.dynamic.thread.pool.sdk.domain.model.entity.ThreadPoolConfigEntity@2297c41f, com.yunya.middleware.dynamic.thread.pool.sdk.domain.model.entity.ThreadPoolConfigEntity@7fb471c0]
-24-07-13.16:03:40.345 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池信息：[{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor01"},{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}]
-24-07-13.16:03:40.350 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor01"}
-24-07-13.16:03:40.355 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}
-24-07-13.16:04:18.800 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池信息：[com.yunya.middleware.dynamic.thread.pool.sdk.domain.model.entity.ThreadPoolConfigEntity@23af6c3, com.yunya.middleware.dynamic.thread.pool.sdk.domain.model.entity.ThreadPoolConfigEntity@1e117da7]
-24-07-13.16:04:18.802 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池信息：[{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor01"},{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}]
-24-07-13.16:04:18.827 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor01"}
-24-07-13.16:04:18.834 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}
+24-07-15.09:16:11.637 [main            ] INFO  DynamicThreadPoolAdminApplication - Starting DynamicThreadPoolAdminApplication using Java 1.8.0_341 on DESKTOP-U2IPFTL with PID 24048 (E:\code\java\dynamic-thread-pool\dynamic-thread-pool-admin\target\classes started by hom in E:\code\java\dynamic-thread-pool)
+24-07-15.09:16:11.637 [main            ] INFO  DynamicThreadPoolAdminApplication - The following 1 profile is active: "dev"
+24-07-15.09:16:12.345 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-07-15.09:16:12.345 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-07-15.09:16:12.355 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+24-07-15.09:16:12.661 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8089 (http)
+24-07-15.09:16:12.661 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8089"]
+24-07-15.09:16:12.661 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-07-15.09:16:12.661 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+24-07-15.09:16:12.791 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-07-15.09:16:12.791 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1123 ms
+24-07-15.09:16:13.542 [main            ] INFO  Version                - Redisson 3.26.0
+24-07-15.09:16:13.955 [redisson-netty-1-5] INFO  ConnectionsHolder      - 1 connections initialized for localhost/127.0.0.1:6379
+24-07-15.09:16:13.965 [redisson-netty-1-14] INFO  ConnectionsHolder      - 5 connections initialized for localhost/127.0.0.1:6379
+24-07-15.09:16:14.390 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-07-15.09:16:14.400 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8089"]
+24-07-15.09:16:14.410 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8089 (http) with context path ''
+24-07-15.09:16:14.420 [main            ] INFO  DynamicThreadPoolAdminApplication - Started DynamicThreadPoolAdminApplication in 3.145 seconds (JVM running for 4.927)
+24-07-15.09:16:14.960 [RMI TCP Connection(3)-172.19.32.1] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+24-07-15.09:16:14.960 [RMI TCP Connection(3)-172.19.32.1] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+24-07-15.09:16:14.960 [RMI TCP Connection(3)-172.19.32.1] INFO  DispatcherServlet      - Completed initialization in 0 ms
+24-07-15.09:33:26.585 [main            ] INFO  DynamicThreadPoolAdminApplication - Starting DynamicThreadPoolAdminApplication using Java 1.8.0_341 on DESKTOP-U2IPFTL with PID 20172 (E:\code\java\dynamic-thread-pool\dynamic-thread-pool-admin\target\classes started by hom in E:\code\java\dynamic-thread-pool)
+24-07-15.09:33:26.595 [main            ] INFO  DynamicThreadPoolAdminApplication - The following 1 profile is active: "dev"
+24-07-15.09:33:27.100 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-07-15.09:33:27.106 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-07-15.09:33:27.118 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+24-07-15.09:33:27.365 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8089 (http)
+24-07-15.09:33:27.376 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8089"]
+24-07-15.09:33:27.376 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-07-15.09:33:27.376 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+24-07-15.09:33:27.461 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-07-15.09:33:27.461 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 841 ms
+24-07-15.09:33:27.697 [main            ] INFO  Version                - Redisson 3.26.0
+24-07-15.09:33:28.036 [redisson-netty-1-5] INFO  ConnectionsHolder      - 1 connections initialized for localhost/127.0.0.1:6379
+24-07-15.09:33:28.046 [redisson-netty-1-14] INFO  ConnectionsHolder      - 5 connections initialized for localhost/127.0.0.1:6379
+24-07-15.09:33:28.456 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-07-15.09:33:28.476 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8089"]
+24-07-15.09:33:28.476 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8089 (http) with context path ''
+24-07-15.09:33:28.491 [main            ] INFO  DynamicThreadPoolAdminApplication - Started DynamicThreadPoolAdminApplication in 2.255 seconds (JVM running for 3.009)
+24-07-15.09:33:29.006 [RMI TCP Connection(2)-172.19.32.1] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+24-07-15.09:33:29.006 [RMI TCP Connection(2)-172.19.32.1] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+24-07-15.09:33:29.006 [RMI TCP Connection(2)-172.19.32.1] INFO  DispatcherServlet      - Completed initialization in 0 ms
+24-07-15.09:36:40.126 [redisson-netty-1-3] ERROR CommandDecoder         - Unable to decode data. channel: [id: 0x4cfd0590, L:/127.0.0.1:64507 - R:localhost/127.0.0.1:6379], reply: ReplayingDecoderByteBuf(ridx=178, widx=13077), command: (LRANGE), promise: java.util.concurrent.CompletableFuture@1a29afe9[Not completed, 1 dependents], params: [THREAD_POOL_CONFIG_LIST_KEY, 0, -1]
+com.fasterxml.jackson.core.JsonParseException: Illegal character ((CTRL-CHAR, code 1)): only regular white space (\r, \n, \t) is allowed between tokens
+ at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:2391)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:735)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._throwInvalidSpace(ParserMinimalBase.java:713)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._skipWSOrEnd(ReaderBasedJsonParser.java:2461)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextToken(ReaderBasedJsonParser.java:698)
+	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:4761)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4667)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3666)
+	at org.redisson.codec.JsonJacksonCodec$2.decode(JsonJacksonCodec.java:99)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:433)
+	at org.redisson.client.handler.CommandDecoder.decodeList(CommandDecoder.java:490)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:442)
+	at org.redisson.client.handler.CommandDecoder.decodeCommand(CommandDecoder.java:216)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:144)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:120)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529)
+	at io.netty.handler.codec.ReplayingDecoder.callDecode(ReplayingDecoder.java:366)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+24-07-15.09:39:06.442 [redisson-netty-1-3] ERROR ErrorsLoggingHandler   - Exception occured. Channel: [id: 0x4cfd0590, L:/127.0.0.1:64507 - R:localhost/127.0.0.1:6379]
+io.netty.handler.codec.DecoderException: com.fasterxml.jackson.core.JsonParseException: Illegal character ((CTRL-CHAR, code 1)): only regular white space (\r, \n, \t) is allowed between tokens
+ at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]
+	at io.netty.handler.codec.ReplayingDecoder.callDecode(ReplayingDecoder.java:421)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: com.fasterxml.jackson.core.JsonParseException: Illegal character ((CTRL-CHAR, code 1)): only regular white space (\r, \n, \t) is allowed between tokens
+ at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:2391)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:735)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._throwInvalidSpace(ParserMinimalBase.java:713)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._skipWSOrEnd(ReaderBasedJsonParser.java:2461)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextToken(ReaderBasedJsonParser.java:698)
+	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:4761)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4667)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3666)
+	at org.redisson.codec.JsonJacksonCodec$2.decode(JsonJacksonCodec.java:99)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:433)
+	at org.redisson.client.handler.CommandDecoder.decodeList(CommandDecoder.java:490)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:442)
+	at org.redisson.client.handler.CommandDecoder.decodeCommand(CommandDecoder.java:216)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:144)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:120)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529)
+	at io.netty.handler.codec.ReplayingDecoder.callDecode(ReplayingDecoder.java:366)
+	... 17 common frames omitted
+24-07-15.09:39:06.442 [redisson-netty-1-7] ERROR CommandDecoder         - Unable to decode data. channel: [id: 0x391202d7, L:/127.0.0.1:64509 - R:localhost/127.0.0.1:6379], reply: ReplayingDecoderByteBuf(ridx=178, widx=15485), command: (LRANGE), promise: java.util.concurrent.CompletableFuture@2bde491f[Not completed, 1 dependents], params: [THREAD_POOL_CONFIG_LIST_KEY, 0, -1]
+com.fasterxml.jackson.core.JsonParseException: Illegal character ((CTRL-CHAR, code 1)): only regular white space (\r, \n, \t) is allowed between tokens
+ at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:2391)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:735)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._throwInvalidSpace(ParserMinimalBase.java:713)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._skipWSOrEnd(ReaderBasedJsonParser.java:2461)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextToken(ReaderBasedJsonParser.java:698)
+	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:4761)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4667)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3666)
+	at org.redisson.codec.JsonJacksonCodec$2.decode(JsonJacksonCodec.java:99)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:433)
+	at org.redisson.client.handler.CommandDecoder.decodeList(CommandDecoder.java:490)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:442)
+	at org.redisson.client.handler.CommandDecoder.decodeCommand(CommandDecoder.java:216)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:144)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:120)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529)
+	at io.netty.handler.codec.ReplayingDecoder.callDecode(ReplayingDecoder.java:366)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+24-07-15.09:39:06.442 [redisson-netty-1-7] ERROR ErrorsLoggingHandler   - Exception occured. Channel: [id: 0x391202d7, L:/127.0.0.1:64509 - R:localhost/127.0.0.1:6379]
+io.netty.handler.codec.DecoderException: com.fasterxml.jackson.core.JsonParseException: Illegal character ((CTRL-CHAR, code 1)): only regular white space (\r, \n, \t) is allowed between tokens
+ at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]
+	at io.netty.handler.codec.ReplayingDecoder.callDecode(ReplayingDecoder.java:421)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: com.fasterxml.jackson.core.JsonParseException: Illegal character ((CTRL-CHAR, code 1)): only regular white space (\r, \n, \t) is allowed between tokens
+ at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:2391)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:735)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._throwInvalidSpace(ParserMinimalBase.java:713)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._skipWSOrEnd(ReaderBasedJsonParser.java:2461)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextToken(ReaderBasedJsonParser.java:698)
+	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:4761)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4667)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3666)
+	at org.redisson.codec.JsonJacksonCodec$2.decode(JsonJacksonCodec.java:99)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:433)
+	at org.redisson.client.handler.CommandDecoder.decodeList(CommandDecoder.java:490)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:442)
+	at org.redisson.client.handler.CommandDecoder.decodeCommand(CommandDecoder.java:216)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:144)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:120)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529)
+	at io.netty.handler.codec.ReplayingDecoder.callDecode(ReplayingDecoder.java:366)
+	... 17 common frames omitted
+24-07-15.09:39:06.454 [http-nio-8089-exec-1] ERROR [dispatcherServlet]    - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.redisson.client.RedisException: Unexpected exception while processing command] with root cause
+com.fasterxml.jackson.core.JsonParseException: Illegal character ((CTRL-CHAR, code 1)): only regular white space (\r, \n, \t) is allowed between tokens
+ at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:2391)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:735)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._throwInvalidSpace(ParserMinimalBase.java:713)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._skipWSOrEnd(ReaderBasedJsonParser.java:2461)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextToken(ReaderBasedJsonParser.java:698)
+	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:4761)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4667)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3666)
+	at org.redisson.codec.JsonJacksonCodec$2.decode(JsonJacksonCodec.java:99)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:433)
+	at org.redisson.client.handler.CommandDecoder.decodeList(CommandDecoder.java:490)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:442)
+	at org.redisson.client.handler.CommandDecoder.decodeCommand(CommandDecoder.java:216)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:144)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:120)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529)
+	at io.netty.handler.codec.ReplayingDecoder.callDecode(ReplayingDecoder.java:366)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+24-07-15.10:44:22.883 [main            ] INFO  DynamicThreadPoolAdminApplication - Starting DynamicThreadPoolAdminApplication using Java 1.8.0_341 on DESKTOP-U2IPFTL with PID 25888 (E:\code\java\dynamic-thread-pool\dynamic-thread-pool-admin\target\classes started by hom in E:\code\java\dynamic-thread-pool)
+24-07-15.10:44:22.883 [main            ] INFO  DynamicThreadPoolAdminApplication - The following 1 profile is active: "dev"
+24-07-15.10:44:23.413 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-07-15.10:44:23.413 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-07-15.10:44:23.423 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+24-07-15.10:44:23.683 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8089 (http)
+24-07-15.10:44:23.693 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8089"]
+24-07-15.10:44:23.693 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-07-15.10:44:23.693 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+24-07-15.10:44:23.775 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-07-15.10:44:23.775 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 859 ms
+24-07-15.10:44:24.019 [main            ] INFO  Version                - Redisson 3.26.0
+24-07-15.10:44:24.363 [redisson-netty-1-5] INFO  ConnectionsHolder      - 1 connections initialized for localhost/127.0.0.1:6379
+24-07-15.10:44:24.373 [redisson-netty-1-14] INFO  ConnectionsHolder      - 5 connections initialized for localhost/127.0.0.1:6379
+24-07-15.10:44:24.803 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-07-15.10:44:24.823 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8089"]
+24-07-15.10:44:24.833 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8089 (http) with context path ''
+24-07-15.10:44:24.846 [main            ] INFO  DynamicThreadPoolAdminApplication - Started DynamicThreadPoolAdminApplication in 2.366 seconds (JVM running for 3.135)
+24-07-15.10:44:25.413 [RMI TCP Connection(2)-172.19.32.1] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+24-07-15.10:44:25.413 [RMI TCP Connection(2)-172.19.32.1] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+24-07-15.10:44:25.413 [RMI TCP Connection(2)-172.19.32.1] INFO  DispatcherServlet      - Completed initialization in 0 ms
+24-07-15.10:45:26.179 [redisson-netty-1-11] ERROR CommandDecoder         - Unable to decode data. channel: [id: 0xb221bbe7, L:/127.0.0.1:50204 - R:localhost/127.0.0.1:6379], reply: ReplayingDecoderByteBuf(ridx=177, widx=348), command: (LRANGE), promise: java.util.concurrent.CompletableFuture@5e66cc7f[Not completed, 1 dependents], params: [THREAD_POOL_CONFIG_LIST_KEY, 0, -1]
+com.fasterxml.jackson.core.JsonParseException: Illegal character ((CTRL-CHAR, code 1)): only regular white space (\r, \n, \t) is allowed between tokens
+ at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:2391)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:735)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._throwInvalidSpace(ParserMinimalBase.java:713)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._skipWSOrEnd(ReaderBasedJsonParser.java:2461)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextToken(ReaderBasedJsonParser.java:698)
+	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:4761)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4667)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3666)
+	at org.redisson.codec.JsonJacksonCodec$2.decode(JsonJacksonCodec.java:99)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:433)
+	at org.redisson.client.handler.CommandDecoder.decodeList(CommandDecoder.java:490)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:442)
+	at org.redisson.client.handler.CommandDecoder.decodeCommand(CommandDecoder.java:216)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:144)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:120)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529)
+	at io.netty.handler.codec.ReplayingDecoder.callDecode(ReplayingDecoder.java:366)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+24-07-15.10:47:50.550 [redisson-netty-1-11] ERROR ErrorsLoggingHandler   - Exception occured. Channel: [id: 0xb221bbe7, L:/127.0.0.1:50204 - R:localhost/127.0.0.1:6379]
+io.netty.handler.codec.DecoderException: com.fasterxml.jackson.core.JsonParseException: Illegal character ((CTRL-CHAR, code 1)): only regular white space (\r, \n, \t) is allowed between tokens
+ at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]
+	at io.netty.handler.codec.ReplayingDecoder.callDecode(ReplayingDecoder.java:421)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: com.fasterxml.jackson.core.JsonParseException: Illegal character ((CTRL-CHAR, code 1)): only regular white space (\r, \n, \t) is allowed between tokens
+ at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:2391)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:735)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._throwInvalidSpace(ParserMinimalBase.java:713)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._skipWSOrEnd(ReaderBasedJsonParser.java:2461)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextToken(ReaderBasedJsonParser.java:698)
+	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:4761)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4667)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3666)
+	at org.redisson.codec.JsonJacksonCodec$2.decode(JsonJacksonCodec.java:99)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:433)
+	at org.redisson.client.handler.CommandDecoder.decodeList(CommandDecoder.java:490)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:442)
+	at org.redisson.client.handler.CommandDecoder.decodeCommand(CommandDecoder.java:216)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:144)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:120)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529)
+	at io.netty.handler.codec.ReplayingDecoder.callDecode(ReplayingDecoder.java:366)
+	... 17 common frames omitted
+24-07-15.10:47:56.914 [redisson-netty-1-3] ERROR CommandDecoder         - Unable to decode data. channel: [id: 0x76b3c974, L:/127.0.0.1:50200 - R:localhost/127.0.0.1:6379], reply: ReplayingDecoderByteBuf(ridx=177, widx=348), command: (LRANGE), promise: java.util.concurrent.CompletableFuture@143d345e[Not completed, 1 dependents], params: [THREAD_POOL_CONFIG_LIST_KEY, 0, -1]
+com.fasterxml.jackson.core.JsonParseException: Illegal character ((CTRL-CHAR, code 1)): only regular white space (\r, \n, \t) is allowed between tokens
+ at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:2391)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:735)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._throwInvalidSpace(ParserMinimalBase.java:713)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._skipWSOrEnd(ReaderBasedJsonParser.java:2461)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextToken(ReaderBasedJsonParser.java:698)
+	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:4761)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4667)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3666)
+	at org.redisson.codec.JsonJacksonCodec$2.decode(JsonJacksonCodec.java:99)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:433)
+	at org.redisson.client.handler.CommandDecoder.decodeList(CommandDecoder.java:490)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:442)
+	at org.redisson.client.handler.CommandDecoder.decodeCommand(CommandDecoder.java:216)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:144)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:120)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529)
+	at io.netty.handler.codec.ReplayingDecoder.callDecode(ReplayingDecoder.java:366)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+24-07-15.10:47:56.914 [redisson-netty-1-3] ERROR ErrorsLoggingHandler   - Exception occured. Channel: [id: 0x76b3c974, L:/127.0.0.1:50200 - R:localhost/127.0.0.1:6379]
+io.netty.handler.codec.DecoderException: com.fasterxml.jackson.core.JsonParseException: Illegal character ((CTRL-CHAR, code 1)): only regular white space (\r, \n, \t) is allowed between tokens
+ at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]
+	at io.netty.handler.codec.ReplayingDecoder.callDecode(ReplayingDecoder.java:421)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: com.fasterxml.jackson.core.JsonParseException: Illegal character ((CTRL-CHAR, code 1)): only regular white space (\r, \n, \t) is allowed between tokens
+ at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:2391)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:735)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._throwInvalidSpace(ParserMinimalBase.java:713)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._skipWSOrEnd(ReaderBasedJsonParser.java:2461)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextToken(ReaderBasedJsonParser.java:698)
+	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:4761)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4667)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3666)
+	at org.redisson.codec.JsonJacksonCodec$2.decode(JsonJacksonCodec.java:99)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:433)
+	at org.redisson.client.handler.CommandDecoder.decodeList(CommandDecoder.java:490)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:442)
+	at org.redisson.client.handler.CommandDecoder.decodeCommand(CommandDecoder.java:216)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:144)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:120)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529)
+	at io.netty.handler.codec.ReplayingDecoder.callDecode(ReplayingDecoder.java:366)
+	... 17 common frames omitted
+24-07-15.10:47:56.921 [http-nio-8089-exec-1] ERROR [dispatcherServlet]    - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.redisson.client.RedisException: Unexpected exception while processing command] with root cause
+com.fasterxml.jackson.core.JsonParseException: Illegal character ((CTRL-CHAR, code 1)): only regular white space (\r, \n, \t) is allowed between tokens
+ at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:2391)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:735)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._throwInvalidSpace(ParserMinimalBase.java:713)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._skipWSOrEnd(ReaderBasedJsonParser.java:2461)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextToken(ReaderBasedJsonParser.java:698)
+	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:4761)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4667)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3666)
+	at org.redisson.codec.JsonJacksonCodec$2.decode(JsonJacksonCodec.java:99)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:433)
+	at org.redisson.client.handler.CommandDecoder.decodeList(CommandDecoder.java:490)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:442)
+	at org.redisson.client.handler.CommandDecoder.decodeCommand(CommandDecoder.java:216)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:144)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:120)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529)
+	at io.netty.handler.codec.ReplayingDecoder.callDecode(ReplayingDecoder.java:366)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+24-07-15.10:49:41.072 [main            ] INFO  DynamicThreadPoolAdminApplication - Starting DynamicThreadPoolAdminApplication using Java 1.8.0_341 on DESKTOP-U2IPFTL with PID 28136 (E:\code\java\dynamic-thread-pool\dynamic-thread-pool-admin\target\classes started by hom in E:\code\java\dynamic-thread-pool)
+24-07-15.10:49:41.081 [main            ] INFO  DynamicThreadPoolAdminApplication - The following 1 profile is active: "dev"
+24-07-15.10:49:41.636 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-07-15.10:49:41.636 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-07-15.10:49:41.651 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+24-07-15.10:49:41.941 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8089 (http)
+24-07-15.10:49:41.941 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8089"]
+24-07-15.10:49:41.941 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-07-15.10:49:41.941 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+24-07-15.10:49:42.031 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-07-15.10:49:42.031 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 930 ms
+24-07-15.10:49:42.349 [main            ] INFO  Version                - Redisson 3.26.0
+24-07-15.10:49:42.826 [redisson-netty-1-5] INFO  ConnectionsHolder      - 1 connections initialized for localhost/127.0.0.1:6379
+24-07-15.10:49:42.831 [redisson-netty-1-14] INFO  ConnectionsHolder      - 5 connections initialized for localhost/127.0.0.1:6379
+24-07-15.10:49:43.271 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-07-15.10:49:43.291 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8089"]
+24-07-15.10:49:43.291 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8089 (http) with context path ''
+24-07-15.10:49:43.306 [main            ] INFO  DynamicThreadPoolAdminApplication - Started DynamicThreadPoolAdminApplication in 2.579 seconds (JVM running for 3.262)
+24-07-15.10:49:43.953 [RMI TCP Connection(3)-172.19.32.1] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+24-07-15.10:49:43.953 [RMI TCP Connection(3)-172.19.32.1] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+24-07-15.10:49:43.953 [RMI TCP Connection(3)-172.19.32.1] INFO  DispatcherServlet      - Completed initialization in 0 ms
+24-07-15.10:49:57.701 [main            ] INFO  DynamicThreadPoolAdminApplication - Starting DynamicThreadPoolAdminApplication using Java 1.8.0_341 on DESKTOP-U2IPFTL with PID 26216 (E:\code\java\dynamic-thread-pool\dynamic-thread-pool-admin\target\classes started by hom in E:\code\java\dynamic-thread-pool)
+24-07-15.10:49:57.711 [main            ] INFO  DynamicThreadPoolAdminApplication - The following 1 profile is active: "dev"
+24-07-15.10:49:58.206 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-07-15.10:49:58.208 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-07-15.10:49:58.221 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+24-07-15.10:49:58.471 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8089 (http)
+24-07-15.10:49:58.481 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8089"]
+24-07-15.10:49:58.481 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-07-15.10:49:58.481 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+24-07-15.10:49:58.561 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-07-15.10:49:58.561 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 830 ms
+24-07-15.10:49:58.801 [main            ] INFO  Version                - Redisson 3.26.0
+24-07-15.10:49:59.151 [redisson-netty-1-5] INFO  ConnectionsHolder      - 1 connections initialized for localhost/127.0.0.1:6379
+24-07-15.10:49:59.161 [redisson-netty-1-14] INFO  ConnectionsHolder      - 5 connections initialized for localhost/127.0.0.1:6379
+24-07-15.10:49:59.591 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-07-15.10:49:59.603 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8089"]
+24-07-15.10:49:59.611 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8089 (http) with context path ''
+24-07-15.10:49:59.621 [main            ] INFO  DynamicThreadPoolAdminApplication - Started DynamicThreadPoolAdminApplication in 2.26 seconds (JVM running for 3.108)
+24-07-15.10:49:59.861 [RMI TCP Connection(1)-172.19.32.1] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+24-07-15.10:49:59.861 [RMI TCP Connection(1)-172.19.32.1] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+24-07-15.10:49:59.861 [RMI TCP Connection(1)-172.19.32.1] INFO  DispatcherServlet      - Completed initialization in 0 ms
+24-07-15.10:50:18.992 [redisson-netty-1-13] ERROR CommandDecoder         - Unable to decode data. channel: [id: 0x63c7a89f, L:/127.0.0.1:50454 - R:localhost/127.0.0.1:6379], reply: ReplayingDecoderByteBuf(ridx=177, widx=348), command: (LRANGE), promise: java.util.concurrent.CompletableFuture@12c3bdba[Not completed, 1 dependents], params: [THREAD_POOL_CONFIG_LIST_KEY, 0, -1]
+com.fasterxml.jackson.core.JsonParseException: Illegal character ((CTRL-CHAR, code 1)): only regular white space (\r, \n, \t) is allowed between tokens
+ at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:2391)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:735)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._throwInvalidSpace(ParserMinimalBase.java:713)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._skipWSOrEnd(ReaderBasedJsonParser.java:2461)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextToken(ReaderBasedJsonParser.java:698)
+	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:4761)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4667)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3666)
+	at org.redisson.codec.JsonJacksonCodec$2.decode(JsonJacksonCodec.java:99)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:433)
+	at org.redisson.client.handler.CommandDecoder.decodeList(CommandDecoder.java:490)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:442)
+	at org.redisson.client.handler.CommandDecoder.decodeCommand(CommandDecoder.java:216)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:144)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:120)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529)
+	at io.netty.handler.codec.ReplayingDecoder.callDecode(ReplayingDecoder.java:366)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+24-07-15.10:50:35.477 [redisson-netty-1-13] ERROR ErrorsLoggingHandler   - Exception occured. Channel: [id: 0x63c7a89f, L:/127.0.0.1:50454 - R:localhost/127.0.0.1:6379]
+io.netty.handler.codec.DecoderException: com.fasterxml.jackson.core.JsonParseException: Illegal character ((CTRL-CHAR, code 1)): only regular white space (\r, \n, \t) is allowed between tokens
+ at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]
+	at io.netty.handler.codec.ReplayingDecoder.callDecode(ReplayingDecoder.java:421)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: com.fasterxml.jackson.core.JsonParseException: Illegal character ((CTRL-CHAR, code 1)): only regular white space (\r, \n, \t) is allowed between tokens
+ at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:2391)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:735)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._throwInvalidSpace(ParserMinimalBase.java:713)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._skipWSOrEnd(ReaderBasedJsonParser.java:2461)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextToken(ReaderBasedJsonParser.java:698)
+	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:4761)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4667)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3666)
+	at org.redisson.codec.JsonJacksonCodec$2.decode(JsonJacksonCodec.java:99)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:433)
+	at org.redisson.client.handler.CommandDecoder.decodeList(CommandDecoder.java:490)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:442)
+	at org.redisson.client.handler.CommandDecoder.decodeCommand(CommandDecoder.java:216)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:144)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:120)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529)
+	at io.netty.handler.codec.ReplayingDecoder.callDecode(ReplayingDecoder.java:366)
+	... 17 common frames omitted
+24-07-15.10:50:35.476 [http-nio-8089-exec-1] ERROR DynamicThreadPoolController - 查询线程池配置异常
+org.redisson.client.RedisException: Unexpected exception while processing command
+	at org.redisson.command.CommandAsyncService.convertException(CommandAsyncService.java:333)
+	at org.redisson.command.CommandAsyncService.get(CommandAsyncService.java:150)
+	at org.redisson.RedissonObject.get(RedissonObject.java:90)
+	at org.redisson.BaseRedissonList.readAll(BaseRedissonList.java:93)
+	at com.yunya.middleware.dynamic.thread.pool.trigger.DynamicThreadPoolController.queryThreadPoolList(DynamicThreadPoolController.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: com.fasterxml.jackson.core.JsonParseException: Illegal character ((CTRL-CHAR, code 1)): only regular white space (\r, \n, \t) is allowed between tokens
+ at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:2391)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:735)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._throwInvalidSpace(ParserMinimalBase.java:713)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._skipWSOrEnd(ReaderBasedJsonParser.java:2461)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextToken(ReaderBasedJsonParser.java:698)
+	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:4761)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4667)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3666)
+	at org.redisson.codec.JsonJacksonCodec$2.decode(JsonJacksonCodec.java:99)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:433)
+	at org.redisson.client.handler.CommandDecoder.decodeList(CommandDecoder.java:490)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:442)
+	at org.redisson.client.handler.CommandDecoder.decodeCommand(CommandDecoder.java:216)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:144)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:120)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529)
+	at io.netty.handler.codec.ReplayingDecoder.callDecode(ReplayingDecoder.java:366)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	... 1 common frames omitted
+24-07-15.11:04:58.213 [main            ] INFO  DynamicThreadPoolAdminApplication - Starting DynamicThreadPoolAdminApplication using Java 1.8.0_341 on DESKTOP-U2IPFTL with PID 2456 (E:\code\java\dynamic-thread-pool\dynamic-thread-pool-admin\target\classes started by hom in E:\code\java\dynamic-thread-pool)
+24-07-15.11:04:58.213 [main            ] INFO  DynamicThreadPoolAdminApplication - The following 1 profile is active: "dev"
+24-07-15.11:04:58.731 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-07-15.11:04:58.731 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-07-15.11:04:58.752 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+24-07-15.11:04:59.014 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8089 (http)
+24-07-15.11:04:59.020 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8089"]
+24-07-15.11:04:59.020 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-07-15.11:04:59.021 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+24-07-15.11:04:59.106 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-07-15.11:04:59.106 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 865 ms
+24-07-15.11:04:59.341 [main            ] INFO  Version                - Redisson 3.26.0
+24-07-15.11:04:59.681 [redisson-netty-1-5] INFO  ConnectionsHolder      - 1 connections initialized for localhost/127.0.0.1:6379
+24-07-15.11:04:59.694 [redisson-netty-1-14] INFO  ConnectionsHolder      - 5 connections initialized for localhost/127.0.0.1:6379
+24-07-15.11:05:00.111 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-07-15.11:05:00.131 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8089"]
+24-07-15.11:05:00.141 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8089 (http) with context path ''
+24-07-15.11:05:00.152 [main            ] INFO  DynamicThreadPoolAdminApplication - Started DynamicThreadPoolAdminApplication in 2.339 seconds (JVM running for 3.181)
+24-07-15.11:05:00.861 [RMI TCP Connection(2)-172.19.32.1] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+24-07-15.11:05:00.861 [RMI TCP Connection(2)-172.19.32.1] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+24-07-15.11:05:00.861 [RMI TCP Connection(2)-172.19.32.1] INFO  DispatcherServlet      - Completed initialization in 0 ms
+24-07-15.11:05:24.791 [redisson-netty-1-3] ERROR CommandDecoder         - Unable to decode data. channel: [id: 0x4f4b570a, L:/127.0.0.1:50711 - R:localhost/127.0.0.1:6379], reply: ReplayingDecoderByteBuf(ridx=177, widx=348), command: (LRANGE), promise: java.util.concurrent.CompletableFuture@5036da41[Not completed, 1 dependents], params: [THREAD_POOL_CONFIG_LIST_KEY, 0, -1]
+com.fasterxml.jackson.core.JsonParseException: Illegal character ((CTRL-CHAR, code 1)): only regular white space (\r, \n, \t) is allowed between tokens
+ at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:2391)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:735)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._throwInvalidSpace(ParserMinimalBase.java:713)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._skipWSOrEnd(ReaderBasedJsonParser.java:2461)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextToken(ReaderBasedJsonParser.java:698)
+	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:4761)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4667)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3666)
+	at org.redisson.codec.JsonJacksonCodec$2.decode(JsonJacksonCodec.java:99)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:433)
+	at org.redisson.client.handler.CommandDecoder.decodeList(CommandDecoder.java:490)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:442)
+	at org.redisson.client.handler.CommandDecoder.decodeCommand(CommandDecoder.java:216)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:144)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:120)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529)
+	at io.netty.handler.codec.ReplayingDecoder.callDecode(ReplayingDecoder.java:366)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+24-07-15.11:05:24.791 [http-nio-8089-exec-1] ERROR DynamicThreadPoolController - 查询线程池配置异常
+org.redisson.client.RedisException: Unexpected exception while processing command
+	at org.redisson.command.CommandAsyncService.convertException(CommandAsyncService.java:333)
+	at org.redisson.command.CommandAsyncService.get(CommandAsyncService.java:150)
+	at org.redisson.RedissonObject.get(RedissonObject.java:90)
+	at org.redisson.BaseRedissonList.readAll(BaseRedissonList.java:93)
+	at com.yunya.middleware.dynamic.thread.pool.trigger.DynamicThreadPoolController.queryThreadPoolList(DynamicThreadPoolController.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: com.fasterxml.jackson.core.JsonParseException: Illegal character ((CTRL-CHAR, code 1)): only regular white space (\r, \n, \t) is allowed between tokens
+ at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:2391)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:735)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._throwInvalidSpace(ParserMinimalBase.java:713)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._skipWSOrEnd(ReaderBasedJsonParser.java:2461)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextToken(ReaderBasedJsonParser.java:698)
+	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:4761)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4667)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3666)
+	at org.redisson.codec.JsonJacksonCodec$2.decode(JsonJacksonCodec.java:99)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:433)
+	at org.redisson.client.handler.CommandDecoder.decodeList(CommandDecoder.java:490)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:442)
+	at org.redisson.client.handler.CommandDecoder.decodeCommand(CommandDecoder.java:216)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:144)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:120)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529)
+	at io.netty.handler.codec.ReplayingDecoder.callDecode(ReplayingDecoder.java:366)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	... 1 common frames omitted
+24-07-15.11:05:24.791 [redisson-netty-1-3] ERROR ErrorsLoggingHandler   - Exception occured. Channel: [id: 0x4f4b570a, L:/127.0.0.1:50711 - R:localhost/127.0.0.1:6379]
+io.netty.handler.codec.DecoderException: com.fasterxml.jackson.core.JsonParseException: Illegal character ((CTRL-CHAR, code 1)): only regular white space (\r, \n, \t) is allowed between tokens
+ at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]
+	at io.netty.handler.codec.ReplayingDecoder.callDecode(ReplayingDecoder.java:421)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: com.fasterxml.jackson.core.JsonParseException: Illegal character ((CTRL-CHAR, code 1)): only regular white space (\r, \n, \t) is allowed between tokens
+ at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:2391)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:735)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._throwInvalidSpace(ParserMinimalBase.java:713)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._skipWSOrEnd(ReaderBasedJsonParser.java:2461)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextToken(ReaderBasedJsonParser.java:698)
+	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:4761)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4667)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3666)
+	at org.redisson.codec.JsonJacksonCodec$2.decode(JsonJacksonCodec.java:99)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:433)
+	at org.redisson.client.handler.CommandDecoder.decodeList(CommandDecoder.java:490)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:442)
+	at org.redisson.client.handler.CommandDecoder.decodeCommand(CommandDecoder.java:216)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:144)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:120)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529)
+	at io.netty.handler.codec.ReplayingDecoder.callDecode(ReplayingDecoder.java:366)
+	... 17 common frames omitted
+24-07-15.11:07:02.281 [main            ] INFO  DynamicThreadPoolAdminApplication - Starting DynamicThreadPoolAdminApplication using Java 1.8.0_341 on DESKTOP-U2IPFTL with PID 16948 (E:\code\java\dynamic-thread-pool\dynamic-thread-pool-admin\target\classes started by hom in E:\code\java\dynamic-thread-pool)
+24-07-15.11:07:02.281 [main            ] INFO  DynamicThreadPoolAdminApplication - The following 1 profile is active: "dev"
+24-07-15.11:07:02.821 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-07-15.11:07:02.821 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-07-15.11:07:02.831 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+24-07-15.11:07:03.101 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8089 (http)
+24-07-15.11:07:03.112 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8089"]
+24-07-15.11:07:03.112 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-07-15.11:07:03.112 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+24-07-15.11:07:03.201 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-07-15.11:07:03.201 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 889 ms
+24-07-15.11:07:03.454 [main            ] INFO  Version                - Redisson 3.26.0
+24-07-15.11:07:03.802 [redisson-netty-1-5] INFO  ConnectionsHolder      - 1 connections initialized for localhost/127.0.0.1:6379
+24-07-15.11:07:03.811 [redisson-netty-1-14] INFO  ConnectionsHolder      - 5 connections initialized for localhost/127.0.0.1:6379
+24-07-15.11:07:04.342 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-07-15.11:07:04.362 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8089"]
+24-07-15.11:07:04.372 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8089 (http) with context path ''
+24-07-15.11:07:04.382 [main            ] INFO  DynamicThreadPoolAdminApplication - Started DynamicThreadPoolAdminApplication in 2.46 seconds (JVM running for 3.27)
+24-07-15.11:07:05.601 [RMI TCP Connection(3)-172.19.32.1] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+24-07-15.11:07:05.601 [RMI TCP Connection(3)-172.19.32.1] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+24-07-15.11:07:05.601 [RMI TCP Connection(3)-172.19.32.1] INFO  DispatcherServlet      - Completed initialization in 0 ms
+24-07-15.11:07:24.142 [redisson-netty-1-7] ERROR CommandDecoder         - Unable to decode data. channel: [id: 0x5a9dd931, L:/127.0.0.1:50820 - R:localhost/127.0.0.1:6379], reply: ReplayingDecoderByteBuf(ridx=177, widx=348), command: (LRANGE), promise: java.util.concurrent.CompletableFuture@67497a6[Not completed, 1 dependents], params: [THREAD_POOL_CONFIG_LIST_KEY, 0, -1]
+com.fasterxml.jackson.core.JsonParseException: Illegal character ((CTRL-CHAR, code 1)): only regular white space (\r, \n, \t) is allowed between tokens
+ at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:2391)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:735)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._throwInvalidSpace(ParserMinimalBase.java:713)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._skipWSOrEnd(ReaderBasedJsonParser.java:2461)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextToken(ReaderBasedJsonParser.java:698)
+	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:4761)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4667)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3666)
+	at org.redisson.codec.JsonJacksonCodec$2.decode(JsonJacksonCodec.java:99)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:433)
+	at org.redisson.client.handler.CommandDecoder.decodeList(CommandDecoder.java:490)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:442)
+	at org.redisson.client.handler.CommandDecoder.decodeCommand(CommandDecoder.java:216)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:144)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:120)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529)
+	at io.netty.handler.codec.ReplayingDecoder.callDecode(ReplayingDecoder.java:366)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+24-07-15.11:07:24.152 [http-nio-8089-exec-1] ERROR DynamicThreadPoolController - 查询线程池配置异常
+org.redisson.client.RedisException: Unexpected exception while processing command
+	at org.redisson.command.CommandAsyncService.convertException(CommandAsyncService.java:333)
+	at org.redisson.command.CommandAsyncService.get(CommandAsyncService.java:150)
+	at org.redisson.RedissonObject.get(RedissonObject.java:90)
+	at org.redisson.BaseRedissonList.readAll(BaseRedissonList.java:93)
+	at com.yunya.middleware.dynamic.thread.pool.trigger.DynamicThreadPoolController.queryThreadPoolList(DynamicThreadPoolController.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: com.fasterxml.jackson.core.JsonParseException: Illegal character ((CTRL-CHAR, code 1)): only regular white space (\r, \n, \t) is allowed between tokens
+ at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:2391)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:735)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._throwInvalidSpace(ParserMinimalBase.java:713)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._skipWSOrEnd(ReaderBasedJsonParser.java:2461)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextToken(ReaderBasedJsonParser.java:698)
+	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:4761)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4667)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3666)
+	at org.redisson.codec.JsonJacksonCodec$2.decode(JsonJacksonCodec.java:99)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:433)
+	at org.redisson.client.handler.CommandDecoder.decodeList(CommandDecoder.java:490)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:442)
+	at org.redisson.client.handler.CommandDecoder.decodeCommand(CommandDecoder.java:216)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:144)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:120)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529)
+	at io.netty.handler.codec.ReplayingDecoder.callDecode(ReplayingDecoder.java:366)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	... 1 common frames omitted
+24-07-15.11:07:24.152 [redisson-netty-1-7] ERROR ErrorsLoggingHandler   - Exception occured. Channel: [id: 0x5a9dd931, L:/127.0.0.1:50820 - R:localhost/127.0.0.1:6379]
+io.netty.handler.codec.DecoderException: com.fasterxml.jackson.core.JsonParseException: Illegal character ((CTRL-CHAR, code 1)): only regular white space (\r, \n, \t) is allowed between tokens
+ at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]
+	at io.netty.handler.codec.ReplayingDecoder.callDecode(ReplayingDecoder.java:421)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: com.fasterxml.jackson.core.JsonParseException: Illegal character ((CTRL-CHAR, code 1)): only regular white space (\r, \n, \t) is allowed between tokens
+ at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:2391)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:735)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._throwInvalidSpace(ParserMinimalBase.java:713)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._skipWSOrEnd(ReaderBasedJsonParser.java:2461)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextToken(ReaderBasedJsonParser.java:698)
+	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:4761)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4667)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3666)
+	at org.redisson.codec.JsonJacksonCodec$2.decode(JsonJacksonCodec.java:99)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:433)
+	at org.redisson.client.handler.CommandDecoder.decodeList(CommandDecoder.java:490)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:442)
+	at org.redisson.client.handler.CommandDecoder.decodeCommand(CommandDecoder.java:216)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:144)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:120)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529)
+	at io.netty.handler.codec.ReplayingDecoder.callDecode(ReplayingDecoder.java:366)
+	... 17 common frames omitted
+24-07-15.11:24:11.451 [main            ] INFO  DynamicThreadPoolTestApplication - Starting DynamicThreadPoolTestApplication using Java 1.8.0_341 on DESKTOP-U2IPFTL with PID 3536 (E:\code\java\dynamic-thread-pool\dynamic-thread-pool-test\target\classes started by hom in E:\code\java\dynamic-thread-pool)
+24-07-15.11:24:11.451 [main            ] INFO  DynamicThreadPoolTestApplication - The following 1 profile is active: "dev"
+24-07-15.11:24:12.001 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-07-15.11:24:12.006 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-07-15.11:24:12.016 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+24-07-15.11:24:12.286 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8080 (http)
+24-07-15.11:24:12.291 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8080"]
+24-07-15.11:24:12.291 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-07-15.11:24:12.291 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+24-07-15.11:24:12.366 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-07-15.11:24:12.371 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 890 ms
+24-07-15.11:24:12.731 [main            ] INFO  Version                - Redisson 3.26.0
+24-07-15.11:24:16.001 [main            ] WARN  AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redissonClient' defined in class path resource [com/yunya/middleware/dynamic/thread/pool/sdk/config/DynamicThreadPoolAutoConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.redisson.api.RedissonClient]: Factory method 'redissonClient' threw exception; nested exception is java.lang.IllegalArgumentException: Redis url should start with redis:// or rediss:// (for SSL connection)
+24-07-15.11:24:16.011 [main            ] INFO  StandardService        - Stopping service [Tomcat]
+24-07-15.11:24:16.021 [main            ] INFO  ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+24-07-15.11:24:16.031 [main            ] ERROR SpringApplication      - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redissonClient' defined in class path resource [com/yunya/middleware/dynamic/thread/pool/sdk/config/DynamicThreadPoolAutoConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.redisson.api.RedissonClient]: Factory method 'redissonClient' threw exception; nested exception is java.lang.IllegalArgumentException: Redis url should start with redis:// or rediss:// (for SSL connection)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:920)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.yunya.DynamicThreadPoolTestApplication.main(DynamicThreadPoolTestApplication.java:14)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.redisson.api.RedissonClient]: Factory method 'redissonClient' threw exception; nested exception is java.lang.IllegalArgumentException: Redis url should start with redis:// or rediss:// (for SSL connection)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 19 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Redis url should start with redis:// or rediss:// (for SSL connection)
+	at org.redisson.misc.RedisURI.<init>(RedisURI.java:46)
+	at org.redisson.connection.MasterSlaveConnectionManager.doConnect(MasterSlaveConnectionManager.java:221)
+	at org.redisson.connection.MasterSlaveConnectionManager.connect(MasterSlaveConnectionManager.java:196)
+	at org.redisson.config.ConfigSupport.createConnectionManager(ConfigSupport.java:220)
+	at org.redisson.Redisson.<init>(Redisson.java:71)
+	at org.redisson.Redisson.create(Redisson.java:116)
+	at com.yunya.middleware.dynamic.thread.pool.sdk.config.DynamicThreadPoolAutoConfig.redissonClient(DynamicThreadPoolAutoConfig.java:62)
+	at com.yunya.middleware.dynamic.thread.pool.sdk.config.DynamicThreadPoolAutoConfig$$EnhancerBySpringCGLIB$$cc511383.CGLIB$redissonClient$5(<generated>)
+	at com.yunya.middleware.dynamic.thread.pool.sdk.config.DynamicThreadPoolAutoConfig$$EnhancerBySpringCGLIB$$cc511383$$FastClassBySpringCGLIB$$1ff788fc.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at com.yunya.middleware.dynamic.thread.pool.sdk.config.DynamicThreadPoolAutoConfig$$EnhancerBySpringCGLIB$$cc511383.redissonClient(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 20 common frames omitted
+24-07-15.11:28:48.296 [main            ] INFO  DynamicThreadPoolAdminApplication - Starting DynamicThreadPoolAdminApplication using Java 1.8.0_341 on DESKTOP-U2IPFTL with PID 11148 (E:\code\java\dynamic-thread-pool\dynamic-thread-pool-admin\target\classes started by hom in E:\code\java\dynamic-thread-pool)
+24-07-15.11:28:48.298 [main            ] INFO  DynamicThreadPoolAdminApplication - The following 1 profile is active: "dev"
+24-07-15.11:28:48.855 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-07-15.11:28:48.855 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-07-15.11:28:48.865 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+24-07-15.11:28:49.193 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8089 (http)
+24-07-15.11:28:49.199 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8089"]
+24-07-15.11:28:49.199 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-07-15.11:28:49.199 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+24-07-15.11:28:49.316 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-07-15.11:28:49.316 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 988 ms
+24-07-15.11:28:49.665 [main            ] INFO  Version                - Redisson 3.26.0
+24-07-15.11:28:50.174 [redisson-netty-1-5] INFO  ConnectionsHolder      - 1 connections initialized for localhost/127.0.0.1:6379
+24-07-15.11:28:50.179 [redisson-netty-1-14] INFO  ConnectionsHolder      - 5 connections initialized for localhost/127.0.0.1:6379
+24-07-15.11:28:50.760 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-07-15.11:28:50.779 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8089"]
+24-07-15.11:28:50.787 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8089 (http) with context path ''
+24-07-15.11:28:50.789 [main            ] INFO  DynamicThreadPoolAdminApplication - Started DynamicThreadPoolAdminApplication in 3.29 seconds (JVM running for 4.245)
+24-07-15.11:28:51.562 [RMI TCP Connection(5)-172.19.32.1] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+24-07-15.11:28:51.562 [RMI TCP Connection(5)-172.19.32.1] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+24-07-15.11:28:51.564 [RMI TCP Connection(5)-172.19.32.1] INFO  DispatcherServlet      - Completed initialization in 2 ms

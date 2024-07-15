@@ -47,7 +47,7 @@ public class DynamicThreadPoolAutoConfig {
         config.setCodec(JsonJacksonCodec.INSTANCE);
 
         config.useSingleServer()
-                .setAddress(properties.getHost() + ":" + properties.getPort())
+                .setAddress("redis://" + properties.getHost() + ":" + properties.getPort())
                 .setPassword(properties.getPassword())
                 .setConnectionMinimumIdleSize(properties.getMinIdleSize())
                 .setConnectionPoolSize(properties.getPoolSize())
@@ -58,7 +58,8 @@ public class DynamicThreadPoolAutoConfig {
                 .setConnectTimeout(properties.getConnectionTimeout())
                 .setKeepAlive(properties.isKeepAlive());
 
-        RedissonClient redissonClient = Redisson.create();
+        // 之前这里没有传参config，导致存、取数据序列化都失败
+        RedissonClient redissonClient = Redisson.create(config);
 
         logger.info("动态线程池，注册器（redis）链接初始化完成。{} {} {}", properties.getHost(), properties.getPoolSize(), !redissonClient.isShutdown());
 
@@ -107,7 +108,7 @@ public class DynamicThreadPoolAutoConfig {
     }
 
     @Bean
-    public ThreadPoolDataReportJob threadPoolDataReportJob(IRegistry registry, DynamicThreadPoolService dynamicThreadPoolService) {
+    public ThreadPoolDataReportJob threadPoolDataReportJob(IRegistry registry, IDynamicThreadPoolService dynamicThreadPoolService) {
         return new ThreadPoolDataReportJob(registry, dynamicThreadPoolService);
     }
 

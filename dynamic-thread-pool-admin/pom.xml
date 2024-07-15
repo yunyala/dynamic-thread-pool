@@ -2,19 +2,16 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-
     <parent>
         <groupId>com.yunya.middleware</groupId>
         <artifactId>dynamic-thread-pool</artifactId>
         <version>1.0</version>
     </parent>
 
-    <artifactId>dynamic-thread-pool-test</artifactId>
+    <artifactId>dynamic-thread-pool-admin</artifactId>
     <version>1.0</version>
-    <name>dynamic-thread-pool-test</name>
-    <description>dynamic-thread-pool-test</description>
+    <name>dynamic-thread-pool-admin</name>
 
-    <!--项目打包的方式，默认为jar包打包方式-->
     <packaging>jar</packaging>
 
     <dependencies>
@@ -52,17 +49,15 @@
             <groupId>commons-codec</groupId>
             <artifactId>commons-codec</artifactId>
         </dependency>
-
-        <!-- 线程组件 -->
         <dependency>
-            <groupId>com.yunya.middleware</groupId>
-            <artifactId>dynamic-thread-pool-spring-boot-starter</artifactId>
-            <version>1.0</version>
+            <groupId>org.redisson</groupId>
+            <artifactId>redisson-spring-boot-starter</artifactId>
+            <version>3.26.0</version>
         </dependency>
     </dependencies>
 
     <build>
-        <finalName>dynamic-thread-pool-test-app</finalName>
+        <finalName>dynamic-thread-pool-admin-app</finalName>
         <resources>
             <resource>
                 <directory>src/main/resources</directory>
@@ -98,7 +93,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>cn.yunya.DynamicThreadPoolTestApplication</mainClass>
+                    <mainClass>com.yunya.middleware.dynamic.thread.pool.DynamicThreadPoolAdminApplication</mainClass>
                     <layout>JAR</layout>
                 </configuration>
             </plugin>
