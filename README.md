@@ -21,7 +21,7 @@
 
 ### 架构介绍
 
-1. 负责管理线程池的模块：dynamic-thread-pool-spring-boot-starter
+1. 负责管理线程池的模块即SDK：dynamic-thread-pool-spring-boot-starter
 2. 提供管理线程池的对外接口的模块：dynamic-thread-pool-admin
 3. 引入 SDK 测试模块：dynamic-thread-pool-test
 4. 前端管理线程池页面：front/index.html
