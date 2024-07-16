@@ -23,6 +23,10 @@ class ApiTest {
     @Resource
     private RTopic dynamicThreadPoolAdjustRedisTopic;
 
+    /**
+     * 调整线程池配置参数测试方法
+     * @throws InterruptedException
+     */
     @Test
     public void test() throws InterruptedException {
         log.info("动态线程池 调整线程池配置参数 测试方法");

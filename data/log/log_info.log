@@ -1,74 +1,213 @@
-24-07-15.09:16:11.637 [main            ] INFO  DynamicThreadPoolAdminApplication - Starting DynamicThreadPoolAdminApplication using Java 1.8.0_341 on DESKTOP-U2IPFTL with PID 24048 (E:\code\java\dynamic-thread-pool\dynamic-thread-pool-admin\target\classes started by hom in E:\code\java\dynamic-thread-pool)
-24-07-15.09:16:11.637 [main            ] INFO  DynamicThreadPoolAdminApplication - The following 1 profile is active: "dev"
-24-07-15.09:16:12.345 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-24-07-15.09:16:12.345 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-24-07-15.09:16:12.355 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
-24-07-15.09:16:12.661 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8089 (http)
-24-07-15.09:16:12.661 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8089"]
-24-07-15.09:16:12.661 [main            ] INFO  StandardService        - Starting service [Tomcat]
-24-07-15.09:16:12.661 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
-24-07-15.09:16:12.791 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
-24-07-15.09:16:12.791 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1123 ms
-24-07-15.09:16:13.542 [main            ] INFO  Version                - Redisson 3.26.0
-24-07-15.09:16:13.955 [redisson-netty-1-5] INFO  ConnectionsHolder      - 1 connections initialized for localhost/127.0.0.1:6379
-24-07-15.09:16:13.965 [redisson-netty-1-14] INFO  ConnectionsHolder      - 5 connections initialized for localhost/127.0.0.1:6379
-24-07-15.09:16:14.390 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
-24-07-15.09:16:14.400 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8089"]
-24-07-15.09:16:14.410 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8089 (http) with context path ''
-24-07-15.09:16:14.420 [main            ] INFO  DynamicThreadPoolAdminApplication - Started DynamicThreadPoolAdminApplication in 3.145 seconds (JVM running for 4.927)
-24-07-15.09:16:14.960 [RMI TCP Connection(3)-172.19.32.1] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
-24-07-15.09:16:14.960 [RMI TCP Connection(3)-172.19.32.1] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
-24-07-15.09:16:14.960 [RMI TCP Connection(3)-172.19.32.1] INFO  DispatcherServlet      - Completed initialization in 0 ms
-24-07-15.09:33:26.585 [main            ] INFO  DynamicThreadPoolAdminApplication - Starting DynamicThreadPoolAdminApplication using Java 1.8.0_341 on DESKTOP-U2IPFTL with PID 20172 (E:\code\java\dynamic-thread-pool\dynamic-thread-pool-admin\target\classes started by hom in E:\code\java\dynamic-thread-pool)
-24-07-15.09:33:26.595 [main            ] INFO  DynamicThreadPoolAdminApplication - The following 1 profile is active: "dev"
-24-07-15.09:33:27.100 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-24-07-15.09:33:27.106 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-24-07-15.09:33:27.118 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
-24-07-15.09:33:27.365 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8089 (http)
-24-07-15.09:33:27.376 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8089"]
-24-07-15.09:33:27.376 [main            ] INFO  StandardService        - Starting service [Tomcat]
-24-07-15.09:33:27.376 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
-24-07-15.09:33:27.461 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
-24-07-15.09:33:27.461 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 841 ms
-24-07-15.09:33:27.697 [main            ] INFO  Version                - Redisson 3.26.0
-24-07-15.09:33:28.036 [redisson-netty-1-5] INFO  ConnectionsHolder      - 1 connections initialized for localhost/127.0.0.1:6379
-24-07-15.09:33:28.046 [redisson-netty-1-14] INFO  ConnectionsHolder      - 5 connections initialized for localhost/127.0.0.1:6379
-24-07-15.09:33:28.456 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
-24-07-15.09:33:28.476 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8089"]
-24-07-15.09:33:28.476 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8089 (http) with context path ''
-24-07-15.09:33:28.491 [main            ] INFO  DynamicThreadPoolAdminApplication - Started DynamicThreadPoolAdminApplication in 2.255 seconds (JVM running for 3.009)
-24-07-15.09:33:29.006 [RMI TCP Connection(2)-172.19.32.1] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
-24-07-15.09:33:29.006 [RMI TCP Connection(2)-172.19.32.1] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
-24-07-15.09:33:29.006 [RMI TCP Connection(2)-172.19.32.1] INFO  DispatcherServlet      - Completed initialization in 0 ms
-24-07-15.09:36:40.126 [redisson-netty-1-3] ERROR CommandDecoder         - Unable to decode data. channel: [id: 0x4cfd0590, L:/127.0.0.1:64507 - R:localhost/127.0.0.1:6379], reply: ReplayingDecoderByteBuf(ridx=178, widx=13077), command: (LRANGE), promise: java.util.concurrent.CompletableFuture@1a29afe9[Not completed, 1 dependents], params: [THREAD_POOL_CONFIG_LIST_KEY, 0, -1]
-com.fasterxml.jackson.core.JsonParseException: Illegal character ((CTRL-CHAR, code 1)): only regular white space (\r, \n, \t) is allowed between tokens
- at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]
-	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:2391)
-	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:735)
-	at com.fasterxml.jackson.core.base.ParserMinimalBase._throwInvalidSpace(ParserMinimalBase.java:713)
-	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._skipWSOrEnd(ReaderBasedJsonParser.java:2461)
-	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextToken(ReaderBasedJsonParser.java:698)
-	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:4761)
-	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4667)
-	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3666)
-	at org.redisson.codec.JsonJacksonCodec$2.decode(JsonJacksonCodec.java:99)
-	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:433)
-	at org.redisson.client.handler.CommandDecoder.decodeList(CommandDecoder.java:490)
-	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:442)
-	at org.redisson.client.handler.CommandDecoder.decodeCommand(CommandDecoder.java:216)
-	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:144)
-	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:120)
-	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529)
-	at io.netty.handler.codec.ReplayingDecoder.callDecode(ReplayingDecoder.java:366)
-	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
-	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+24-07-16.12:17:15.262 [main            ] INFO  DynamicThreadPoolTestApplication - Starting DynamicThreadPoolTestApplication using Java 1.8.0_341 on DESKTOP-U2IPFTL with PID 9492 (E:\code\java\dynamic-thread-pool\dynamic-thread-pool-test\target\classes started by hom in E:\code\java\dynamic-thread-pool)
+24-07-16.12:17:15.264 [main            ] INFO  DynamicThreadPoolTestApplication - The following 1 profile is active: "dev"
+24-07-16.12:17:16.616 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-07-16.12:17:16.618 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-07-16.12:17:16.666 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+24-07-16.12:17:17.240 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8080 (http)
+24-07-16.12:17:17.247 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8080"]
+24-07-16.12:17:17.248 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-07-16.12:17:17.248 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+24-07-16.12:17:17.387 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-07-16.12:17:17.387 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2094 ms
+24-07-16.12:17:17.948 [main            ] INFO  Version                - Redisson 3.26.0
+24-07-16.12:17:18.359 [redisson-netty-1-20] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-16.12:17:18.361 [redisson-netty-1-23] INFO  ConnectionsHolder      - 10 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-16.12:17:18.425 [main            ] INFO  DynamicThreadPoolAutoConfig - 动态线程池，注册器（redis）链接初始化完成。127.0.0.1 64 true
+24-07-16.12:17:18.561 [main            ] INFO  DynamicThreadPoolAutoConfig - 线程池信息：["threadPoolExecutor01","threadPoolExecutor02"]
+24-07-16.12:17:18.962 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-07-16.12:17:18.986 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8080"]
+24-07-16.12:17:19.012 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8080 (http) with context path ''
+24-07-16.12:17:19.028 [main            ] INFO  DynamicThreadPoolTestApplication - Started DynamicThreadPoolTestApplication in 4.173 seconds (JVM running for 5.017)
+24-07-16.12:17:20.037 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池列表信息：[{"activeCount":500,"appName":"dynamic-thread-pool-test-app","corePoolSize":300,"maximumPoolSize":500,"poolSize":500,"queueSize":5000,"queueType":"LinkedBlockingQueue","remainingCapacity":0,"threadPoolName":"threadPoolExecutor01"},{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}]
+24-07-16.12:17:20.042 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":500,"appName":"dynamic-thread-pool-test-app","corePoolSize":300,"maximumPoolSize":500,"poolSize":500,"queueSize":5000,"queueType":"LinkedBlockingQueue","remainingCapacity":0,"threadPoolName":"threadPoolExecutor01"}
+24-07-16.12:17:20.042 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}
+24-07-16.12:17:40.004 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池列表信息：[{"activeCount":500,"appName":"dynamic-thread-pool-test-app","corePoolSize":300,"maximumPoolSize":500,"poolSize":500,"queueSize":4990,"queueType":"LinkedBlockingQueue","remainingCapacity":10,"threadPoolName":"threadPoolExecutor01"},{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}]
+24-07-16.12:17:40.004 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":500,"appName":"dynamic-thread-pool-test-app","corePoolSize":300,"maximumPoolSize":500,"poolSize":500,"queueSize":4990,"queueType":"LinkedBlockingQueue","remainingCapacity":10,"threadPoolName":"threadPoolExecutor01"}
+24-07-16.12:17:40.004 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}
+24-07-16.12:18:00.019 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池列表信息：[{"activeCount":500,"appName":"dynamic-thread-pool-test-app","corePoolSize":300,"maximumPoolSize":500,"poolSize":500,"queueSize":4617,"queueType":"LinkedBlockingQueue","remainingCapacity":383,"threadPoolName":"threadPoolExecutor01"},{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}]
+24-07-16.12:18:00.019 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":500,"appName":"dynamic-thread-pool-test-app","corePoolSize":300,"maximumPoolSize":500,"poolSize":500,"queueSize":4617,"queueType":"LinkedBlockingQueue","remainingCapacity":383,"threadPoolName":"threadPoolExecutor01"}
+24-07-16.12:18:00.023 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}
+24-07-16.12:18:01.354 [main            ] INFO  DynamicThreadPoolAdminApplication - Starting DynamicThreadPoolAdminApplication using Java 1.8.0_341 on DESKTOP-U2IPFTL with PID 20160 (E:\code\java\dynamic-thread-pool\dynamic-thread-pool-admin\target\classes started by hom in E:\code\java\dynamic-thread-pool)
+24-07-16.12:18:01.359 [main            ] INFO  DynamicThreadPoolAdminApplication - The following 1 profile is active: "dev"
+24-07-16.12:18:01.854 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-07-16.12:18:01.854 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-07-16.12:18:01.873 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+24-07-16.12:18:02.094 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8089 (http)
+24-07-16.12:18:02.094 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8089"]
+24-07-16.12:18:02.094 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-07-16.12:18:02.094 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+24-07-16.12:18:02.174 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-07-16.12:18:02.174 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 785 ms
+24-07-16.12:18:02.374 [main            ] INFO  Version                - Redisson 3.26.0
+24-07-16.12:18:02.704 [redisson-netty-1-5] INFO  ConnectionsHolder      - 1 connections initialized for localhost/127.0.0.1:6379
+24-07-16.12:18:02.714 [redisson-netty-1-14] INFO  ConnectionsHolder      - 5 connections initialized for localhost/127.0.0.1:6379
+24-07-16.12:18:03.073 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-07-16.12:18:03.096 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8089"]
+24-07-16.12:18:03.103 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8089 (http) with context path ''
+24-07-16.12:18:03.114 [main            ] INFO  DynamicThreadPoolAdminApplication - Started DynamicThreadPoolAdminApplication in 2.075 seconds (JVM running for 2.671)
+24-07-16.12:18:03.779 [RMI TCP Connection(3)-172.19.32.1] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+24-07-16.12:18:03.779 [RMI TCP Connection(3)-172.19.32.1] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+24-07-16.12:18:03.779 [RMI TCP Connection(3)-172.19.32.1] INFO  DispatcherServlet      - Completed initialization in 0 ms
+24-07-16.12:18:20.015 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池列表信息：[{"activeCount":500,"appName":"dynamic-thread-pool-test-app","corePoolSize":300,"maximumPoolSize":500,"poolSize":500,"queueSize":4894,"queueType":"LinkedBlockingQueue","remainingCapacity":106,"threadPoolName":"threadPoolExecutor01"},{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}]
+24-07-16.12:18:20.015 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":500,"appName":"dynamic-thread-pool-test-app","corePoolSize":300,"maximumPoolSize":500,"poolSize":500,"queueSize":4894,"queueType":"LinkedBlockingQueue","remainingCapacity":106,"threadPoolName":"threadPoolExecutor01"}
+24-07-16.12:18:20.024 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}
+24-07-16.12:18:40.014 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池列表信息：[{"activeCount":500,"appName":"dynamic-thread-pool-test-app","corePoolSize":300,"maximumPoolSize":500,"poolSize":500,"queueSize":4506,"queueType":"LinkedBlockingQueue","remainingCapacity":494,"threadPoolName":"threadPoolExecutor01"},{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}]
+24-07-16.12:18:40.029 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":500,"appName":"dynamic-thread-pool-test-app","corePoolSize":300,"maximumPoolSize":500,"poolSize":500,"queueSize":4506,"queueType":"LinkedBlockingQueue","remainingCapacity":494,"threadPoolName":"threadPoolExecutor01"}
+24-07-16.12:18:40.029 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}
+24-07-16.12:19:00.009 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池列表信息：[{"activeCount":500,"appName":"dynamic-thread-pool-test-app","corePoolSize":300,"maximumPoolSize":500,"poolSize":500,"queueSize":4756,"queueType":"LinkedBlockingQueue","remainingCapacity":244,"threadPoolName":"threadPoolExecutor01"},{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}]
+24-07-16.12:19:00.009 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":500,"appName":"dynamic-thread-pool-test-app","corePoolSize":300,"maximumPoolSize":500,"poolSize":500,"queueSize":4756,"queueType":"LinkedBlockingQueue","remainingCapacity":244,"threadPoolName":"threadPoolExecutor01"}
+24-07-16.12:19:00.009 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}
+24-07-16.12:19:20.018 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池列表信息：[{"activeCount":500,"appName":"dynamic-thread-pool-test-app","corePoolSize":300,"maximumPoolSize":500,"poolSize":500,"queueSize":4215,"queueType":"LinkedBlockingQueue","remainingCapacity":785,"threadPoolName":"threadPoolExecutor01"},{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}]
+24-07-16.12:19:20.021 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":500,"appName":"dynamic-thread-pool-test-app","corePoolSize":300,"maximumPoolSize":500,"poolSize":500,"queueSize":4215,"queueType":"LinkedBlockingQueue","remainingCapacity":785,"threadPoolName":"threadPoolExecutor01"}
+24-07-16.12:19:20.024 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}
+24-07-16.12:19:40.011 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池列表信息：[{"activeCount":500,"appName":"dynamic-thread-pool-test-app","corePoolSize":300,"maximumPoolSize":500,"poolSize":500,"queueSize":4965,"queueType":"LinkedBlockingQueue","remainingCapacity":35,"threadPoolName":"threadPoolExecutor01"},{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}]
+24-07-16.12:19:40.015 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":500,"appName":"dynamic-thread-pool-test-app","corePoolSize":300,"maximumPoolSize":500,"poolSize":500,"queueSize":4965,"queueType":"LinkedBlockingQueue","remainingCapacity":35,"threadPoolName":"threadPoolExecutor01"}
+24-07-16.12:19:40.016 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}
+24-07-16.12:19:52.293 [main            ] INFO  DynamicThreadPoolTestApplication - Starting DynamicThreadPoolTestApplication using Java 1.8.0_341 on DESKTOP-U2IPFTL with PID 5036 (E:\code\java\dynamic-thread-pool\dynamic-thread-pool-test\target\classes started by hom in E:\code\java\dynamic-thread-pool)
+24-07-16.12:19:52.295 [main            ] INFO  DynamicThreadPoolTestApplication - The following 1 profile is active: "dev"
+24-07-16.12:19:52.824 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-07-16.12:19:52.829 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-07-16.12:19:52.844 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+24-07-16.12:19:53.134 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8080 (http)
+24-07-16.12:19:53.144 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8080"]
+24-07-16.12:19:53.144 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-07-16.12:19:53.144 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+24-07-16.12:19:53.230 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-07-16.12:19:53.230 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 916 ms
+24-07-16.12:22:36.293 [main            ] INFO  Version                - Redisson 3.26.0
+24-07-16.12:22:37.080 [redisson-netty-1-18] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-16.12:22:37.082 [redisson-netty-1-23] INFO  ConnectionsHolder      - 10 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-16.12:22:37.157 [main            ] INFO  DynamicThreadPoolAutoConfig - 动态线程池，注册器（redis）链接初始化完成。127.0.0.1 64 true
+24-07-16.12:22:37.255 [main            ] INFO  DynamicThreadPoolAutoConfig - 线程池信息：["threadPoolExecutor01","threadPoolExecutor02"]
+24-07-16.12:22:37.662 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-07-16.12:22:37.682 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8080"]
+24-07-16.12:22:37.699 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8080 (http) with context path ''
+24-07-16.12:22:37.716 [main            ] INFO  DynamicThreadPoolTestApplication - Started DynamicThreadPoolTestApplication in 165.74 seconds (JVM running for 167.028)
+24-07-16.12:22:40.032 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池列表信息：[{"activeCount":500,"appName":"dynamic-thread-pool-test-app","corePoolSize":300,"maximumPoolSize":500,"poolSize":500,"queueSize":4997,"queueType":"LinkedBlockingQueue","remainingCapacity":3,"threadPoolName":"threadPoolExecutor01"},{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}]
+24-07-16.12:22:40.042 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":500,"appName":"dynamic-thread-pool-test-app","corePoolSize":300,"maximumPoolSize":500,"poolSize":500,"queueSize":4997,"queueType":"LinkedBlockingQueue","remainingCapacity":3,"threadPoolName":"threadPoolExecutor01"}
+24-07-16.12:22:40.042 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}
+24-07-16.12:23:00.024 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池列表信息：[{"activeCount":500,"appName":"dynamic-thread-pool-test-app","corePoolSize":300,"maximumPoolSize":500,"poolSize":500,"queueSize":4500,"queueType":"LinkedBlockingQueue","remainingCapacity":500,"threadPoolName":"threadPoolExecutor01"},{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}]
+24-07-16.12:23:00.026 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":500,"appName":"dynamic-thread-pool-test-app","corePoolSize":300,"maximumPoolSize":500,"poolSize":500,"queueSize":4500,"queueType":"LinkedBlockingQueue","remainingCapacity":500,"threadPoolName":"threadPoolExecutor01"}
+24-07-16.12:23:00.027 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}
+24-07-16.12:23:20.015 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池列表信息：[{"activeCount":500,"appName":"dynamic-thread-pool-test-app","corePoolSize":300,"maximumPoolSize":500,"poolSize":500,"queueSize":4728,"queueType":"LinkedBlockingQueue","remainingCapacity":272,"threadPoolName":"threadPoolExecutor01"},{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}]
+24-07-16.12:23:20.015 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":500,"appName":"dynamic-thread-pool-test-app","corePoolSize":300,"maximumPoolSize":500,"poolSize":500,"queueSize":4728,"queueType":"LinkedBlockingQueue","remainingCapacity":272,"threadPoolName":"threadPoolExecutor01"}
+24-07-16.12:23:20.015 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}
+24-07-16.12:23:22.403 [main            ] INFO  DynamicThreadPoolAdminApplication - Starting DynamicThreadPoolAdminApplication using Java 1.8.0_341 on DESKTOP-U2IPFTL with PID 26684 (E:\code\java\dynamic-thread-pool\dynamic-thread-pool-admin\target\classes started by hom in E:\code\java\dynamic-thread-pool)
+24-07-16.12:23:22.403 [main            ] INFO  DynamicThreadPoolAdminApplication - The following 1 profile is active: "dev"
+24-07-16.12:23:22.872 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-07-16.12:23:22.872 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-07-16.12:23:22.889 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+24-07-16.12:23:23.113 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8089 (http)
+24-07-16.12:23:23.113 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8089"]
+24-07-16.12:23:23.113 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-07-16.12:23:23.113 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+24-07-16.12:23:23.193 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-07-16.12:23:23.193 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 757 ms
+24-07-16.12:23:23.403 [main            ] INFO  Version                - Redisson 3.26.0
+24-07-16.12:23:23.702 [redisson-netty-1-5] INFO  ConnectionsHolder      - 1 connections initialized for localhost/127.0.0.1:6379
+24-07-16.12:23:23.712 [redisson-netty-1-14] INFO  ConnectionsHolder      - 5 connections initialized for localhost/127.0.0.1:6379
+24-07-16.12:23:24.135 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-07-16.12:23:24.150 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8089"]
+24-07-16.12:23:24.156 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8089 (http) with context path ''
+24-07-16.12:23:24.165 [main            ] INFO  DynamicThreadPoolAdminApplication - Started DynamicThreadPoolAdminApplication in 2.074 seconds (JVM running for 2.762)
+24-07-16.12:23:24.345 [RMI TCP Connection(3)-172.19.32.1] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+24-07-16.12:23:24.345 [RMI TCP Connection(3)-172.19.32.1] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+24-07-16.12:23:24.345 [RMI TCP Connection(3)-172.19.32.1] INFO  DispatcherServlet      - Completed initialization in 0 ms
+24-07-16.12:23:40.024 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池列表信息：[{"activeCount":500,"appName":"dynamic-thread-pool-test-app","corePoolSize":300,"maximumPoolSize":500,"poolSize":500,"queueSize":4572,"queueType":"LinkedBlockingQueue","remainingCapacity":428,"threadPoolName":"threadPoolExecutor01"},{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}]
+24-07-16.12:23:40.024 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":500,"appName":"dynamic-thread-pool-test-app","corePoolSize":300,"maximumPoolSize":500,"poolSize":500,"queueSize":4572,"queueType":"LinkedBlockingQueue","remainingCapacity":428,"threadPoolName":"threadPoolExecutor01"}
+24-07-16.12:23:40.032 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}
+24-07-16.12:24:00.014 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池列表信息：[{"activeCount":500,"appName":"dynamic-thread-pool-test-app","corePoolSize":300,"maximumPoolSize":500,"poolSize":500,"queueSize":4994,"queueType":"LinkedBlockingQueue","remainingCapacity":6,"threadPoolName":"threadPoolExecutor01"},{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}]
+24-07-16.12:24:00.014 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":500,"appName":"dynamic-thread-pool-test-app","corePoolSize":300,"maximumPoolSize":500,"poolSize":500,"queueSize":4994,"queueType":"LinkedBlockingQueue","remainingCapacity":6,"threadPoolName":"threadPoolExecutor01"}
+24-07-16.12:24:00.014 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}
+24-07-16.12:24:20.023 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池列表信息：[{"activeCount":500,"appName":"dynamic-thread-pool-test-app","corePoolSize":300,"maximumPoolSize":500,"poolSize":500,"queueSize":4446,"queueType":"LinkedBlockingQueue","remainingCapacity":554,"threadPoolName":"threadPoolExecutor01"},{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}]
+24-07-16.12:24:20.023 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":500,"appName":"dynamic-thread-pool-test-app","corePoolSize":300,"maximumPoolSize":500,"poolSize":500,"queueSize":4446,"queueType":"LinkedBlockingQueue","remainingCapacity":554,"threadPoolName":"threadPoolExecutor01"}
+24-07-16.12:24:20.033 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}
+24-07-16.12:24:40.011 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池列表信息：[{"activeCount":500,"appName":"dynamic-thread-pool-test-app","corePoolSize":300,"maximumPoolSize":500,"poolSize":500,"queueSize":4895,"queueType":"LinkedBlockingQueue","remainingCapacity":105,"threadPoolName":"threadPoolExecutor01"},{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}]
+24-07-16.12:24:40.013 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":500,"appName":"dynamic-thread-pool-test-app","corePoolSize":300,"maximumPoolSize":500,"poolSize":500,"queueSize":4895,"queueType":"LinkedBlockingQueue","remainingCapacity":105,"threadPoolName":"threadPoolExecutor01"}
+24-07-16.12:24:40.013 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}
+24-07-16.12:25:00.012 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池列表信息：[{"activeCount":500,"appName":"dynamic-thread-pool-test-app","corePoolSize":300,"maximumPoolSize":500,"poolSize":500,"queueSize":4989,"queueType":"LinkedBlockingQueue","remainingCapacity":11,"threadPoolName":"threadPoolExecutor01"},{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}]
+24-07-16.12:25:00.012 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":500,"appName":"dynamic-thread-pool-test-app","corePoolSize":300,"maximumPoolSize":500,"poolSize":500,"queueSize":4989,"queueType":"LinkedBlockingQueue","remainingCapacity":11,"threadPoolName":"threadPoolExecutor01"}
+24-07-16.12:25:00.017 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}
+24-07-16.12:25:20.016 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池列表信息：[{"activeCount":500,"appName":"dynamic-thread-pool-test-app","corePoolSize":300,"maximumPoolSize":500,"poolSize":500,"queueSize":4816,"queueType":"LinkedBlockingQueue","remainingCapacity":184,"threadPoolName":"threadPoolExecutor01"},{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}]
+24-07-16.12:25:20.019 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":500,"appName":"dynamic-thread-pool-test-app","corePoolSize":300,"maximumPoolSize":500,"poolSize":500,"queueSize":4816,"queueType":"LinkedBlockingQueue","remainingCapacity":184,"threadPoolName":"threadPoolExecutor01"}
+24-07-16.12:25:20.019 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}
+24-07-16.12:25:40.015 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池列表信息：[{"activeCount":500,"appName":"dynamic-thread-pool-test-app","corePoolSize":300,"maximumPoolSize":500,"poolSize":500,"queueSize":4394,"queueType":"LinkedBlockingQueue","remainingCapacity":606,"threadPoolName":"threadPoolExecutor01"},{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}]
+24-07-16.12:25:40.017 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":500,"appName":"dynamic-thread-pool-test-app","corePoolSize":300,"maximumPoolSize":500,"poolSize":500,"queueSize":4394,"queueType":"LinkedBlockingQueue","remainingCapacity":606,"threadPoolName":"threadPoolExecutor01"}
+24-07-16.12:25:40.017 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}
+24-07-16.12:26:00.018 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池列表信息：[{"activeCount":500,"appName":"dynamic-thread-pool-test-app","corePoolSize":300,"maximumPoolSize":500,"poolSize":500,"queueSize":4887,"queueType":"LinkedBlockingQueue","remainingCapacity":113,"threadPoolName":"threadPoolExecutor01"},{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}]
+24-07-16.12:26:00.018 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":500,"appName":"dynamic-thread-pool-test-app","corePoolSize":300,"maximumPoolSize":500,"poolSize":500,"queueSize":4887,"queueType":"LinkedBlockingQueue","remainingCapacity":113,"threadPoolName":"threadPoolExecutor01"}
+24-07-16.12:26:00.018 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}
+24-07-16.12:26:20.008 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池列表信息：[{"activeCount":500,"appName":"dynamic-thread-pool-test-app","corePoolSize":300,"maximumPoolSize":500,"poolSize":500,"queueSize":4267,"queueType":"LinkedBlockingQueue","remainingCapacity":733,"threadPoolName":"threadPoolExecutor01"},{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}]
+24-07-16.12:26:20.018 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":500,"appName":"dynamic-thread-pool-test-app","corePoolSize":300,"maximumPoolSize":500,"poolSize":500,"queueSize":4267,"queueType":"LinkedBlockingQueue","remainingCapacity":733,"threadPoolName":"threadPoolExecutor01"}
+24-07-16.12:26:20.018 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}
+24-07-16.12:26:40.028 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池列表信息：[{"activeCount":499,"appName":"dynamic-thread-pool-test-app","corePoolSize":300,"maximumPoolSize":500,"poolSize":500,"queueSize":4308,"queueType":"LinkedBlockingQueue","remainingCapacity":692,"threadPoolName":"threadPoolExecutor01"},{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}]
+24-07-16.12:26:40.028 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":499,"appName":"dynamic-thread-pool-test-app","corePoolSize":300,"maximumPoolSize":500,"poolSize":500,"queueSize":4308,"queueType":"LinkedBlockingQueue","remainingCapacity":692,"threadPoolName":"threadPoolExecutor01"}
+24-07-16.12:26:40.028 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}
+24-07-16.12:27:00.023 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池列表信息：[{"activeCount":500,"appName":"dynamic-thread-pool-test-app","corePoolSize":300,"maximumPoolSize":500,"poolSize":500,"queueSize":4558,"queueType":"LinkedBlockingQueue","remainingCapacity":442,"threadPoolName":"threadPoolExecutor01"},{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}]
+24-07-16.12:27:00.023 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":500,"appName":"dynamic-thread-pool-test-app","corePoolSize":300,"maximumPoolSize":500,"poolSize":500,"queueSize":4558,"queueType":"LinkedBlockingQueue","remainingCapacity":442,"threadPoolName":"threadPoolExecutor01"}
+24-07-16.12:27:00.028 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}
+24-07-16.12:27:20.009 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池列表信息：[{"activeCount":500,"appName":"dynamic-thread-pool-test-app","corePoolSize":300,"maximumPoolSize":500,"poolSize":500,"queueSize":4862,"queueType":"LinkedBlockingQueue","remainingCapacity":138,"threadPoolName":"threadPoolExecutor01"},{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}]
+24-07-16.12:27:20.009 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":500,"appName":"dynamic-thread-pool-test-app","corePoolSize":300,"maximumPoolSize":500,"poolSize":500,"queueSize":4862,"queueType":"LinkedBlockingQueue","remainingCapacity":138,"threadPoolName":"threadPoolExecutor01"}
+24-07-16.12:27:20.009 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}
+24-07-16.12:27:40.008 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池列表信息：[{"activeCount":500,"appName":"dynamic-thread-pool-test-app","corePoolSize":300,"maximumPoolSize":500,"poolSize":500,"queueSize":4668,"queueType":"LinkedBlockingQueue","remainingCapacity":332,"threadPoolName":"threadPoolExecutor01"},{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}]
+24-07-16.12:27:40.023 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":500,"appName":"dynamic-thread-pool-test-app","corePoolSize":300,"maximumPoolSize":500,"poolSize":500,"queueSize":4668,"queueType":"LinkedBlockingQueue","remainingCapacity":332,"threadPoolName":"threadPoolExecutor01"}
+24-07-16.12:27:40.023 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}
+24-07-16.12:28:00.012 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池列表信息：[{"activeCount":500,"appName":"dynamic-thread-pool-test-app","corePoolSize":300,"maximumPoolSize":500,"poolSize":500,"queueSize":4453,"queueType":"LinkedBlockingQueue","remainingCapacity":547,"threadPoolName":"threadPoolExecutor01"},{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}]
+24-07-16.12:28:00.014 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":500,"appName":"dynamic-thread-pool-test-app","corePoolSize":300,"maximumPoolSize":500,"poolSize":500,"queueSize":4453,"queueType":"LinkedBlockingQueue","remainingCapacity":547,"threadPoolName":"threadPoolExecutor01"}
+24-07-16.12:28:00.015 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}
+24-07-16.12:28:20.008 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池列表信息：[{"activeCount":500,"appName":"dynamic-thread-pool-test-app","corePoolSize":300,"maximumPoolSize":500,"poolSize":500,"queueSize":4837,"queueType":"LinkedBlockingQueue","remainingCapacity":163,"threadPoolName":"threadPoolExecutor01"},{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}]
+24-07-16.12:28:20.020 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":500,"appName":"dynamic-thread-pool-test-app","corePoolSize":300,"maximumPoolSize":500,"poolSize":500,"queueSize":4837,"queueType":"LinkedBlockingQueue","remainingCapacity":163,"threadPoolName":"threadPoolExecutor01"}
+24-07-16.12:28:20.020 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}
+24-07-16.12:28:40.015 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池列表信息：[{"activeCount":500,"appName":"dynamic-thread-pool-test-app","corePoolSize":300,"maximumPoolSize":500,"poolSize":500,"queueSize":4816,"queueType":"LinkedBlockingQueue","remainingCapacity":184,"threadPoolName":"threadPoolExecutor01"},{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}]
+24-07-16.12:28:40.015 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":500,"appName":"dynamic-thread-pool-test-app","corePoolSize":300,"maximumPoolSize":500,"poolSize":500,"queueSize":4816,"queueType":"LinkedBlockingQueue","remainingCapacity":184,"threadPoolName":"threadPoolExecutor01"}
+24-07-16.12:28:40.015 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}
+24-07-16.12:29:00.007 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池列表信息：[{"activeCount":500,"appName":"dynamic-thread-pool-test-app","corePoolSize":300,"maximumPoolSize":500,"poolSize":500,"queueSize":4571,"queueType":"LinkedBlockingQueue","remainingCapacity":429,"threadPoolName":"threadPoolExecutor01"},{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}]
+24-07-16.12:29:00.007 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":500,"appName":"dynamic-thread-pool-test-app","corePoolSize":300,"maximumPoolSize":500,"poolSize":500,"queueSize":4571,"queueType":"LinkedBlockingQueue","remainingCapacity":429,"threadPoolName":"threadPoolExecutor01"}
+24-07-16.12:29:00.015 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}
+24-07-16.12:29:20.006 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池列表信息：[{"activeCount":500,"appName":"dynamic-thread-pool-test-app","corePoolSize":300,"maximumPoolSize":500,"poolSize":500,"queueSize":4889,"queueType":"LinkedBlockingQueue","remainingCapacity":111,"threadPoolName":"threadPoolExecutor01"},{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}]
+24-07-16.12:29:20.006 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":500,"appName":"dynamic-thread-pool-test-app","corePoolSize":300,"maximumPoolSize":500,"poolSize":500,"queueSize":4889,"queueType":"LinkedBlockingQueue","remainingCapacity":111,"threadPoolName":"threadPoolExecutor01"}
+24-07-16.12:29:20.006 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}
+24-07-16.12:29:40.015 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池列表信息：[{"activeCount":500,"appName":"dynamic-thread-pool-test-app","corePoolSize":300,"maximumPoolSize":500,"poolSize":500,"queueSize":4821,"queueType":"LinkedBlockingQueue","remainingCapacity":179,"threadPoolName":"threadPoolExecutor01"},{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}]
+24-07-16.12:29:40.017 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":500,"appName":"dynamic-thread-pool-test-app","corePoolSize":300,"maximumPoolSize":500,"poolSize":500,"queueSize":4821,"queueType":"LinkedBlockingQueue","remainingCapacity":179,"threadPoolName":"threadPoolExecutor01"}
+24-07-16.12:29:40.017 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}
+24-07-16.12:30:00.006 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池列表信息：[{"activeCount":500,"appName":"dynamic-thread-pool-test-app","corePoolSize":300,"maximumPoolSize":500,"poolSize":500,"queueSize":4799,"queueType":"LinkedBlockingQueue","remainingCapacity":201,"threadPoolName":"threadPoolExecutor01"},{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}]
+24-07-16.12:30:00.006 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":500,"appName":"dynamic-thread-pool-test-app","corePoolSize":300,"maximumPoolSize":500,"poolSize":500,"queueSize":4799,"queueType":"LinkedBlockingQueue","remainingCapacity":201,"threadPoolName":"threadPoolExecutor01"}
+24-07-16.12:30:00.006 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}
+24-07-16.12:30:20.017 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池列表信息：[{"activeCount":500,"appName":"dynamic-thread-pool-test-app","corePoolSize":300,"maximumPoolSize":500,"poolSize":500,"queueSize":4712,"queueType":"LinkedBlockingQueue","remainingCapacity":288,"threadPoolName":"threadPoolExecutor01"},{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}]
+24-07-16.12:30:20.026 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":500,"appName":"dynamic-thread-pool-test-app","corePoolSize":300,"maximumPoolSize":500,"poolSize":500,"queueSize":4712,"queueType":"LinkedBlockingQueue","remainingCapacity":288,"threadPoolName":"threadPoolExecutor01"}
+24-07-16.12:30:20.026 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}
+24-07-16.12:30:40.018 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池列表信息：[{"activeCount":500,"appName":"dynamic-thread-pool-test-app","corePoolSize":300,"maximumPoolSize":500,"poolSize":500,"queueSize":4659,"queueType":"LinkedBlockingQueue","remainingCapacity":341,"threadPoolName":"threadPoolExecutor01"},{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}]
+24-07-16.12:30:40.020 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":500,"appName":"dynamic-thread-pool-test-app","corePoolSize":300,"maximumPoolSize":500,"poolSize":500,"queueSize":4659,"queueType":"LinkedBlockingQueue","remainingCapacity":341,"threadPoolName":"threadPoolExecutor01"}
+24-07-16.12:30:40.020 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}
+24-07-16.12:31:00.012 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池列表信息：[{"activeCount":500,"appName":"dynamic-thread-pool-test-app","corePoolSize":300,"maximumPoolSize":500,"poolSize":500,"queueSize":4917,"queueType":"LinkedBlockingQueue","remainingCapacity":83,"threadPoolName":"threadPoolExecutor01"},{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}]
+24-07-16.12:31:00.016 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":500,"appName":"dynamic-thread-pool-test-app","corePoolSize":300,"maximumPoolSize":500,"poolSize":500,"queueSize":4917,"queueType":"LinkedBlockingQueue","remainingCapacity":83,"threadPoolName":"threadPoolExecutor01"}
+24-07-16.12:31:00.016 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}
+24-07-16.12:31:20.016 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池列表信息：[{"activeCount":500,"appName":"dynamic-thread-pool-test-app","corePoolSize":300,"maximumPoolSize":500,"poolSize":500,"queueSize":4997,"queueType":"LinkedBlockingQueue","remainingCapacity":3,"threadPoolName":"threadPoolExecutor01"},{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}]
+24-07-16.12:31:20.025 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":500,"appName":"dynamic-thread-pool-test-app","corePoolSize":300,"maximumPoolSize":500,"poolSize":500,"queueSize":4997,"queueType":"LinkedBlockingQueue","remainingCapacity":3,"threadPoolName":"threadPoolExecutor01"}
+24-07-16.12:31:20.025 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}
+24-07-16.12:31:40.011 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池列表信息：[{"activeCount":500,"appName":"dynamic-thread-pool-test-app","corePoolSize":300,"maximumPoolSize":500,"poolSize":500,"queueSize":4962,"queueType":"LinkedBlockingQueue","remainingCapacity":38,"threadPoolName":"threadPoolExecutor01"},{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}]
+24-07-16.12:31:40.011 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":500,"appName":"dynamic-thread-pool-test-app","corePoolSize":300,"maximumPoolSize":500,"poolSize":500,"queueSize":4962,"queueType":"LinkedBlockingQueue","remainingCapacity":38,"threadPoolName":"threadPoolExecutor01"}
+24-07-16.12:31:40.015 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}
+24-07-16.12:32:00.006 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池列表信息：[{"activeCount":500,"appName":"dynamic-thread-pool-test-app","corePoolSize":300,"maximumPoolSize":500,"poolSize":500,"queueSize":4866,"queueType":"LinkedBlockingQueue","remainingCapacity":134,"threadPoolName":"threadPoolExecutor01"},{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}]
+24-07-16.12:32:00.006 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":500,"appName":"dynamic-thread-pool-test-app","corePoolSize":300,"maximumPoolSize":500,"poolSize":500,"queueSize":4866,"queueType":"LinkedBlockingQueue","remainingCapacity":134,"threadPoolName":"threadPoolExecutor01"}
+24-07-16.12:32:00.006 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}
+24-07-16.12:32:20.011 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池列表信息：[{"activeCount":500,"appName":"dynamic-thread-pool-test-app","corePoolSize":300,"maximumPoolSize":500,"poolSize":500,"queueSize":4573,"queueType":"LinkedBlockingQueue","remainingCapacity":427,"threadPoolName":"threadPoolExecutor01"},{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}]
+24-07-16.12:32:20.011 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":500,"appName":"dynamic-thread-pool-test-app","corePoolSize":300,"maximumPoolSize":500,"poolSize":500,"queueSize":4573,"queueType":"LinkedBlockingQueue","remainingCapacity":427,"threadPoolName":"threadPoolExecutor01"}
+24-07-16.12:32:20.011 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}
+24-07-16.12:32:40.008 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池列表信息：[{"activeCount":500,"appName":"dynamic-thread-pool-test-app","corePoolSize":300,"maximumPoolSize":500,"poolSize":500,"queueSize":4661,"queueType":"LinkedBlockingQueue","remainingCapacity":339,"threadPoolName":"threadPoolExecutor01"},{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}]
+24-07-16.12:32:40.009 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":500,"appName":"dynamic-thread-pool-test-app","corePoolSize":300,"maximumPoolSize":500,"poolSize":500,"queueSize":4661,"queueType":"LinkedBlockingQueue","remainingCapacity":339,"threadPoolName":"threadPoolExecutor01"}
+24-07-16.12:32:40.010 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}
+24-07-16.12:32:59.230 [redisson-netty-1-15] ERROR ErrorsLoggingHandler   - Exception occured. Channel: [id: 0xa279c0af, L:/127.0.0.1:65347 - R:127.0.0.1/127.0.0.1:6379]
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
 	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
 	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
 	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
@@ -77,1119 +216,41 @@ com.fasterxml.jackson.core.JsonParseException: Illegal character ((CTRL-CHAR, co
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.lang.Thread.run(Thread.java:750)
-24-07-15.09:39:06.442 [redisson-netty-1-3] ERROR ErrorsLoggingHandler   - Exception occured. Channel: [id: 0x4cfd0590, L:/127.0.0.1:64507 - R:localhost/127.0.0.1:6379]
-io.netty.handler.codec.DecoderException: com.fasterxml.jackson.core.JsonParseException: Illegal character ((CTRL-CHAR, code 1)): only regular white space (\r, \n, \t) is allowed between tokens
- at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]
-	at io.netty.handler.codec.ReplayingDecoder.callDecode(ReplayingDecoder.java:421)
-	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
-	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:750)
-Caused by: com.fasterxml.jackson.core.JsonParseException: Illegal character ((CTRL-CHAR, code 1)): only regular white space (\r, \n, \t) is allowed between tokens
- at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]
-	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:2391)
-	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:735)
-	at com.fasterxml.jackson.core.base.ParserMinimalBase._throwInvalidSpace(ParserMinimalBase.java:713)
-	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._skipWSOrEnd(ReaderBasedJsonParser.java:2461)
-	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextToken(ReaderBasedJsonParser.java:698)
-	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:4761)
-	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4667)
-	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3666)
-	at org.redisson.codec.JsonJacksonCodec$2.decode(JsonJacksonCodec.java:99)
-	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:433)
-	at org.redisson.client.handler.CommandDecoder.decodeList(CommandDecoder.java:490)
-	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:442)
-	at org.redisson.client.handler.CommandDecoder.decodeCommand(CommandDecoder.java:216)
-	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:144)
-	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:120)
-	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529)
-	at io.netty.handler.codec.ReplayingDecoder.callDecode(ReplayingDecoder.java:366)
-	... 17 common frames omitted
-24-07-15.09:39:06.442 [redisson-netty-1-7] ERROR CommandDecoder         - Unable to decode data. channel: [id: 0x391202d7, L:/127.0.0.1:64509 - R:localhost/127.0.0.1:6379], reply: ReplayingDecoderByteBuf(ridx=178, widx=15485), command: (LRANGE), promise: java.util.concurrent.CompletableFuture@2bde491f[Not completed, 1 dependents], params: [THREAD_POOL_CONFIG_LIST_KEY, 0, -1]
-com.fasterxml.jackson.core.JsonParseException: Illegal character ((CTRL-CHAR, code 1)): only regular white space (\r, \n, \t) is allowed between tokens
- at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]
-	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:2391)
-	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:735)
-	at com.fasterxml.jackson.core.base.ParserMinimalBase._throwInvalidSpace(ParserMinimalBase.java:713)
-	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._skipWSOrEnd(ReaderBasedJsonParser.java:2461)
-	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextToken(ReaderBasedJsonParser.java:698)
-	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:4761)
-	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4667)
-	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3666)
-	at org.redisson.codec.JsonJacksonCodec$2.decode(JsonJacksonCodec.java:99)
-	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:433)
-	at org.redisson.client.handler.CommandDecoder.decodeList(CommandDecoder.java:490)
-	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:442)
-	at org.redisson.client.handler.CommandDecoder.decodeCommand(CommandDecoder.java:216)
-	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:144)
-	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:120)
-	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529)
-	at io.netty.handler.codec.ReplayingDecoder.callDecode(ReplayingDecoder.java:366)
-	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
-	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:750)
-24-07-15.09:39:06.442 [redisson-netty-1-7] ERROR ErrorsLoggingHandler   - Exception occured. Channel: [id: 0x391202d7, L:/127.0.0.1:64509 - R:localhost/127.0.0.1:6379]
-io.netty.handler.codec.DecoderException: com.fasterxml.jackson.core.JsonParseException: Illegal character ((CTRL-CHAR, code 1)): only regular white space (\r, \n, \t) is allowed between tokens
- at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]
-	at io.netty.handler.codec.ReplayingDecoder.callDecode(ReplayingDecoder.java:421)
-	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
-	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:750)
-Caused by: com.fasterxml.jackson.core.JsonParseException: Illegal character ((CTRL-CHAR, code 1)): only regular white space (\r, \n, \t) is allowed between tokens
- at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]
-	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:2391)
-	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:735)
-	at com.fasterxml.jackson.core.base.ParserMinimalBase._throwInvalidSpace(ParserMinimalBase.java:713)
-	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._skipWSOrEnd(ReaderBasedJsonParser.java:2461)
-	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextToken(ReaderBasedJsonParser.java:698)
-	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:4761)
-	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4667)
-	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3666)
-	at org.redisson.codec.JsonJacksonCodec$2.decode(JsonJacksonCodec.java:99)
-	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:433)
-	at org.redisson.client.handler.CommandDecoder.decodeList(CommandDecoder.java:490)
-	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:442)
-	at org.redisson.client.handler.CommandDecoder.decodeCommand(CommandDecoder.java:216)
-	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:144)
-	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:120)
-	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529)
-	at io.netty.handler.codec.ReplayingDecoder.callDecode(ReplayingDecoder.java:366)
-	... 17 common frames omitted
-24-07-15.09:39:06.454 [http-nio-8089-exec-1] ERROR [dispatcherServlet]    - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.redisson.client.RedisException: Unexpected exception while processing command] with root cause
-com.fasterxml.jackson.core.JsonParseException: Illegal character ((CTRL-CHAR, code 1)): only regular white space (\r, \n, \t) is allowed between tokens
- at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]
-	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:2391)
-	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:735)
-	at com.fasterxml.jackson.core.base.ParserMinimalBase._throwInvalidSpace(ParserMinimalBase.java:713)
-	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._skipWSOrEnd(ReaderBasedJsonParser.java:2461)
-	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextToken(ReaderBasedJsonParser.java:698)
-	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:4761)
-	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4667)
-	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3666)
-	at org.redisson.codec.JsonJacksonCodec$2.decode(JsonJacksonCodec.java:99)
-	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:433)
-	at org.redisson.client.handler.CommandDecoder.decodeList(CommandDecoder.java:490)
-	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:442)
-	at org.redisson.client.handler.CommandDecoder.decodeCommand(CommandDecoder.java:216)
-	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:144)
-	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:120)
-	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529)
-	at io.netty.handler.codec.ReplayingDecoder.callDecode(ReplayingDecoder.java:366)
-	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
-	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:750)
-24-07-15.10:44:22.883 [main            ] INFO  DynamicThreadPoolAdminApplication - Starting DynamicThreadPoolAdminApplication using Java 1.8.0_341 on DESKTOP-U2IPFTL with PID 25888 (E:\code\java\dynamic-thread-pool\dynamic-thread-pool-admin\target\classes started by hom in E:\code\java\dynamic-thread-pool)
-24-07-15.10:44:22.883 [main            ] INFO  DynamicThreadPoolAdminApplication - The following 1 profile is active: "dev"
-24-07-15.10:44:23.413 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-24-07-15.10:44:23.413 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-24-07-15.10:44:23.423 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
-24-07-15.10:44:23.683 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8089 (http)
-24-07-15.10:44:23.693 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8089"]
-24-07-15.10:44:23.693 [main            ] INFO  StandardService        - Starting service [Tomcat]
-24-07-15.10:44:23.693 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
-24-07-15.10:44:23.775 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
-24-07-15.10:44:23.775 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 859 ms
-24-07-15.10:44:24.019 [main            ] INFO  Version                - Redisson 3.26.0
-24-07-15.10:44:24.363 [redisson-netty-1-5] INFO  ConnectionsHolder      - 1 connections initialized for localhost/127.0.0.1:6379
-24-07-15.10:44:24.373 [redisson-netty-1-14] INFO  ConnectionsHolder      - 5 connections initialized for localhost/127.0.0.1:6379
-24-07-15.10:44:24.803 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
-24-07-15.10:44:24.823 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8089"]
-24-07-15.10:44:24.833 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8089 (http) with context path ''
-24-07-15.10:44:24.846 [main            ] INFO  DynamicThreadPoolAdminApplication - Started DynamicThreadPoolAdminApplication in 2.366 seconds (JVM running for 3.135)
-24-07-15.10:44:25.413 [RMI TCP Connection(2)-172.19.32.1] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
-24-07-15.10:44:25.413 [RMI TCP Connection(2)-172.19.32.1] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
-24-07-15.10:44:25.413 [RMI TCP Connection(2)-172.19.32.1] INFO  DispatcherServlet      - Completed initialization in 0 ms
-24-07-15.10:45:26.179 [redisson-netty-1-11] ERROR CommandDecoder         - Unable to decode data. channel: [id: 0xb221bbe7, L:/127.0.0.1:50204 - R:localhost/127.0.0.1:6379], reply: ReplayingDecoderByteBuf(ridx=177, widx=348), command: (LRANGE), promise: java.util.concurrent.CompletableFuture@5e66cc7f[Not completed, 1 dependents], params: [THREAD_POOL_CONFIG_LIST_KEY, 0, -1]
-com.fasterxml.jackson.core.JsonParseException: Illegal character ((CTRL-CHAR, code 1)): only regular white space (\r, \n, \t) is allowed between tokens
- at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]
-	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:2391)
-	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:735)
-	at com.fasterxml.jackson.core.base.ParserMinimalBase._throwInvalidSpace(ParserMinimalBase.java:713)
-	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._skipWSOrEnd(ReaderBasedJsonParser.java:2461)
-	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextToken(ReaderBasedJsonParser.java:698)
-	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:4761)
-	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4667)
-	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3666)
-	at org.redisson.codec.JsonJacksonCodec$2.decode(JsonJacksonCodec.java:99)
-	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:433)
-	at org.redisson.client.handler.CommandDecoder.decodeList(CommandDecoder.java:490)
-	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:442)
-	at org.redisson.client.handler.CommandDecoder.decodeCommand(CommandDecoder.java:216)
-	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:144)
-	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:120)
-	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529)
-	at io.netty.handler.codec.ReplayingDecoder.callDecode(ReplayingDecoder.java:366)
-	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
-	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:750)
-24-07-15.10:47:50.550 [redisson-netty-1-11] ERROR ErrorsLoggingHandler   - Exception occured. Channel: [id: 0xb221bbe7, L:/127.0.0.1:50204 - R:localhost/127.0.0.1:6379]
-io.netty.handler.codec.DecoderException: com.fasterxml.jackson.core.JsonParseException: Illegal character ((CTRL-CHAR, code 1)): only regular white space (\r, \n, \t) is allowed between tokens
- at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]
-	at io.netty.handler.codec.ReplayingDecoder.callDecode(ReplayingDecoder.java:421)
-	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
-	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:750)
-Caused by: com.fasterxml.jackson.core.JsonParseException: Illegal character ((CTRL-CHAR, code 1)): only regular white space (\r, \n, \t) is allowed between tokens
- at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]
-	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:2391)
-	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:735)
-	at com.fasterxml.jackson.core.base.ParserMinimalBase._throwInvalidSpace(ParserMinimalBase.java:713)
-	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._skipWSOrEnd(ReaderBasedJsonParser.java:2461)
-	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextToken(ReaderBasedJsonParser.java:698)
-	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:4761)
-	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4667)
-	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3666)
-	at org.redisson.codec.JsonJacksonCodec$2.decode(JsonJacksonCodec.java:99)
-	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:433)
-	at org.redisson.client.handler.CommandDecoder.decodeList(CommandDecoder.java:490)
-	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:442)
-	at org.redisson.client.handler.CommandDecoder.decodeCommand(CommandDecoder.java:216)
-	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:144)
-	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:120)
-	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529)
-	at io.netty.handler.codec.ReplayingDecoder.callDecode(ReplayingDecoder.java:366)
-	... 17 common frames omitted
-24-07-15.10:47:56.914 [redisson-netty-1-3] ERROR CommandDecoder         - Unable to decode data. channel: [id: 0x76b3c974, L:/127.0.0.1:50200 - R:localhost/127.0.0.1:6379], reply: ReplayingDecoderByteBuf(ridx=177, widx=348), command: (LRANGE), promise: java.util.concurrent.CompletableFuture@143d345e[Not completed, 1 dependents], params: [THREAD_POOL_CONFIG_LIST_KEY, 0, -1]
-com.fasterxml.jackson.core.JsonParseException: Illegal character ((CTRL-CHAR, code 1)): only regular white space (\r, \n, \t) is allowed between tokens
- at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]
-	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:2391)
-	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:735)
-	at com.fasterxml.jackson.core.base.ParserMinimalBase._throwInvalidSpace(ParserMinimalBase.java:713)
-	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._skipWSOrEnd(ReaderBasedJsonParser.java:2461)
-	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextToken(ReaderBasedJsonParser.java:698)
-	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:4761)
-	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4667)
-	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3666)
-	at org.redisson.codec.JsonJacksonCodec$2.decode(JsonJacksonCodec.java:99)
-	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:433)
-	at org.redisson.client.handler.CommandDecoder.decodeList(CommandDecoder.java:490)
-	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:442)
-	at org.redisson.client.handler.CommandDecoder.decodeCommand(CommandDecoder.java:216)
-	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:144)
-	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:120)
-	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529)
-	at io.netty.handler.codec.ReplayingDecoder.callDecode(ReplayingDecoder.java:366)
-	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
-	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:750)
-24-07-15.10:47:56.914 [redisson-netty-1-3] ERROR ErrorsLoggingHandler   - Exception occured. Channel: [id: 0x76b3c974, L:/127.0.0.1:50200 - R:localhost/127.0.0.1:6379]
-io.netty.handler.codec.DecoderException: com.fasterxml.jackson.core.JsonParseException: Illegal character ((CTRL-CHAR, code 1)): only regular white space (\r, \n, \t) is allowed between tokens
- at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]
-	at io.netty.handler.codec.ReplayingDecoder.callDecode(ReplayingDecoder.java:421)
-	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
-	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:750)
-Caused by: com.fasterxml.jackson.core.JsonParseException: Illegal character ((CTRL-CHAR, code 1)): only regular white space (\r, \n, \t) is allowed between tokens
- at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]
-	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:2391)
-	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:735)
-	at com.fasterxml.jackson.core.base.ParserMinimalBase._throwInvalidSpace(ParserMinimalBase.java:713)
-	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._skipWSOrEnd(ReaderBasedJsonParser.java:2461)
-	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextToken(ReaderBasedJsonParser.java:698)
-	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:4761)
-	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4667)
-	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3666)
-	at org.redisson.codec.JsonJacksonCodec$2.decode(JsonJacksonCodec.java:99)
-	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:433)
-	at org.redisson.client.handler.CommandDecoder.decodeList(CommandDecoder.java:490)
-	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:442)
-	at org.redisson.client.handler.CommandDecoder.decodeCommand(CommandDecoder.java:216)
-	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:144)
-	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:120)
-	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529)
-	at io.netty.handler.codec.ReplayingDecoder.callDecode(ReplayingDecoder.java:366)
-	... 17 common frames omitted
-24-07-15.10:47:56.921 [http-nio-8089-exec-1] ERROR [dispatcherServlet]    - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.redisson.client.RedisException: Unexpected exception while processing command] with root cause
-com.fasterxml.jackson.core.JsonParseException: Illegal character ((CTRL-CHAR, code 1)): only regular white space (\r, \n, \t) is allowed between tokens
- at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]
-	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:2391)
-	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:735)
-	at com.fasterxml.jackson.core.base.ParserMinimalBase._throwInvalidSpace(ParserMinimalBase.java:713)
-	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._skipWSOrEnd(ReaderBasedJsonParser.java:2461)
-	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextToken(ReaderBasedJsonParser.java:698)
-	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:4761)
-	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4667)
-	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3666)
-	at org.redisson.codec.JsonJacksonCodec$2.decode(JsonJacksonCodec.java:99)
-	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:433)
-	at org.redisson.client.handler.CommandDecoder.decodeList(CommandDecoder.java:490)
-	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:442)
-	at org.redisson.client.handler.CommandDecoder.decodeCommand(CommandDecoder.java:216)
-	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:144)
-	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:120)
-	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529)
-	at io.netty.handler.codec.ReplayingDecoder.callDecode(ReplayingDecoder.java:366)
-	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
-	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:750)
-24-07-15.10:49:41.072 [main            ] INFO  DynamicThreadPoolAdminApplication - Starting DynamicThreadPoolAdminApplication using Java 1.8.0_341 on DESKTOP-U2IPFTL with PID 28136 (E:\code\java\dynamic-thread-pool\dynamic-thread-pool-admin\target\classes started by hom in E:\code\java\dynamic-thread-pool)
-24-07-15.10:49:41.081 [main            ] INFO  DynamicThreadPoolAdminApplication - The following 1 profile is active: "dev"
-24-07-15.10:49:41.636 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-24-07-15.10:49:41.636 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-24-07-15.10:49:41.651 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
-24-07-15.10:49:41.941 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8089 (http)
-24-07-15.10:49:41.941 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8089"]
-24-07-15.10:49:41.941 [main            ] INFO  StandardService        - Starting service [Tomcat]
-24-07-15.10:49:41.941 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
-24-07-15.10:49:42.031 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
-24-07-15.10:49:42.031 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 930 ms
-24-07-15.10:49:42.349 [main            ] INFO  Version                - Redisson 3.26.0
-24-07-15.10:49:42.826 [redisson-netty-1-5] INFO  ConnectionsHolder      - 1 connections initialized for localhost/127.0.0.1:6379
-24-07-15.10:49:42.831 [redisson-netty-1-14] INFO  ConnectionsHolder      - 5 connections initialized for localhost/127.0.0.1:6379
-24-07-15.10:49:43.271 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
-24-07-15.10:49:43.291 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8089"]
-24-07-15.10:49:43.291 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8089 (http) with context path ''
-24-07-15.10:49:43.306 [main            ] INFO  DynamicThreadPoolAdminApplication - Started DynamicThreadPoolAdminApplication in 2.579 seconds (JVM running for 3.262)
-24-07-15.10:49:43.953 [RMI TCP Connection(3)-172.19.32.1] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
-24-07-15.10:49:43.953 [RMI TCP Connection(3)-172.19.32.1] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
-24-07-15.10:49:43.953 [RMI TCP Connection(3)-172.19.32.1] INFO  DispatcherServlet      - Completed initialization in 0 ms
-24-07-15.10:49:57.701 [main            ] INFO  DynamicThreadPoolAdminApplication - Starting DynamicThreadPoolAdminApplication using Java 1.8.0_341 on DESKTOP-U2IPFTL with PID 26216 (E:\code\java\dynamic-thread-pool\dynamic-thread-pool-admin\target\classes started by hom in E:\code\java\dynamic-thread-pool)
-24-07-15.10:49:57.711 [main            ] INFO  DynamicThreadPoolAdminApplication - The following 1 profile is active: "dev"
-24-07-15.10:49:58.206 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-24-07-15.10:49:58.208 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-24-07-15.10:49:58.221 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
-24-07-15.10:49:58.471 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8089 (http)
-24-07-15.10:49:58.481 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8089"]
-24-07-15.10:49:58.481 [main            ] INFO  StandardService        - Starting service [Tomcat]
-24-07-15.10:49:58.481 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
-24-07-15.10:49:58.561 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
-24-07-15.10:49:58.561 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 830 ms
-24-07-15.10:49:58.801 [main            ] INFO  Version                - Redisson 3.26.0
-24-07-15.10:49:59.151 [redisson-netty-1-5] INFO  ConnectionsHolder      - 1 connections initialized for localhost/127.0.0.1:6379
-24-07-15.10:49:59.161 [redisson-netty-1-14] INFO  ConnectionsHolder      - 5 connections initialized for localhost/127.0.0.1:6379
-24-07-15.10:49:59.591 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
-24-07-15.10:49:59.603 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8089"]
-24-07-15.10:49:59.611 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8089 (http) with context path ''
-24-07-15.10:49:59.621 [main            ] INFO  DynamicThreadPoolAdminApplication - Started DynamicThreadPoolAdminApplication in 2.26 seconds (JVM running for 3.108)
-24-07-15.10:49:59.861 [RMI TCP Connection(1)-172.19.32.1] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
-24-07-15.10:49:59.861 [RMI TCP Connection(1)-172.19.32.1] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
-24-07-15.10:49:59.861 [RMI TCP Connection(1)-172.19.32.1] INFO  DispatcherServlet      - Completed initialization in 0 ms
-24-07-15.10:50:18.992 [redisson-netty-1-13] ERROR CommandDecoder         - Unable to decode data. channel: [id: 0x63c7a89f, L:/127.0.0.1:50454 - R:localhost/127.0.0.1:6379], reply: ReplayingDecoderByteBuf(ridx=177, widx=348), command: (LRANGE), promise: java.util.concurrent.CompletableFuture@12c3bdba[Not completed, 1 dependents], params: [THREAD_POOL_CONFIG_LIST_KEY, 0, -1]
-com.fasterxml.jackson.core.JsonParseException: Illegal character ((CTRL-CHAR, code 1)): only regular white space (\r, \n, \t) is allowed between tokens
- at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]
-	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:2391)
-	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:735)
-	at com.fasterxml.jackson.core.base.ParserMinimalBase._throwInvalidSpace(ParserMinimalBase.java:713)
-	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._skipWSOrEnd(ReaderBasedJsonParser.java:2461)
-	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextToken(ReaderBasedJsonParser.java:698)
-	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:4761)
-	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4667)
-	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3666)
-	at org.redisson.codec.JsonJacksonCodec$2.decode(JsonJacksonCodec.java:99)
-	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:433)
-	at org.redisson.client.handler.CommandDecoder.decodeList(CommandDecoder.java:490)
-	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:442)
-	at org.redisson.client.handler.CommandDecoder.decodeCommand(CommandDecoder.java:216)
-	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:144)
-	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:120)
-	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529)
-	at io.netty.handler.codec.ReplayingDecoder.callDecode(ReplayingDecoder.java:366)
-	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
-	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:750)
-24-07-15.10:50:35.477 [redisson-netty-1-13] ERROR ErrorsLoggingHandler   - Exception occured. Channel: [id: 0x63c7a89f, L:/127.0.0.1:50454 - R:localhost/127.0.0.1:6379]
-io.netty.handler.codec.DecoderException: com.fasterxml.jackson.core.JsonParseException: Illegal character ((CTRL-CHAR, code 1)): only regular white space (\r, \n, \t) is allowed between tokens
- at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]
-	at io.netty.handler.codec.ReplayingDecoder.callDecode(ReplayingDecoder.java:421)
-	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
-	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:750)
-Caused by: com.fasterxml.jackson.core.JsonParseException: Illegal character ((CTRL-CHAR, code 1)): only regular white space (\r, \n, \t) is allowed between tokens
- at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]
-	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:2391)
-	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:735)
-	at com.fasterxml.jackson.core.base.ParserMinimalBase._throwInvalidSpace(ParserMinimalBase.java:713)
-	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._skipWSOrEnd(ReaderBasedJsonParser.java:2461)
-	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextToken(ReaderBasedJsonParser.java:698)
-	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:4761)
-	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4667)
-	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3666)
-	at org.redisson.codec.JsonJacksonCodec$2.decode(JsonJacksonCodec.java:99)
-	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:433)
-	at org.redisson.client.handler.CommandDecoder.decodeList(CommandDecoder.java:490)
-	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:442)
-	at org.redisson.client.handler.CommandDecoder.decodeCommand(CommandDecoder.java:216)
-	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:144)
-	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:120)
-	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529)
-	at io.netty.handler.codec.ReplayingDecoder.callDecode(ReplayingDecoder.java:366)
-	... 17 common frames omitted
-24-07-15.10:50:35.476 [http-nio-8089-exec-1] ERROR DynamicThreadPoolController - 查询线程池配置异常
-org.redisson.client.RedisException: Unexpected exception while processing command
-	at org.redisson.command.CommandAsyncService.convertException(CommandAsyncService.java:333)
-	at org.redisson.command.CommandAsyncService.get(CommandAsyncService.java:150)
-	at org.redisson.RedissonObject.get(RedissonObject.java:90)
-	at org.redisson.BaseRedissonList.readAll(BaseRedissonList.java:93)
-	at com.yunya.middleware.dynamic.thread.pool.trigger.DynamicThreadPoolController.queryThreadPoolList(DynamicThreadPoolController.java:42)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
-	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
-	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
-	at java.lang.Thread.run(Thread.java:750)
-Caused by: com.fasterxml.jackson.core.JsonParseException: Illegal character ((CTRL-CHAR, code 1)): only regular white space (\r, \n, \t) is allowed between tokens
- at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]
-	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:2391)
-	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:735)
-	at com.fasterxml.jackson.core.base.ParserMinimalBase._throwInvalidSpace(ParserMinimalBase.java:713)
-	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._skipWSOrEnd(ReaderBasedJsonParser.java:2461)
-	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextToken(ReaderBasedJsonParser.java:698)
-	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:4761)
-	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4667)
-	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3666)
-	at org.redisson.codec.JsonJacksonCodec$2.decode(JsonJacksonCodec.java:99)
-	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:433)
-	at org.redisson.client.handler.CommandDecoder.decodeList(CommandDecoder.java:490)
-	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:442)
-	at org.redisson.client.handler.CommandDecoder.decodeCommand(CommandDecoder.java:216)
-	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:144)
-	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:120)
-	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529)
-	at io.netty.handler.codec.ReplayingDecoder.callDecode(ReplayingDecoder.java:366)
-	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
-	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	... 1 common frames omitted
-24-07-15.11:04:58.213 [main            ] INFO  DynamicThreadPoolAdminApplication - Starting DynamicThreadPoolAdminApplication using Java 1.8.0_341 on DESKTOP-U2IPFTL with PID 2456 (E:\code\java\dynamic-thread-pool\dynamic-thread-pool-admin\target\classes started by hom in E:\code\java\dynamic-thread-pool)
-24-07-15.11:04:58.213 [main            ] INFO  DynamicThreadPoolAdminApplication - The following 1 profile is active: "dev"
-24-07-15.11:04:58.731 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-24-07-15.11:04:58.731 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-24-07-15.11:04:58.752 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
-24-07-15.11:04:59.014 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8089 (http)
-24-07-15.11:04:59.020 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8089"]
-24-07-15.11:04:59.020 [main            ] INFO  StandardService        - Starting service [Tomcat]
-24-07-15.11:04:59.021 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
-24-07-15.11:04:59.106 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
-24-07-15.11:04:59.106 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 865 ms
-24-07-15.11:04:59.341 [main            ] INFO  Version                - Redisson 3.26.0
-24-07-15.11:04:59.681 [redisson-netty-1-5] INFO  ConnectionsHolder      - 1 connections initialized for localhost/127.0.0.1:6379
-24-07-15.11:04:59.694 [redisson-netty-1-14] INFO  ConnectionsHolder      - 5 connections initialized for localhost/127.0.0.1:6379
-24-07-15.11:05:00.111 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
-24-07-15.11:05:00.131 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8089"]
-24-07-15.11:05:00.141 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8089 (http) with context path ''
-24-07-15.11:05:00.152 [main            ] INFO  DynamicThreadPoolAdminApplication - Started DynamicThreadPoolAdminApplication in 2.339 seconds (JVM running for 3.181)
-24-07-15.11:05:00.861 [RMI TCP Connection(2)-172.19.32.1] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
-24-07-15.11:05:00.861 [RMI TCP Connection(2)-172.19.32.1] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
-24-07-15.11:05:00.861 [RMI TCP Connection(2)-172.19.32.1] INFO  DispatcherServlet      - Completed initialization in 0 ms
-24-07-15.11:05:24.791 [redisson-netty-1-3] ERROR CommandDecoder         - Unable to decode data. channel: [id: 0x4f4b570a, L:/127.0.0.1:50711 - R:localhost/127.0.0.1:6379], reply: ReplayingDecoderByteBuf(ridx=177, widx=348), command: (LRANGE), promise: java.util.concurrent.CompletableFuture@5036da41[Not completed, 1 dependents], params: [THREAD_POOL_CONFIG_LIST_KEY, 0, -1]
-com.fasterxml.jackson.core.JsonParseException: Illegal character ((CTRL-CHAR, code 1)): only regular white space (\r, \n, \t) is allowed between tokens
- at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]
-	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:2391)
-	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:735)
-	at com.fasterxml.jackson.core.base.ParserMinimalBase._throwInvalidSpace(ParserMinimalBase.java:713)
-	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._skipWSOrEnd(ReaderBasedJsonParser.java:2461)
-	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextToken(ReaderBasedJsonParser.java:698)
-	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:4761)
-	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4667)
-	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3666)
-	at org.redisson.codec.JsonJacksonCodec$2.decode(JsonJacksonCodec.java:99)
-	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:433)
-	at org.redisson.client.handler.CommandDecoder.decodeList(CommandDecoder.java:490)
-	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:442)
-	at org.redisson.client.handler.CommandDecoder.decodeCommand(CommandDecoder.java:216)
-	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:144)
-	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:120)
-	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529)
-	at io.netty.handler.codec.ReplayingDecoder.callDecode(ReplayingDecoder.java:366)
-	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
-	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:750)
-24-07-15.11:05:24.791 [http-nio-8089-exec-1] ERROR DynamicThreadPoolController - 查询线程池配置异常
-org.redisson.client.RedisException: Unexpected exception while processing command
-	at org.redisson.command.CommandAsyncService.convertException(CommandAsyncService.java:333)
-	at org.redisson.command.CommandAsyncService.get(CommandAsyncService.java:150)
-	at org.redisson.RedissonObject.get(RedissonObject.java:90)
-	at org.redisson.BaseRedissonList.readAll(BaseRedissonList.java:93)
-	at com.yunya.middleware.dynamic.thread.pool.trigger.DynamicThreadPoolController.queryThreadPoolList(DynamicThreadPoolController.java:42)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
-	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
-	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
-	at java.lang.Thread.run(Thread.java:750)
-Caused by: com.fasterxml.jackson.core.JsonParseException: Illegal character ((CTRL-CHAR, code 1)): only regular white space (\r, \n, \t) is allowed between tokens
- at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]
-	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:2391)
-	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:735)
-	at com.fasterxml.jackson.core.base.ParserMinimalBase._throwInvalidSpace(ParserMinimalBase.java:713)
-	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._skipWSOrEnd(ReaderBasedJsonParser.java:2461)
-	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextToken(ReaderBasedJsonParser.java:698)
-	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:4761)
-	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4667)
-	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3666)
-	at org.redisson.codec.JsonJacksonCodec$2.decode(JsonJacksonCodec.java:99)
-	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:433)
-	at org.redisson.client.handler.CommandDecoder.decodeList(CommandDecoder.java:490)
-	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:442)
-	at org.redisson.client.handler.CommandDecoder.decodeCommand(CommandDecoder.java:216)
-	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:144)
-	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:120)
-	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529)
-	at io.netty.handler.codec.ReplayingDecoder.callDecode(ReplayingDecoder.java:366)
-	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
-	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	... 1 common frames omitted
-24-07-15.11:05:24.791 [redisson-netty-1-3] ERROR ErrorsLoggingHandler   - Exception occured. Channel: [id: 0x4f4b570a, L:/127.0.0.1:50711 - R:localhost/127.0.0.1:6379]
-io.netty.handler.codec.DecoderException: com.fasterxml.jackson.core.JsonParseException: Illegal character ((CTRL-CHAR, code 1)): only regular white space (\r, \n, \t) is allowed between tokens
- at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]
-	at io.netty.handler.codec.ReplayingDecoder.callDecode(ReplayingDecoder.java:421)
-	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
-	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:750)
-Caused by: com.fasterxml.jackson.core.JsonParseException: Illegal character ((CTRL-CHAR, code 1)): only regular white space (\r, \n, \t) is allowed between tokens
- at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]
-	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:2391)
-	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:735)
-	at com.fasterxml.jackson.core.base.ParserMinimalBase._throwInvalidSpace(ParserMinimalBase.java:713)
-	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._skipWSOrEnd(ReaderBasedJsonParser.java:2461)
-	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextToken(ReaderBasedJsonParser.java:698)
-	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:4761)
-	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4667)
-	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3666)
-	at org.redisson.codec.JsonJacksonCodec$2.decode(JsonJacksonCodec.java:99)
-	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:433)
-	at org.redisson.client.handler.CommandDecoder.decodeList(CommandDecoder.java:490)
-	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:442)
-	at org.redisson.client.handler.CommandDecoder.decodeCommand(CommandDecoder.java:216)
-	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:144)
-	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:120)
-	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529)
-	at io.netty.handler.codec.ReplayingDecoder.callDecode(ReplayingDecoder.java:366)
-	... 17 common frames omitted
-24-07-15.11:07:02.281 [main            ] INFO  DynamicThreadPoolAdminApplication - Starting DynamicThreadPoolAdminApplication using Java 1.8.0_341 on DESKTOP-U2IPFTL with PID 16948 (E:\code\java\dynamic-thread-pool\dynamic-thread-pool-admin\target\classes started by hom in E:\code\java\dynamic-thread-pool)
-24-07-15.11:07:02.281 [main            ] INFO  DynamicThreadPoolAdminApplication - The following 1 profile is active: "dev"
-24-07-15.11:07:02.821 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-24-07-15.11:07:02.821 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-24-07-15.11:07:02.831 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
-24-07-15.11:07:03.101 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8089 (http)
-24-07-15.11:07:03.112 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8089"]
-24-07-15.11:07:03.112 [main            ] INFO  StandardService        - Starting service [Tomcat]
-24-07-15.11:07:03.112 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
-24-07-15.11:07:03.201 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
-24-07-15.11:07:03.201 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 889 ms
-24-07-15.11:07:03.454 [main            ] INFO  Version                - Redisson 3.26.0
-24-07-15.11:07:03.802 [redisson-netty-1-5] INFO  ConnectionsHolder      - 1 connections initialized for localhost/127.0.0.1:6379
-24-07-15.11:07:03.811 [redisson-netty-1-14] INFO  ConnectionsHolder      - 5 connections initialized for localhost/127.0.0.1:6379
-24-07-15.11:07:04.342 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
-24-07-15.11:07:04.362 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8089"]
-24-07-15.11:07:04.372 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8089 (http) with context path ''
-24-07-15.11:07:04.382 [main            ] INFO  DynamicThreadPoolAdminApplication - Started DynamicThreadPoolAdminApplication in 2.46 seconds (JVM running for 3.27)
-24-07-15.11:07:05.601 [RMI TCP Connection(3)-172.19.32.1] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
-24-07-15.11:07:05.601 [RMI TCP Connection(3)-172.19.32.1] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
-24-07-15.11:07:05.601 [RMI TCP Connection(3)-172.19.32.1] INFO  DispatcherServlet      - Completed initialization in 0 ms
-24-07-15.11:07:24.142 [redisson-netty-1-7] ERROR CommandDecoder         - Unable to decode data. channel: [id: 0x5a9dd931, L:/127.0.0.1:50820 - R:localhost/127.0.0.1:6379], reply: ReplayingDecoderByteBuf(ridx=177, widx=348), command: (LRANGE), promise: java.util.concurrent.CompletableFuture@67497a6[Not completed, 1 dependents], params: [THREAD_POOL_CONFIG_LIST_KEY, 0, -1]
-com.fasterxml.jackson.core.JsonParseException: Illegal character ((CTRL-CHAR, code 1)): only regular white space (\r, \n, \t) is allowed between tokens
- at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]
-	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:2391)
-	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:735)
-	at com.fasterxml.jackson.core.base.ParserMinimalBase._throwInvalidSpace(ParserMinimalBase.java:713)
-	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._skipWSOrEnd(ReaderBasedJsonParser.java:2461)
-	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextToken(ReaderBasedJsonParser.java:698)
-	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:4761)
-	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4667)
-	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3666)
-	at org.redisson.codec.JsonJacksonCodec$2.decode(JsonJacksonCodec.java:99)
-	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:433)
-	at org.redisson.client.handler.CommandDecoder.decodeList(CommandDecoder.java:490)
-	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:442)
-	at org.redisson.client.handler.CommandDecoder.decodeCommand(CommandDecoder.java:216)
-	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:144)
-	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:120)
-	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529)
-	at io.netty.handler.codec.ReplayingDecoder.callDecode(ReplayingDecoder.java:366)
-	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
-	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:750)
-24-07-15.11:07:24.152 [http-nio-8089-exec-1] ERROR DynamicThreadPoolController - 查询线程池配置异常
-org.redisson.client.RedisException: Unexpected exception while processing command
-	at org.redisson.command.CommandAsyncService.convertException(CommandAsyncService.java:333)
-	at org.redisson.command.CommandAsyncService.get(CommandAsyncService.java:150)
-	at org.redisson.RedissonObject.get(RedissonObject.java:90)
-	at org.redisson.BaseRedissonList.readAll(BaseRedissonList.java:93)
-	at com.yunya.middleware.dynamic.thread.pool.trigger.DynamicThreadPoolController.queryThreadPoolList(DynamicThreadPoolController.java:42)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
-	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
-	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
-	at java.lang.Thread.run(Thread.java:750)
-Caused by: com.fasterxml.jackson.core.JsonParseException: Illegal character ((CTRL-CHAR, code 1)): only regular white space (\r, \n, \t) is allowed between tokens
- at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]
-	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:2391)
-	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:735)
-	at com.fasterxml.jackson.core.base.ParserMinimalBase._throwInvalidSpace(ParserMinimalBase.java:713)
-	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._skipWSOrEnd(ReaderBasedJsonParser.java:2461)
-	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextToken(ReaderBasedJsonParser.java:698)
-	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:4761)
-	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4667)
-	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3666)
-	at org.redisson.codec.JsonJacksonCodec$2.decode(JsonJacksonCodec.java:99)
-	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:433)
-	at org.redisson.client.handler.CommandDecoder.decodeList(CommandDecoder.java:490)
-	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:442)
-	at org.redisson.client.handler.CommandDecoder.decodeCommand(CommandDecoder.java:216)
-	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:144)
-	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:120)
-	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529)
-	at io.netty.handler.codec.ReplayingDecoder.callDecode(ReplayingDecoder.java:366)
-	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
-	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	... 1 common frames omitted
-24-07-15.11:07:24.152 [redisson-netty-1-7] ERROR ErrorsLoggingHandler   - Exception occured. Channel: [id: 0x5a9dd931, L:/127.0.0.1:50820 - R:localhost/127.0.0.1:6379]
-io.netty.handler.codec.DecoderException: com.fasterxml.jackson.core.JsonParseException: Illegal character ((CTRL-CHAR, code 1)): only regular white space (\r, \n, \t) is allowed between tokens
- at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]
-	at io.netty.handler.codec.ReplayingDecoder.callDecode(ReplayingDecoder.java:421)
-	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
-	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:750)
-Caused by: com.fasterxml.jackson.core.JsonParseException: Illegal character ((CTRL-CHAR, code 1)): only regular white space (\r, \n, \t) is allowed between tokens
- at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]
-	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:2391)
-	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:735)
-	at com.fasterxml.jackson.core.base.ParserMinimalBase._throwInvalidSpace(ParserMinimalBase.java:713)
-	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._skipWSOrEnd(ReaderBasedJsonParser.java:2461)
-	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextToken(ReaderBasedJsonParser.java:698)
-	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:4761)
-	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4667)
-	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3666)
-	at org.redisson.codec.JsonJacksonCodec$2.decode(JsonJacksonCodec.java:99)
-	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:433)
-	at org.redisson.client.handler.CommandDecoder.decodeList(CommandDecoder.java:490)
-	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:442)
-	at org.redisson.client.handler.CommandDecoder.decodeCommand(CommandDecoder.java:216)
-	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:144)
-	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:120)
-	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529)
-	at io.netty.handler.codec.ReplayingDecoder.callDecode(ReplayingDecoder.java:366)
-	... 17 common frames omitted
-24-07-15.11:24:11.451 [main            ] INFO  DynamicThreadPoolTestApplication - Starting DynamicThreadPoolTestApplication using Java 1.8.0_341 on DESKTOP-U2IPFTL with PID 3536 (E:\code\java\dynamic-thread-pool\dynamic-thread-pool-test\target\classes started by hom in E:\code\java\dynamic-thread-pool)
-24-07-15.11:24:11.451 [main            ] INFO  DynamicThreadPoolTestApplication - The following 1 profile is active: "dev"
-24-07-15.11:24:12.001 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-24-07-15.11:24:12.006 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-24-07-15.11:24:12.016 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
-24-07-15.11:24:12.286 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8080 (http)
-24-07-15.11:24:12.291 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8080"]
-24-07-15.11:24:12.291 [main            ] INFO  StandardService        - Starting service [Tomcat]
-24-07-15.11:24:12.291 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
-24-07-15.11:24:12.366 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
-24-07-15.11:24:12.371 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 890 ms
-24-07-15.11:24:12.731 [main            ] INFO  Version                - Redisson 3.26.0
-24-07-15.11:24:16.001 [main            ] WARN  AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redissonClient' defined in class path resource [com/yunya/middleware/dynamic/thread/pool/sdk/config/DynamicThreadPoolAutoConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.redisson.api.RedissonClient]: Factory method 'redissonClient' threw exception; nested exception is java.lang.IllegalArgumentException: Redis url should start with redis:// or rediss:// (for SSL connection)
-24-07-15.11:24:16.011 [main            ] INFO  StandardService        - Stopping service [Tomcat]
-24-07-15.11:24:16.021 [main            ] INFO  ConditionEvaluationReportLoggingListener - 
-
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-24-07-15.11:24:16.031 [main            ] ERROR SpringApplication      - Application run failed
-org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redissonClient' defined in class path resource [com/yunya/middleware/dynamic/thread/pool/sdk/config/DynamicThreadPoolAutoConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.redisson.api.RedissonClient]: Factory method 'redissonClient' threw exception; nested exception is java.lang.IllegalArgumentException: Redis url should start with redis:// or rediss:// (for SSL connection)
-	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
-	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
-	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:920)
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
-	at com.yunya.DynamicThreadPoolTestApplication.main(DynamicThreadPoolTestApplication.java:14)
-Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.redisson.api.RedissonClient]: Factory method 'redissonClient' threw exception; nested exception is java.lang.IllegalArgumentException: Redis url should start with redis:// or rediss:// (for SSL connection)
-	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
-	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
-	... 19 common frames omitted
-Caused by: java.lang.IllegalArgumentException: Redis url should start with redis:// or rediss:// (for SSL connection)
-	at org.redisson.misc.RedisURI.<init>(RedisURI.java:46)
-	at org.redisson.connection.MasterSlaveConnectionManager.doConnect(MasterSlaveConnectionManager.java:221)
-	at org.redisson.connection.MasterSlaveConnectionManager.connect(MasterSlaveConnectionManager.java:196)
-	at org.redisson.config.ConfigSupport.createConnectionManager(ConfigSupport.java:220)
-	at org.redisson.Redisson.<init>(Redisson.java:71)
-	at org.redisson.Redisson.create(Redisson.java:116)
-	at com.yunya.middleware.dynamic.thread.pool.sdk.config.DynamicThreadPoolAutoConfig.redissonClient(DynamicThreadPoolAutoConfig.java:62)
-	at com.yunya.middleware.dynamic.thread.pool.sdk.config.DynamicThreadPoolAutoConfig$$EnhancerBySpringCGLIB$$cc511383.CGLIB$redissonClient$5(<generated>)
-	at com.yunya.middleware.dynamic.thread.pool.sdk.config.DynamicThreadPoolAutoConfig$$EnhancerBySpringCGLIB$$cc511383$$FastClassBySpringCGLIB$$1ff788fc.invoke(<generated>)
-	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
-	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
-	at com.yunya.middleware.dynamic.thread.pool.sdk.config.DynamicThreadPoolAutoConfig$$EnhancerBySpringCGLIB$$cc511383.redissonClient(<generated>)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
-	... 20 common frames omitted
-24-07-15.11:28:48.296 [main            ] INFO  DynamicThreadPoolAdminApplication - Starting DynamicThreadPoolAdminApplication using Java 1.8.0_341 on DESKTOP-U2IPFTL with PID 11148 (E:\code\java\dynamic-thread-pool\dynamic-thread-pool-admin\target\classes started by hom in E:\code\java\dynamic-thread-pool)
-24-07-15.11:28:48.298 [main            ] INFO  DynamicThreadPoolAdminApplication - The following 1 profile is active: "dev"
-24-07-15.11:28:48.855 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-24-07-15.11:28:48.855 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-24-07-15.11:28:48.865 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
-24-07-15.11:28:49.193 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8089 (http)
-24-07-15.11:28:49.199 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8089"]
-24-07-15.11:28:49.199 [main            ] INFO  StandardService        - Starting service [Tomcat]
-24-07-15.11:28:49.199 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
-24-07-15.11:28:49.316 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
-24-07-15.11:28:49.316 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 988 ms
-24-07-15.11:28:49.665 [main            ] INFO  Version                - Redisson 3.26.0
-24-07-15.11:28:50.174 [redisson-netty-1-5] INFO  ConnectionsHolder      - 1 connections initialized for localhost/127.0.0.1:6379
-24-07-15.11:28:50.179 [redisson-netty-1-14] INFO  ConnectionsHolder      - 5 connections initialized for localhost/127.0.0.1:6379
-24-07-15.11:28:50.760 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
-24-07-15.11:28:50.779 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8089"]
-24-07-15.11:28:50.787 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8089 (http) with context path ''
-24-07-15.11:28:50.789 [main            ] INFO  DynamicThreadPoolAdminApplication - Started DynamicThreadPoolAdminApplication in 3.29 seconds (JVM running for 4.245)
-24-07-15.11:28:51.562 [RMI TCP Connection(5)-172.19.32.1] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
-24-07-15.11:28:51.562 [RMI TCP Connection(5)-172.19.32.1] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
-24-07-15.11:28:51.564 [RMI TCP Connection(5)-172.19.32.1] INFO  DispatcherServlet      - Completed initialization in 2 ms
-24-07-15.13:37:55.831 [main            ] INFO  DynamicThreadPoolTestApplication - Starting DynamicThreadPoolTestApplication using Java 1.8.0_341 on DESKTOP-U2IPFTL with PID 10232 (E:\code\java\dynamic-thread-pool\dynamic-thread-pool-test\target\classes started by hom in E:\code\java\dynamic-thread-pool)
-24-07-15.13:37:55.834 [main            ] INFO  DynamicThreadPoolTestApplication - The following 1 profile is active: "dev"
-24-07-15.13:37:56.319 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-24-07-15.13:37:56.321 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-24-07-15.13:37:56.334 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
-24-07-15.13:37:56.591 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8080 (http)
-24-07-15.13:37:56.596 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8080"]
-24-07-15.13:37:56.597 [main            ] INFO  StandardService        - Starting service [Tomcat]
-24-07-15.13:37:56.597 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
-24-07-15.13:37:56.674 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
-24-07-15.13:37:56.674 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 811 ms
-24-07-15.13:37:57.018 [main            ] INFO  Version                - Redisson 3.26.0
-24-07-15.13:37:57.319 [redisson-netty-1-15] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
-24-07-15.13:37:57.324 [redisson-netty-1-23] INFO  ConnectionsHolder      - 10 connections initialized for 127.0.0.1/127.0.0.1:6379
-24-07-15.13:37:57.372 [main            ] INFO  DynamicThreadPoolAutoConfig - 动态线程池，注册器（redis）链接初始化完成。127.0.0.1 64 true
-24-07-15.13:37:57.434 [main            ] INFO  DynamicThreadPoolAutoConfig - 线程池信息：["threadPoolExecutor01","threadPoolExecutor02"]
-24-07-15.13:37:57.744 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
-24-07-15.13:37:57.765 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8080"]
-24-07-15.13:37:57.771 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8080 (http) with context path ''
-24-07-15.13:37:57.783 [main            ] INFO  DynamicThreadPoolTestApplication - Started DynamicThreadPoolTestApplication in 2.254 seconds (JVM running for 2.82)
-24-07-15.13:37:58.276 [RMI TCP Connection(1)-172.19.32.1] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
-24-07-15.13:37:58.276 [RMI TCP Connection(1)-172.19.32.1] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
-24-07-15.13:37:58.277 [RMI TCP Connection(1)-172.19.32.1] INFO  DispatcherServlet      - Completed initialization in 0 ms
-24-07-15.13:38:00.029 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池列表信息：[{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":100,"maximumPoolSize":100,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor01"},{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}]
-24-07-15.13:38:00.030 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":100,"maximumPoolSize":100,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor01"}
-24-07-15.13:38:00.032 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}
-24-07-15.13:38:13.762 [main            ] INFO  DynamicThreadPoolAdminApplication - Starting DynamicThreadPoolAdminApplication using Java 1.8.0_341 on DESKTOP-U2IPFTL with PID 1528 (E:\code\java\dynamic-thread-pool\dynamic-thread-pool-admin\target\classes started by hom in E:\code\java\dynamic-thread-pool)
-24-07-15.13:38:13.764 [main            ] INFO  DynamicThreadPoolAdminApplication - The following 1 profile is active: "dev"
-24-07-15.13:38:14.253 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-24-07-15.13:38:14.254 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-24-07-15.13:38:14.267 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
-24-07-15.13:38:14.507 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8089 (http)
-24-07-15.13:38:14.512 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8089"]
-24-07-15.13:38:14.512 [main            ] INFO  StandardService        - Starting service [Tomcat]
-24-07-15.13:38:14.513 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
-24-07-15.13:38:14.590 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
-24-07-15.13:38:14.591 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 801 ms
-24-07-15.13:38:14.797 [main            ] INFO  Version                - Redisson 3.26.0
-24-07-15.13:38:15.103 [redisson-netty-1-5] INFO  ConnectionsHolder      - 1 connections initialized for localhost/127.0.0.1:6379
-24-07-15.13:38:15.113 [redisson-netty-1-14] INFO  ConnectionsHolder      - 5 connections initialized for localhost/127.0.0.1:6379
-24-07-15.13:38:15.495 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
-24-07-15.13:38:15.512 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8089"]
-24-07-15.13:38:15.517 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8089 (http) with context path ''
-24-07-15.13:38:15.528 [main            ] INFO  DynamicThreadPoolAdminApplication - Started DynamicThreadPoolAdminApplication in 2.055 seconds (JVM running for 2.746)
-24-07-15.13:38:16.218 [RMI TCP Connection(1)-172.19.32.1] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
-24-07-15.13:38:16.218 [RMI TCP Connection(1)-172.19.32.1] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
-24-07-15.13:38:16.219 [RMI TCP Connection(1)-172.19.32.1] INFO  DispatcherServlet      - Completed initialization in 0 ms
-24-07-15.13:38:20.009 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池列表信息：[{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":100,"maximumPoolSize":100,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor01"},{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}]
-24-07-15.13:38:20.010 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":100,"maximumPoolSize":100,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor01"}
-24-07-15.13:38:20.011 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}
-24-07-15.13:39:26.528 [http-nio-8089-exec-10] INFO  DynamicThreadPoolController - 修改线程池开始，应用名称：dynamic-thread-pool-test-app，线程池名称：threadPoolExecutor01，请求参数：{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":30,"maximumPoolSize":80,"poolSize":0,"queueSize":0,"remainingCapacity":0,"threadPoolName":"threadPoolExecutor01"}
-24-07-15.13:39:26.533 [http-nio-8089-exec-10] INFO  DynamicThreadPoolController - 修改线程池完成
-24-07-15.18:38:26.944 [http-nio-8089-exec-3] INFO  DynamicThreadPoolController - 修改线程池开始，应用名称：dynamic-thread-pool-test-app，线程池名称：threadPoolExecutor01，请求参数：{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":300,"maximumPoolSize":500,"poolSize":0,"queueSize":0,"remainingCapacity":0,"threadPoolName":"threadPoolExecutor01"}
-24-07-15.18:38:26.945 [http-nio-8089-exec-3] INFO  DynamicThreadPoolController - 修改线程池完成
+24-07-16.12:33:02.698 [main            ] INFO  DynamicThreadPoolTestApplication - Starting DynamicThreadPoolTestApplication using Java 1.8.0_341 on DESKTOP-U2IPFTL with PID 2436 (E:\code\java\dynamic-thread-pool\dynamic-thread-pool-test\target\classes started by hom in E:\code\java\dynamic-thread-pool)
+24-07-16.12:33:02.700 [main            ] INFO  DynamicThreadPoolTestApplication - The following 1 profile is active: "dev"
+24-07-16.12:33:03.185 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-07-16.12:33:03.190 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-07-16.12:33:03.200 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+24-07-16.12:33:03.460 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8080 (http)
+24-07-16.12:33:03.470 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8080"]
+24-07-16.12:33:03.470 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-07-16.12:33:03.470 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+24-07-16.12:33:03.550 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-07-16.12:33:03.550 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 820 ms
+24-07-16.12:33:03.901 [main            ] INFO  Version                - Redisson 3.26.0
+24-07-16.12:33:04.181 [redisson-netty-1-18] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-16.12:33:04.192 [redisson-netty-1-23] INFO  ConnectionsHolder      - 10 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-16.12:33:04.230 [main            ] INFO  DynamicThreadPoolAutoConfig - 动态线程池，注册器（redis）链接初始化完成。127.0.0.1 64 true
+24-07-16.12:33:04.281 [main            ] INFO  DynamicThreadPoolAutoConfig - 线程池信息：["threadPoolExecutor01","threadPoolExecutor02"]
+24-07-16.12:33:04.555 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-07-16.12:33:04.575 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8080"]
+24-07-16.12:33:04.581 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8080 (http) with context path ''
+24-07-16.12:33:04.593 [main            ] INFO  DynamicThreadPoolTestApplication - Started DynamicThreadPoolTestApplication in 2.197 seconds (JVM running for 2.807)
+24-07-16.12:33:20.040 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池列表信息：[{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":300,"maximumPoolSize":500,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor01"},{"activeCount":50,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":50,"queueSize":4951,"queueType":"LinkedBlockingQueue","remainingCapacity":49,"threadPoolName":"threadPoolExecutor02"}]
+24-07-16.12:33:20.043 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":300,"maximumPoolSize":500,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor01"}
+24-07-16.12:33:20.043 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":50,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":50,"queueSize":4951,"queueType":"LinkedBlockingQueue","remainingCapacity":49,"threadPoolName":"threadPoolExecutor02"}
+24-07-16.12:33:40.011 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池列表信息：[{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":300,"maximumPoolSize":500,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor01"},{"activeCount":50,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":50,"queueSize":4976,"queueType":"LinkedBlockingQueue","remainingCapacity":24,"threadPoolName":"threadPoolExecutor02"}]
+24-07-16.12:33:40.011 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":300,"maximumPoolSize":500,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor01"}
+24-07-16.12:33:40.021 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":50,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":50,"queueSize":4976,"queueType":"LinkedBlockingQueue","remainingCapacity":24,"threadPoolName":"threadPoolExecutor02"}
+24-07-16.12:34:00.011 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池列表信息：[{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":300,"maximumPoolSize":500,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor01"},{"activeCount":50,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":50,"queueSize":4978,"queueType":"LinkedBlockingQueue","remainingCapacity":22,"threadPoolName":"threadPoolExecutor02"}]
+24-07-16.12:34:00.011 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":300,"maximumPoolSize":500,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor01"}
+24-07-16.12:34:00.020 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":50,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":50,"queueSize":4978,"queueType":"LinkedBlockingQueue","remainingCapacity":22,"threadPoolName":"threadPoolExecutor02"}
+24-07-16.12:34:20.011 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池列表信息：[{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":300,"maximumPoolSize":500,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor01"},{"activeCount":50,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":50,"queueSize":4995,"queueType":"LinkedBlockingQueue","remainingCapacity":5,"threadPoolName":"threadPoolExecutor02"}]
+24-07-16.12:34:20.011 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":300,"maximumPoolSize":500,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor01"}
+24-07-16.12:34:20.021 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":50,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":50,"queueSize":4995,"queueType":"LinkedBlockingQueue","remainingCapacity":5,"threadPoolName":"threadPoolExecutor02"}
+24-07-16.12:34:40.001 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池列表信息：[{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":300,"maximumPoolSize":500,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor01"},{"activeCount":50,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":50,"queueSize":4959,"queueType":"LinkedBlockingQueue","remainingCapacity":41,"threadPoolName":"threadPoolExecutor02"}]
+24-07-16.12:34:40.001 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":300,"maximumPoolSize":500,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor01"}
+24-07-16.12:34:40.011 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":50,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":50,"queueSize":4959,"queueType":"LinkedBlockingQueue","remainingCapacity":41,"threadPoolName":"threadPoolExecutor02"}
+24-07-16.12:35:00.003 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池列表信息：[{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":300,"maximumPoolSize":500,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor01"},{"activeCount":50,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":50,"queueSize":4940,"queueType":"LinkedBlockingQueue","remainingCapacity":60,"threadPoolName":"threadPoolExecutor02"}]
+24-07-16.12:35:00.008 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":300,"maximumPoolSize":500,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor01"}
+24-07-16.12:35:00.010 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报单个线程池信息：{"activeCount":50,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":50,"queueSize":4940,"queueType":"LinkedBlockingQueue","remainingCapacity":60,"threadPoolName":"threadPoolExecutor02"}
