@@ -26,6 +26,12 @@
 3. 引入 SDK 测试模块：dynamic-thread-pool-test
 4. 前端管理线程池页面：front/index.html
 
+### 如何使用
+
+1. 运行 dynamic-thread-pool-test 模块的启动类
+2. 运行 dynamic-thread-pool-admin 模块的启动类
+3. 运行 front/index.html 页面
+
 ### 写在最后但同等重要
 
 如果你喜欢这个项目，请点个 star 吧！你的点赞是我继续更新的动力。
