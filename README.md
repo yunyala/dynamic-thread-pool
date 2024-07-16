@@ -30,7 +30,7 @@
 
 1. 运行 dynamic-thread-pool-test 模块的启动类
 2. 运行 dynamic-thread-pool-admin 模块的启动类
-3. 运行 front/index.html 页面
+3. 运行 front/index.html 页面，修改名称为threadPoolExecutor01的线程池配置，查看当前活跃线程数等情况。
 
 ### 写在最后但同等重要
 
