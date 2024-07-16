@@ -18,3 +18,14 @@
 6. 使用定时任务 Spring Task 将被监控服务的线程池配置信息定时发送到注册中心。
 7. 提供线程池管理端界面，可以直观查看和修改线程池核心配置参数。
 8. 使用监控技术给项目负责人发出线程池达到阈值的告警信息，调整之后满足更大队列任务的执行。
+
+### 架构介绍
+
+1. 负责管理线程池的模块：dynamic-thread-pool-spring-boot-starter
+2. 提供管理线程池的对外接口的模块：dynamic-thread-pool-admin
+3. 引入 SDK 测试模块：dynamic-thread-pool-test
+4. 前端管理线程池页面：front/index.html
+
+### 写在最后但同等重要
+
+如果你喜欢这个项目，请点个 star 吧！你的点赞是我继续更新的动力。
